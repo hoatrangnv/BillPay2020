@@ -1,0 +1,510 @@
+09/05/2020 08:16:17 ERROR [main] Tools:mmserver: 
+09/05/2020 08:16:17 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+09/05/2020 08:16:17  INFO [main] Error Definition Handler: register MBeanServer:Tools:name=ErrorDefinitionHandler
+09/05/2020 08:16:17  INFO [main] Tools:name=ErrorDefinitionHandler: Created an instance of ErrorDefinitionHandler
+09/05/2020 08:16:17  INFO [main] Scheduler: register MBeanServer:Tools:name=Scheduler
+09/05/2020 08:16:17  INFO [main] Tools:name=Scheduler: starting Scheduler process...
+09/05/2020 08:16:17  INFO [main] Tools:name=Scheduler: Scheduler process  is started
+09/05/2020 08:16:17  INFO [Scheduler] Tools:name=Scheduler: Scheduler is starting to run
+09/05/2020 08:16:17  INFO [Scheduler] Tools:name=Scheduler: Timer is OK!
+09/05/2020 08:16:17  INFO [Timer-0] Tools:name=Scheduler: Test if the timer is cancel or not 
+09/05/2020 08:16:17  INFO [main] Blocked Detecting Thread: register MBeanServer:Tools:name=BlockedDetector
+09/05/2020 08:16:17  INFO [main] Tools:name=BlockedDetector: starting Blocked Detecting Thread process...
+09/05/2020 08:16:17  INFO [main] Tools:name=BlockedDetector: Blocked Detecting Thread process  is started
+09/05/2020 08:16:17  INFO [Blocked Detecting Thread] Tools:name=BlockedDetector: Blocked Detecting Thread is starting to run
+09/05/2020 08:16:17  INFO [main] Tools:name=ErrorDefinitionHandler: starting Error Definition Handler process...
+09/05/2020 08:16:17  INFO [main] Tools:name=ErrorDefinitionHandler: Error Definition Handler process  is started
+09/05/2020 08:16:17  INFO [Error Definition Handler] Tools:name=ErrorDefinitionHandler: Error Definition Handler is starting to run
+09/05/2020 08:16:17  INFO [main] Action Log Thread: starting Action Log Thread process...
+09/05/2020 08:16:17  INFO [main] Action Log Thread: Action Log Thread process  is started
+09/05/2020 08:16:17 ERROR [main] actionlog: Error in start ActionLogDbUtils
+09/05/2020 08:16:17 ERROR [main] actionlog: java.lang.NullPointerException
+09/05/2020 08:16:17  INFO [Action Log Thread] Action Log Thread: Action Log Thread is starting to run
+09/05/2020 08:16:17  INFO [main] mbeanserver: Init Authenticator
+09/05/2020 08:16:17  INFO [main] mbeanserver: Creating JMX Url connection
+09/05/2020 08:16:17  INFO [main] mbeanserver: Creating MBean Server Forwarder
+09/05/2020 08:16:17  INFO [main] mbeanserver: Started succesfully
+09/05/2020 08:16:31  INFO [main] MLog: MLog clients using log4j logging.
+09/05/2020 08:16:31  INFO [main] C3P0Registry: Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+09/05/2020 08:16:31  INFO [main] ProcessManager: register MBeanServer:ACTIVECARD:type=ProcessManager
+09/05/2020 08:16:31  INFO [main] ACTIVECARD:type=ProcessManager: ===> Load LoaderClass: com.viettel.paybonus.database.TmsPospaidAssingDb
+09/05/2020 08:16:31  INFO [main] agent:name=viewChangeHandlersms20: register MBeanServer:agent:name=viewChangeHandlersms20
+09/05/2020 08:16:31  INFO [main] agent:name=viewChangeHandlersms20: starting ViewHandlersms20 process...
+09/05/2020 08:16:31  INFO [main] agent:name=viewChangeHandlersms20: ViewHandlersms20 process  is started
+09/05/2020 08:16:31  INFO [ViewHandlersms20] agent:name=viewChangeHandlersms20: ViewHandlersms20 is starting to run
+09/05/2020 08:16:31  INFO [main] JChannel: JGroups version: 2.10.0.GA
+09/05/2020 08:16:31  WARN [main] Configurator: TCPGOSSIP property gossip_refresh_rate was deprecated and is ignored
+09/05/2020 08:16:31  WARN [main] Configurator: GMS.disable_initial_coord: This method will be deprecated in 3.0
+09/05/2020 08:16:33 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:16:34  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:16:34  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:16:35  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:16:35  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:16:36  INFO [main] ACTIVECARD:type=ProcessManager: ===> Load class: com.viettel.paybonus.process.TmsAssignPospaidProcess
+09/05/2020 08:16:36  INFO [main] TmsAssignPospaidProcess: Config:AssignAuto_Node1.0
+09/05/2020 08:16:36  INFO [main] 0: register MBeanServer:ACTIVECARD:type=ProcessManager,name=AssignAuto_Node1.0
+09/05/2020 08:16:36  INFO [main] ScanProcessManager: +++  SYSTEM IS STARTING  +++
+09/05/2020 08:16:36  INFO [main] 0: starting AssignAuto_Node1.0 process...
+09/05/2020 08:16:36  INFO [main] 0: AssignAuto_Node1.0 process  is started
+09/05/2020 08:16:36  INFO [main] ACTIVECARD:type=ProcessManager: starting ProcessManager process...
+09/05/2020 08:16:36  INFO [AssignAuto_Node1.0] 0: AssignAuto_Node1.0 is starting to run
+09/05/2020 08:16:36  INFO [main] ACTIVECARD:type=ProcessManager: ProcessManager process  is started
+09/05/2020 08:16:36  INFO [main] ACTIVECARD:type=ProcessManager: +++ SYSTEM PROCESS STARTED  +++
+09/05/2020 08:16:36  INFO [ProcessManager] ACTIVECARD:type=ProcessManager: ProcessManager is starting to run
+09/05/2020 08:16:41  INFO [ViewHandlersms20] Dispatchersms20: NEW POLICY: NUMBER_MEMBER=1ORDER=0
+09/05/2020 08:16:46  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:16:46  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:16:47  INFO [pool-1-thread-1] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91wtzd8l1m79j12|217de52a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91wtzd8l1m79j12|217de52a, idleConnectionTestPeriod -> 30, initialPoolSize -> 100, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) , maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+09/05/2020 08:16:47  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:16:53  INFO [AssignAuto_Node1.0] 0: 
+|	ID||	TARRGET_CODE	|
+|	1||	B|DEBT||	
+|	2||	B|DEBT|FTTH||	
+|	3||	B|DEBT|LL||	
+|	4||	B|DEBT|MOBILE||	
+|	5||	B|DEBT|PLC||	
+|	6||	N|DEBT||	
+|	7||	N|DEBT|FTTH||	
+|	8||	N|DEBT|LL||	
+|	9||	N|DEBT|MOBILE||	
+|	10||	N|DEBT|PLC||	
+|	1||	B|DEBT||	
+|	2||	B|DEBT|FTTH||	
+|	3||	B|DEBT|LL||	
+|	4||	B|DEBT|MOBILE||	
+|	5||	B|DEBT|PLC||	
+|	6||	N|DEBT||	
+|	7||	N|DEBT|FTTH||	
+|	8||	N|DEBT|LL||	
+|	9||	N|DEBT|MOBILE||	
+|	10||	N|DEBT|PLC||	
+09/05/2020 08:16:57  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT time 6
+09/05/2020 08:16:57  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:16:57  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT result true time 4
+09/05/2020 08:16:57  INFO [AssignAuto_Node1.0] 0: The record already processed, tarrget code B|DEBT
+09/05/2020 08:17:06  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:17:08  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:17:08  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:17:19  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:17:23  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|FTTH time 4
+09/05/2020 08:17:24  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|FTTH result false time 4
+09/05/2020 08:17:26  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:17:27  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:17:29  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 0 time 6
+09/05/2020 08:17:30  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:17:41  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:17:46  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:17:48  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:21:57 ERROR [main] Tools:mmserver: 
+09/05/2020 08:21:57 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+09/05/2020 08:21:57  INFO [main] Error Definition Handler: register MBeanServer:Tools:name=ErrorDefinitionHandler
+09/05/2020 08:21:57  INFO [main] Tools:name=ErrorDefinitionHandler: Created an instance of ErrorDefinitionHandler
+09/05/2020 08:21:57  INFO [main] Scheduler: register MBeanServer:Tools:name=Scheduler
+09/05/2020 08:21:57  INFO [main] Tools:name=Scheduler: starting Scheduler process...
+09/05/2020 08:21:57  INFO [main] Tools:name=Scheduler: Scheduler process  is started
+09/05/2020 08:21:57  INFO [Scheduler] Tools:name=Scheduler: Scheduler is starting to run
+09/05/2020 08:21:57  INFO [Scheduler] Tools:name=Scheduler: Timer is OK!
+09/05/2020 08:21:57  INFO [Timer-0] Tools:name=Scheduler: Test if the timer is cancel or not 
+09/05/2020 08:21:57  INFO [main] Blocked Detecting Thread: register MBeanServer:Tools:name=BlockedDetector
+09/05/2020 08:21:57  INFO [main] Tools:name=BlockedDetector: starting Blocked Detecting Thread process...
+09/05/2020 08:21:57  INFO [main] Tools:name=BlockedDetector: Blocked Detecting Thread process  is started
+09/05/2020 08:21:57  INFO [Blocked Detecting Thread] Tools:name=BlockedDetector: Blocked Detecting Thread is starting to run
+09/05/2020 08:21:57  INFO [main] Tools:name=ErrorDefinitionHandler: starting Error Definition Handler process...
+09/05/2020 08:21:57  INFO [main] Tools:name=ErrorDefinitionHandler: Error Definition Handler process  is started
+09/05/2020 08:21:57  INFO [Error Definition Handler] Tools:name=ErrorDefinitionHandler: Error Definition Handler is starting to run
+09/05/2020 08:21:57  INFO [main] Action Log Thread: starting Action Log Thread process...
+09/05/2020 08:21:57  INFO [main] Action Log Thread: Action Log Thread process  is started
+09/05/2020 08:21:57  INFO [Action Log Thread] Action Log Thread: Action Log Thread is starting to run
+09/05/2020 08:21:57 ERROR [main] actionlog: Error in start ActionLogDbUtils
+09/05/2020 08:21:57 ERROR [main] actionlog: java.lang.NullPointerException
+09/05/2020 08:21:57  INFO [main] mbeanserver: Init Authenticator
+09/05/2020 08:21:57  INFO [main] mbeanserver: Creating JMX Url connection
+09/05/2020 08:21:57  INFO [main] mbeanserver: Creating MBean Server Forwarder
+09/05/2020 08:21:57  INFO [main] mbeanserver: Started succesfully
+09/05/2020 08:22:01  INFO [main] MLog: MLog clients using log4j logging.
+09/05/2020 08:22:01  INFO [main] C3P0Registry: Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+09/05/2020 08:22:01  INFO [main] ProcessManager: register MBeanServer:ACTIVECARD:type=ProcessManager
+09/05/2020 08:22:01  INFO [main] ACTIVECARD:type=ProcessManager: ===> Load LoaderClass: com.viettel.paybonus.database.TmsPospaidAssingDb
+09/05/2020 08:22:01  INFO [main] agent:name=viewChangeHandlersms20: register MBeanServer:agent:name=viewChangeHandlersms20
+09/05/2020 08:22:01  INFO [main] agent:name=viewChangeHandlersms20: starting ViewHandlersms20 process...
+09/05/2020 08:22:01  INFO [main] agent:name=viewChangeHandlersms20: ViewHandlersms20 process  is started
+09/05/2020 08:22:01  INFO [ViewHandlersms20] agent:name=viewChangeHandlersms20: ViewHandlersms20 is starting to run
+09/05/2020 08:22:01  INFO [main] JChannel: JGroups version: 2.10.0.GA
+09/05/2020 08:22:01  WARN [main] Configurator: TCPGOSSIP property gossip_refresh_rate was deprecated and is ignored
+09/05/2020 08:22:01  WARN [main] Configurator: GMS.disable_initial_coord: This method will be deprecated in 3.0
+09/05/2020 08:22:03 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:22:04  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:22:04  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:22:05  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:22:05  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:22:06  INFO [main] ACTIVECARD:type=ProcessManager: ===> Load class: com.viettel.paybonus.process.TmsAssignPospaidProcess
+09/05/2020 08:22:06  INFO [main] TmsAssignPospaidProcess: Config:AssignAuto_Node1.0
+09/05/2020 08:22:06  INFO [main] 0: register MBeanServer:ACTIVECARD:type=ProcessManager,name=AssignAuto_Node1.0
+09/05/2020 08:22:06  INFO [main] ScanProcessManager: +++  SYSTEM IS STARTING  +++
+09/05/2020 08:22:06  INFO [main] 0: starting AssignAuto_Node1.0 process...
+09/05/2020 08:22:06  INFO [main] 0: AssignAuto_Node1.0 process  is started
+09/05/2020 08:22:06  INFO [main] ACTIVECARD:type=ProcessManager: starting ProcessManager process...
+09/05/2020 08:22:06  INFO [AssignAuto_Node1.0] 0: AssignAuto_Node1.0 is starting to run
+09/05/2020 08:22:06  INFO [main] ACTIVECARD:type=ProcessManager: ProcessManager process  is started
+09/05/2020 08:22:06  INFO [ProcessManager] ACTIVECARD:type=ProcessManager: ProcessManager is starting to run
+09/05/2020 08:22:06  INFO [main] ACTIVECARD:type=ProcessManager: +++ SYSTEM PROCESS STARTED  +++
+09/05/2020 08:22:11  INFO [ViewHandlersms20] Dispatchersms20: NEW POLICY: NUMBER_MEMBER=1ORDER=0
+09/05/2020 08:22:16  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:22:17  INFO [pool-1-thread-1] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91wu6fshvzhkgn|23fcbeda, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91wu6fshvzhkgn|23fcbeda, idleConnectionTestPeriod -> 30, initialPoolSize -> 100, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) , maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+09/05/2020 08:22:18  INFO [AssignAuto_Node1.0] 0: 
+|	ID||	TARRGET_CODE	|
+|	1||	B|DEBT||	
+|	2||	B|DEBT|FTTH||	
+|	3||	B|DEBT|LL||	
+|	4||	B|DEBT|MOBILE||	
+|	5||	B|DEBT|PLC||	
+|	6||	N|DEBT||	
+|	7||	N|DEBT|FTTH||	
+|	8||	N|DEBT|LL||	
+|	9||	N|DEBT|MOBILE||	
+|	10||	N|DEBT|PLC||	
+|	1||	B|DEBT||	
+|	2||	B|DEBT|FTTH||	
+|	3||	B|DEBT|LL||	
+|	4||	B|DEBT|MOBILE||	
+|	5||	B|DEBT|PLC||	
+|	6||	N|DEBT||	
+|	7||	N|DEBT|FTTH||	
+|	8||	N|DEBT|LL||	
+|	9||	N|DEBT|MOBILE||	
+|	10||	N|DEBT|PLC||	
+09/05/2020 08:22:20  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT time 5
+09/05/2020 08:22:20  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT result false time 3
+09/05/2020 08:22:20  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 4
+09/05/2020 08:22:27  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:22:29  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT
+09/05/2020 08:22:30  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|FTTH time 3
+09/05/2020 08:22:30  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|FTTH result false time 3
+09/05/2020 08:22:30  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 4
+09/05/2020 08:22:31  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT|FTTH
+09/05/2020 08:22:31  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|LL time 20
+09/05/2020 08:22:31  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|LL result false time 19
+09/05/2020 08:22:31  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 18
+09/05/2020 08:22:31  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT|LL
+09/05/2020 08:22:31  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|MOBILE time 3
+09/05/2020 08:22:31  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|MOBILE result false time 3
+09/05/2020 08:22:31  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT|MOBILE
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|PLC time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|PLC result false time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT|PLC
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT result false time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|FTTH time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|FTTH result false time 3
+09/05/2020 08:22:32  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 2
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT|FTTH
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|LL time 4
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|LL result false time 3
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT|LL
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|MOBILE time 13
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|MOBILE result false time 8
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT|MOBILE
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|PLC time 10
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|PLC result false time 16
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 8
+09/05/2020 08:22:33  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT|PLC
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT time 3
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT result false time 3
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 5
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|FTTH time 4
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|FTTH result false time 12
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT|FTTH
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|LL time 9
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|LL result false time 3
+09/05/2020 08:22:34  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT|LL
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|MOBILE time 4
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|MOBILE result false time 3
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT|MOBILE
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|PLC time 3
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|PLC result false time 3
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code B|DEBT|PLC
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT time 4
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT result false time 3
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 2
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT
+09/05/2020 08:22:35  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|FTTH time 4
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|FTTH result false time 3
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:36  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT|FTTH
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|LL time 4
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|LL result false time 4
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 4
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT|LL
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|MOBILE time 3
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|MOBILE result false time 3
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 3
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT|MOBILE
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|PLC time 4
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|PLC result false time 5
+09/05/2020 08:22:36  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result -2 time 4
+09/05/2020 08:22:37  INFO [AssignAuto_Node1.0] 0: The monthly target has been closed , target code N|DEBT|PLC
+09/05/2020 08:22:37  INFO [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: TmsPospaidAssingDb: Time to updateQueue TMS_POSPAID_ASSIGN_AUTO, batchid 20200509082218088 total result: 20: 7 ms
+09/05/2020 08:22:37  INFO [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: TmsPospaidAssingDb: Time to insertQueueHis TMS_POSPAID_ASSIGN_HIS, batchid 20200509082218088 total result: 20: 11 ms
+09/05/2020 08:22:37  INFO [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: Do not config sqlQueueDbSize
+09/05/2020 08:22:37  INFO [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: DbProcessorAbstract: Time to insertQueueBatchLog: 8 ms
+09/05/2020 08:22:37  INFO [AssignAuto_Node1.0] 0: ProcessMoAbstract: Total time to process batch 20200509082218088 with size : 20 ,and time: 19008 ms ,and queue mem remain 0 record ,and queue db remain -1 record ,and detail records is: [com.viettel.paybonus.obj.TmsPospaidAssign@48e44d35, com.viettel.paybonus.obj.TmsPospaidAssign@488f7f6, com.viettel.paybonus.obj.TmsPospaidAssign@3c4f39cd, com.viettel.paybonus.obj.TmsPospaidAssign@755be0a9, com.viettel.paybonus.obj.TmsPospaidAssign@62fab370, com.viettel.paybonus.obj.TmsPospaidAssign@391ab0d4, com.viettel.paybonus.obj.TmsPospaidAssign@74f4b96, com.viettel.paybonus.obj.TmsPospaidAssign@66eb6899, com.viettel.paybonus.obj.TmsPospaidAssign@69204998, com.viettel.paybonus.obj.TmsPospaidAssign@46bfd013, com.viettel.paybonus.obj.TmsPospaidAssign@5af5b3ae, com.viettel.paybonus.obj.TmsPospaidAssign@38e79329, com.viettel.paybonus.obj.TmsPospaidAssign@6b6e85ee, com.viettel.paybonus.obj.TmsPospaidAssign@251b035c, com.viettel.paybonus.obj.TmsPospaidAssign@1079a00c, com.viettel.paybonus.obj.TmsPospaidAssign@20fa7c47, com.viettel.paybonus.obj.TmsPospaidAssign@1cf52a3b, com.viettel.paybonus.obj.TmsPospaidAssign@23a79657, com.viettel.paybonus.obj.TmsPospaidAssign@4f7f3c0a, com.viettel.paybonus.obj.TmsPospaidAssign@2a3edd4c]
+09/05/2020 08:22:38  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:22:38  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:22:49  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:22:51  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:22:53  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:23:00  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:23:07  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:23:08  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:23:11  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:23:22  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:23:22  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:23:24  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:23:33  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:23:38  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:23:40  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:23:44  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:23:54  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:23:55  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:23:55  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:24:06  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:24:09  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:24:11  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:24:17  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:24:25  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:24:26  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:24:28  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:24:38  INFO [AssignAuto_Node1.0] 0: 
+|	ID||	TARRGET_CODE	|
+|	1||	B|DEBT||	
+|	2||	B|DEBT|FTTH||	
+|	3||	B|DEBT|LL||	
+|	4||	B|DEBT|MOBILE||	
+|	5||	B|DEBT|PLC||	
+|	6||	N|DEBT||	
+|	7||	N|DEBT|FTTH||	
+|	8||	N|DEBT|LL||	
+|	9||	N|DEBT|MOBILE||	
+|	10||	N|DEBT|PLC||	
+|	1||	B|DEBT||	
+|	2||	B|DEBT|FTTH||	
+|	3||	B|DEBT|LL||	
+|	4||	B|DEBT|MOBILE||	
+|	5||	B|DEBT|PLC||	
+|	6||	N|DEBT||	
+|	7||	N|DEBT|FTTH||	
+|	8||	N|DEBT|LL||	
+|	9||	N|DEBT|MOBILE||	
+|	10||	N|DEBT|PLC||	
+09/05/2020 08:24:39  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:24:39  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT time 2
+09/05/2020 08:24:39  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT result false time 3
+09/05/2020 08:24:39  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 2
+09/05/2020 08:24:39  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name in('FTTH','LEASELINE','WLEASELINE')  and assign_unit =? unit GAZBR valueAssign 1135929.36 time 14
+09/05/2020 08:24:39  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 3
+09/05/2020 08:24:39  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 7
+09/05/2020 08:24:39  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT
+09/05/2020 08:24:41  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:24:42  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|FTTH time 4
+09/05/2020 08:24:42  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:24:42  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|FTTH result false time 6
+09/05/2020 08:24:44  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 5
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name ='MOBILE'  and assign_unit =? unit GAZBR valueAssign 64280.62 time 10
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 6
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT|FTTH
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|LL time 4
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|LL result false time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 2
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name ='LEASELINE'  and assign_unit =? unit GAZBR valueAssign 700739.17 time 10
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 5
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT|LL
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|MOBILE time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|MOBILE result false time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name ='FTTH'  and assign_unit =? unit GAZBR valueAssign 398328.5 time 9
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 4
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT|MOBILE
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|PLC time 4
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|PLC result false time 12
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 2
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name ='WLEASELINE'  and assign_unit =? unit GAZBR valueAssign 36861.69 time 9
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 2
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 5
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT|PLC
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT result false time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 2
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name  in('FTTH','LEASELINE','WLEASELINE')  and assign_unit =? unit GAZBR valueAssign 642552.57 time 10
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 5
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|FTTH time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|FTTH result false time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name ='FTTH'  and assign_unit =? unit GAZBR valueAssign 387447.9 time 11
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 7
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT|FTTH
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|LL time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|LL result false time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 3
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name ='LEASELINE'  and assign_unit =? unit GAZBR valueAssign 245639.29 time 11
+09/05/2020 08:24:46  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 3
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 6
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT|LL
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|MOBILE time 3
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|MOBILE result false time 7
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 5
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name ='MOBILE'  and assign_unit =? unit GAZBR valueAssign 20518.48 time 9
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 2
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 5
+09/05/2020 08:24:47  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT|MOBILE
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|PLC time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|PLC result false time 2
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 862 time 4
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name ='WLEASELINE'  and assign_unit =? unit GAZBR valueAssign 9465.38 time 10
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 862 result 0 time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 862 result 1 time 7
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT|PLC
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT result false time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 4
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name in('FTTH','LEASELINE','WLEASELINE')  and assign_unit =? unit MACBR valueAssign 4.6494092529E7 time 10
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 5
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|FTTH time 4
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|FTTH result false time 1
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name ='MOBILE'  and assign_unit =? unit MACBR valueAssign 3007986.42 time 11
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 6
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 5
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT|FTTH
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|LL time 4
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|LL result false time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 2
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name ='LEASELINE'  and assign_unit =? unit MACBR valueAssign 1.7537031849E7 time 10
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 6
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT|LL
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|MOBILE time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|MOBILE result false time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 2
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name ='FTTH'  and assign_unit =? unit MACBR valueAssign 1190999.81 time 11
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 2
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 5
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT|MOBILE
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: B|DEBT|PLC time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: B|DEBT|PLC result false time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 4
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  in ('tt01','tt02','tt03','tt04','tt05','tt06') and service_name ='WLEASELINE'  and assign_unit =? unit MACBR valueAssign 2.776606087E7 time 10
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 1
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 5
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,B|DEBT|PLC
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT result false time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name  in('FTTH','LEASELINE','WLEASELINE')  and assign_unit =? unit MACBR valueAssign 3437981.229 time 9
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 7
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|FTTH time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|FTTH result false time 4
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 2
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name ='FTTH'  and assign_unit =? unit MACBR valueAssign 1567078.39 time 11
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 5
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT|FTTH
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|LL time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|LL result false time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 4
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name ='LEASELINE'  and assign_unit =? unit MACBR valueAssign 1008542.779 time 11
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 5
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT|LL
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|MOBILE time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|MOBILE result false time 3
+09/05/2020 08:24:48  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 2
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name ='MOBILE'  and assign_unit =? unit MACBR valueAssign 1314486.09 time 10
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 2
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 6
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT|MOBILE
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getCatalogInfo targetCode: N|DEBT|PLC time 3
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End checkDuplicateProcess targetCode: N|DEBT|PLC result false time 1
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssingInfo targetMonth: 04-2020 result 863 time 4
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End getAssignValue sqlQuery: select sum(nvl(charge_assign,0)) charge_assign from mv_itbl_manhnv.temp_pospaid_close_cycle  where applied_cycle = to_date(?,'dd-MM-yyyy') and debit_status  ='tt00' and service_name ='WLEASELINE'  and assign_unit =? unit MACBR valueAssign 862360.06 time 9
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End deleteExistedAssignDetail assignId: 863 result 0 time 2
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] TmsPospaidAssingDb: : End insertAssingDetail assignId: 863 result 1 time 7
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] 0: Creating assign has done,N|DEBT|PLC
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: TmsPospaidAssingDb: Time to updateQueue TMS_POSPAID_ASSIGN_AUTO, batchid 20200509082438168 total result: 20: 4 ms
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: TmsPospaidAssingDb: Time to insertQueueHis TMS_POSPAID_ASSIGN_HIS, batchid 20200509082438168 total result: 20: 9 ms
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: Do not config sqlQueueDbSize
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: DbProcessorAbstract: Time to insertQueueBatchLog: 5 ms
+09/05/2020 08:24:49  INFO [AssignAuto_Node1.0] 0: ProcessMoAbstract: Total time to process batch 20200509082438168 with size : 20 ,and time: 10884 ms ,and queue mem remain 0 record ,and queue db remain -1 record ,and detail records is: [com.viettel.paybonus.obj.TmsPospaidAssign@12742ffc, com.viettel.paybonus.obj.TmsPospaidAssign@9fa52db, com.viettel.paybonus.obj.TmsPospaidAssign@1155acfb, com.viettel.paybonus.obj.TmsPospaidAssign@fcf9ba1, com.viettel.paybonus.obj.TmsPospaidAssign@6f26f23, com.viettel.paybonus.obj.TmsPospaidAssign@165e6665, com.viettel.paybonus.obj.TmsPospaidAssign@f947c5c, com.viettel.paybonus.obj.TmsPospaidAssign@5d708401, com.viettel.paybonus.obj.TmsPospaidAssign@5ea8d94, com.viettel.paybonus.obj.TmsPospaidAssign@69f4f294, com.viettel.paybonus.obj.TmsPospaidAssign@506208e4, com.viettel.paybonus.obj.TmsPospaidAssign@5435d9f6, com.viettel.paybonus.obj.TmsPospaidAssign@1b78d0ab, com.viettel.paybonus.obj.TmsPospaidAssign@18cb98a4, com.viettel.paybonus.obj.TmsPospaidAssign@5e9243b3, com.viettel.paybonus.obj.TmsPospaidAssign@549acd46, com.viettel.paybonus.obj.TmsPospaidAssign@7f1ada0e, com.viettel.paybonus.obj.TmsPospaidAssign@3be20e53, com.viettel.paybonus.obj.TmsPospaidAssign@761a89db, com.viettel.paybonus.obj.TmsPospaidAssign@4850c570]
+09/05/2020 08:24:50  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:24:56  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:24:58  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:25:01  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:25:12  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:25:12  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:25:13  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:25:23  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:25:27  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:25:29  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:25:34  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:25:43  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:25:45  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:25:45  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:25:56  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:25:59  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:26:00  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:26:07  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:26:14  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:26:16  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:26:18  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:26:29  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:26:30  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:26:31  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:26:40  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:26:46  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:26:47  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:26:51  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:27:02  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:27:02  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:27:03  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:27:13  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:27:17  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:27:18  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:27:24  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:27:32  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:27:35  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:27:35  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:27:46  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:27:48  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:27:50  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:27:57  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:28:04  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:28:05  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:28:08  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:28:19  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:28:19  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:28:21  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:28:30  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+09/05/2020 08:28:35  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:28:36  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+09/05/2020 08:28:41  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639

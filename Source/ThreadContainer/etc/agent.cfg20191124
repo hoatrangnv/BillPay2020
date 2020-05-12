@@ -1,0 +1,1089 @@
+reducedWarn=Cluster changes, a few members have out from the cluster.
+increasedWarn=Cluster changes, a few members have joined the cluster.
+changedClusterCannotConnectDbWarn=Cluster changes, cluster has one node. This node cann't connect database.
+changedClusterCannotConnectDbWarn2=Cluster changes, cluster has many nodes. This node cann't connect database.
+#[sms1]
+##mandatory
+#clusterName=PAYBONUS
+#nodeName=PayBonus_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select action_profile_id,action_audit_id, receive_date, isdn_account, staff_code, shop_code, sub_id, #issue_datetime,cust_id,action_id,reason_id,check_info,staff_checked,checked_datetime from bonus_input_test where staff_code = 'MV_PTUD_LINHNBV' order by receive_date) where rownum<1000 and #mod(action_audit_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.PayAnypayInActionProfile
+#dbprocess_class=com.viettel.paybonus.database.DbProcessor
+#instances=2
+#db_name=dbapp1
+#[sms2]
+##mandatory
+#clusterName=ADDMONEY
+#nodeName=AddMoneyForCus_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select * from temp_20181222) where rownum<1000 and mod(to_number(isdn), %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.Temp
+#dbprocess_class=com.viettel.paybonus.database.DbBocProcessor
+#instances=1
+#db_name=dbapp2
+#[sms3]
+##mandatory
+#clusterName=OPENFLAG
+#nodeName=OpenFlagRegisInfo_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select log_register_info_id,staff_code, isdn, create_time from log_register_info order by create_time) where rownum<1000 and mod(log_register_info_id, %nbMembers%) = #%order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.OpenFlagRegisterInfo
+#dbprocess_class=com.viettel.paybonus.database.DbOpenFlagRegisterInfo
+#instances=1
+#db_name=dbapp2
+#[sms4]
+##mandatory
+#clusterName=VipSub
+#nodeName=VipSub_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select * from vip_sub_detail where vip_sub_detail_id = 1 and isdn = '870038386' order by vip_sub_detail_id) where rownum<1000 and mod(vip_sub_detail_id, %nbMembers%) = #%order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.VipSubAddBonus
+#dbprocess_class=com.viettel.paybonus.database.DbVipSub
+#instances=1
+#db_name=dbvipsub
+
+#[sms5]
+##mandatory
+#clusterName=Salary
+#nodeName=Salary_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select * from salary_saleman_info where last_process_time < trunc(sysdate) order by salary_saleman_info_id) where rownum<1000 and mod(salary_saleman_info_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.CalculateSalary
+#dbprocess_class=com.viettel.paybonus.database.DbSalary
+#instances=1
+#db_name=db1
+
+#[sms6]
+##mandatory
+#clusterName=Complain
+#nodeName=Complain_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select complain_id,rescue_model_isdn, rescue_cc_user, rescue_time from cc.complain where accept_date >= '09-march-2017' and service_type_id in ('9','11','16')  and status = 3 and rescue_model_isdn is not null and rescue_close_time is null) where rownum<1000 and mod(complain_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.CloseModelWifiSub
+#dbprocess_class=com.viettel.paybonus.database.DbComplainClose
+#instances=1
+#db_name=cm_pos
+
+#[sms6]
+##mandatory
+#clusterName=MakeSaleTran
+#nodeName=MakeSaleTran_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+##sql=select * from (select CLIENT, sum(money) as MONEY, count(*) as id, trunc(sysdate-1) as trans_date from topup_log where start_date >= trunc(sysdate-1) and start_date < trunc(sysdate) #and result_code = 0 and trans_type <> 2 and (make_sale_trans <> 1 or make_sale_trans is null) group by CLIENT) where rownum<1000 and mod(id, %nbMembers%) = %order%
+##sql=select * from (select CLIENT, sum(money) as MONEY, count(*) as id, trunc(sysdate-1) as trans_date from topup_log where start_date > '21-apr-2017' and start_date < '29-apr-2017' and output #like '0|%' and ws_code <> 'Recharge'group by CLIENT) where rownum<1000 and mod(id, %nbMembers%) = %order%
+#sql=select * from (select 'emola' as client, 91259 as MONEY, 1 as id, trunc(sysdate-1) as trans_date from dual) where rownum<1000 and mod(id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.MakeSaleTran
+#dbprocess_class=com.viettel.paybonus.database.DbMakeSaleTran
+#instances=1
+#db_name=appBccsGw
+
+#[sms7]
+##mandatory
+#clusterName=MakeSaleTranCorp
+#nodeName=MakeSaleTranCorp_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select 'corp' as CLIENT, sum(total_money) as MONEY, count(*) as sub_count, vip_sub_info_id as id, sysdate as trans_date, 'vip_sub_process_log' as table_name, #vip_sub_info_id  from vip_sub_process_log where log_time >= trunc(sysdate-1) and log_time < trunc(sysdate) and result_code = '0' and (make_sale_trans <> 1 or make_sale_trans is null) group #by vip_sub_info_id) where MONEY > 0 and rownum<1000 and mod(id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[20991]
+#ip=127.0.0.1
+#port=20993
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=../etc/tcp.xml
+#process_class=com.viettel.paybonus.process.VipSubMakeSaleTran
+#dbprocess_class=com.viettel.paybonus.database.DbMakeSaleTranVipSub
+#instances=1
+#db_name=dbvipsub
+
+#[sms8]
+##mandatory
+#clusterName=VipSubWarn
+#nodeName=VipSubWarn_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select distinct vip_sub_info_id from vip_sub_detail where next_process_time < sysdate and status = 2 and status_warn is null) where rownum<1000 and mod(vip_sub_info_id, #%nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.VipSubWarning
+#dbprocess_class=com.viettel.paybonus.database.DbVipSubWarning
+#instances=1
+#db_name=dbvipsub
+
+#[sms9]
+##mandatory
+#clusterName=NetComboDestroy
+#nodeName=NetComboDestroy_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select * from bundle_his where member_sub is null and end_time is null) where rownum<1000 and mod(mo_his_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.BundleCancelGroup
+#dbprocess_class=com.viettel.paybonus.database.DbBundleProcessor
+#instances=1
+#db_name=dbnetcombo
+
+#[sms10]
+##mandatory
+#clusterName=NetComboRebuil
+#nodeName=NetComboRebuil_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select * from bundle_his where member_sub is null and end_time is not null and end_reason = 3) where rownum<1000 and mod(mo_his_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7311]
+#ip=127.0.0.1
+#port=8611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.BundleRebuildGroup
+#dbprocess_class=com.viettel.paybonus.database.DbBundleProcessor
+#instances=1
+#db_name=dbnetcombo
+
+#[sms11]
+##mandatory
+#clusterName=PAYBONUS_EMOLA
+#nodeName=PAYBONUS_EMOLA_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from bonus_approve where approve_status = '0' and isdn_account in('870052921','870038386', '874239118')) where mod(action_audit_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.PayEmoneyInActionProfile
+#dbprocess_class=com.viettel.paybonus.database.DbEmoneyProcessor
+#instances=1
+#db_name=dbapp1
+
+#[sms12]
+##mandatory
+#clusterName=PROFILE_WARNING
+#nodeName=PROFILE_WARNING_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select distinct b.isdn, b.action_audit_id,b.staff_code  from bonus_process  b where b.date_process > trunc(sysdate-30) and b.result_code in ('E13','E14') and b.isdn is not #null and isdn = '864004349') where rownum<1000000 and mod(action_audit_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.WaringProfileInvalid
+#dbprocess_class=com.viettel.paybonus.database.DbProfileWarning
+#instances=1
+#db_name=dbapp1
+
+#[sms13]
+##mandatory
+#clusterName=LuckyWordCharge
+#nodeName=LuckyWordCharge_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from luckyword_sub where status = 1 and cancel_time is null and sysdate not between to_date(to_char(sysdate, 'dd-MM-yyyy') || '00:00:00','dd-MM-yyyy hh24:mi:ss') and to_date(to_char(sysdate, 'dd-MM-yyyy') || '08:00:00','dd-MM-yyyy hh24:mi:ss') and luckyword_sub_id not in (select luckyword_sub_id from luckyword_charge where charge_time > trunc(sysdate) and error_code = '0') and register_time < trunc(sysdate)) where rownum<1000 and mod(luckyword_sub_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.LuckyWordChargeDaily
+#dbprocess_class=com.viettel.paybonus.database.DbLuckyWord
+#instances=1
+#db_name=dbluckyword
+
+#[sms14]
+##mandatory
+#clusterName=ReportBonusDaily
+#nodeName=ReportBonusDaily_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select staff_code, count(*) total_profile from action_profile where action_date > trunc(sysdate - 1) and action_date < trunc(sysdate) and reason_id in (2926, 1312) group #by staff_code order by staff_code) where rownum<1000 and mod(total_profile, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.PayBonusReportDaily
+#dbprocess_class=com.viettel.paybonus.database.DbBonusReport
+#instances=1
+#db_name=dbapp1
+
+#[sms15]
+##mandatory
+#clusterName=PAYBONUS_SUBPROFILEINFO
+#nodeName=PayBonusSubInfo_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from cm_pre.sub_profile_info where create_time > sysdate - 30 and bonus_status = '0' and isdn in ('873300480','873300465','873300466') and check_status > 0 #order by check_time) where rownum<1000 and mod(sub_profile_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[9911]
+#ip=127.0.0.1
+#port=7611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.PayBonusFirst
+#dbprocess_class=com.viettel.paybonus.database.DbSubProfileProcessor
+#instances=1
+#db_name=dbapp1
+
+#[sms16]
+##mandatory
+#clusterName=FBB_WARN_10
+#nodeName=FbbWarn10_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from sub_adsl_ll_prepaid where warning_count < 3 and trunc(expire_time) = trunc(sysdate + 10) and (LAST_WARNING_TIME is null or trunc(LAST_WARNING_TIME) != #trunc(sysdate)) order by expire_time) where rownum<1000 and mod(sub_adsl_ll_prepaid_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.FixBroadbandWarnThread
+#dbprocess_class=com.viettel.paybonus.database.DbFixBroadband
+#instances=1
+#db_name=cm_pos
+
+#[sms17]
+##mandatory
+#clusterName=FBB_WARN_7
+#nodeName=FbbWarn7_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from sub_adsl_ll_prepaid where warning_count < 3 and trunc(expire_time) = trunc(sysdate + 7) and (LAST_WARNING_TIME is null or trunc(LAST_WARNING_TIME) != #trunc(sysdate)) order by expire_time) where rownum<1000 and mod(sub_adsl_ll_prepaid_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6622]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.FixBroadbandWarnThread
+#dbprocess_class=com.viettel.paybonus.database.DbFixBroadband
+#instances=1
+#db_name=cm_pos
+
+
+#[sms18]
+##mandatory
+#clusterName=FBB_WARN_3
+#nodeName=FbbWarn3_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from sub_adsl_ll_prepaid where warning_count < 3 and trunc(expire_time) = trunc(sysdate + 3) and (LAST_WARNING_TIME is null or trunc(LAST_WARNING_TIME) != #trunc(sysdate)) order by expire_time) where rownum<1000 and mod(sub_adsl_ll_prepaid_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6619]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.FixBroadbandWarnThread
+#dbprocess_class=com.viettel.paybonus.database.DbFixBroadband
+#instances=1
+#db_name=cm_pos
+
+#[sms19]
+##mandatory
+#clusterName=FBB_BLOCK
+#nodeName=FbbBlock_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from sub_adsl_ll_prepaid where expire_time < sysdate and block_time is null order by expire_time) where rownum<1000 and mod(sub_adsl_ll_prepaid_id, %nbMembers%) #= %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6612]
+#ip=127.0.0.1
+#port=5614
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.FixBroadbandBlockThread
+#dbprocess_class=com.viettel.paybonus.database.DbFixBroadband
+#instances=1
+#db_name=cm_pos
+
+#[sms20]
+##mandatory
+#clusterName=CANCEL_INFO_SUBSCRIBER
+#nodeName=CancelInformationSubscriber_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from cm_pre.sub_profile_info where create_time > trunc(sysdate) - 30 and create_time < trunc(sysdate - 29) and delete_cust_id is null) where rownum<1000 and #mod(sub_profile_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.CancelInformationSubscriber
+#dbprocess_class=com.viettel.paybonus.database.DbCancelInformationSub
+#instances=1
+#db_name=dbapp1
+
+#[sms21]
+##mandatory
+#clusterName=DEBIT_BLOCK
+#nodeName=DEBIT_BLOCK_Node1
+#sql=select * from (select * from sm.staff where status = 1 and channel_type_id = 14 and limit_money is not null and limit_day is not null and (limit_over_status is null or limit_over_status <> '1') and staff_code in ('IT_TEST','MV_PTUD_LINHNBV', 'MV_SALE_PAYMENT', 'MV_EPAY_CUONGPH1') order by type) where mod(staff_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.DebitBlockManager
+#dbprocess_class=com.viettel.paybonus.database.DbDebit
+#instances=1
+#db_name=dbapp1
+
+#[sms22]
+##mandatory
+#clusterName=DEBIT_OPEN
+#nodeName=DEBIT_OPEN_Node1
+#sql=select * from (select * from sm.staff where status = 1 and channel_type_id = 14 and limit_over_status = '1' and staff_code in ('IT_TEST') order by type) where mod(staff_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7711]
+#ip=127.0.0.1
+#port=7611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.DebitOpenManager
+#dbprocess_class=com.viettel.paybonus.database.DbDebit
+#instances=1
+#db_name=dbapp1
+
+#[sms23]
+##mandatory
+#clusterName=DEBIT_ROLLBACK
+#nodeName=DEBIT_ROLLBACK_Node1
+#sql=select * from (select * from sm.ewallet_debit_log where response is null or response = '' order by ewallet_debit_log_id) where mod(ewallet_debit_log_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[5511]
+#ip=127.0.0.1
+#port=4611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.DebitRollbackManager
+#dbprocess_class=com.viettel.paybonus.database.DbDebitRollback
+#instances=1
+#db_name=dbapp1
+
+#[sms24]
+##mandatory
+#clusterName=DEBIT_REVERT_SALETRANS
+#nodeName=DEBIT_REVERT_SALETRANS_Node1
+#sql=select * from (select * from sm.ewallet_debit_log where log_time > trunc(sysdate - 30) and error_code = '01' and request_id in (select a.clear_debit_request_id from sale_trans a where a.sale_trans_date > trunc(sysdate-30) and a.status = 4 and a.clear_debit_status = 1 and a.clear_debit_request_id is not null and a.clear_debit_request_id <> '0'
+#and EXISTS (select * from invoice_used where status = 4 and invoice_used_id=a.invoice_used_id)) order by ewallet_debit_log_id) where mod(ewallet_debit_log_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[5511]
+#ip=127.0.0.1
+#port=4611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.DebitCancelTransManager
+#dbprocess_class=com.viettel.paybonus.database.DbDebitRollback
+#instances=1
+#db_name=dbapp1
+
+#[sms25]
+##mandatory
+#clusterName=DEBIT_REVERT_PAYMENTTRANS
+#nodeName=DEBIT_REVERT_PAYMENTTRANS_Node1
+#sql=select * from (select * from sm.ewallet_debit_log where log_time > trunc(sysdate - 30) and error_code = '01' and request_id in (select a.clear_debit_request_id from payment_contract a where a.create_date > trunc(sysdate-30) and a.status = '0' and a.clear_debit_status = 1 and a.clear_debit_request_id is not null and a.clear_debit_request_id <> '0'
+#and EXISTS (select * from payment_invoice where status = '0' and payment_id=a.payment_id)) order by ewallet_debit_log_id) where mod(ewallet_debit_log_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[5511]
+#ip=127.0.0.1
+#port=4611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.DebitCancelTransManager
+#dbprocess_class=com.viettel.paybonus.database.DbDebitRollback
+#instances=1
+#db_name=dbapp1
+
+#[sms26]
+##mandatory
+#clusterName=PayForBank
+#nodeName=PayForBank_Node1
+#sql=select * from (select * from bank_file_detail order by import_time) where rownum<1000 and mod(bank_file_detail_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.bank.manage.PaymentByBank
+#dbprocess_class=com.viettel.paybonus.database.DbPaymentByBank
+#instances=1
+#db_name=dbPayByBank
+
+#[sms27]
+##mandatory
+#clusterName=PayBonusCard
+#nodeName=PayBonusCard_Node1
+#sql=select * from (select * from bonus_second where isdn = '873300466' order by count_process desc, create_time desc) where rownum<1000 and mod(action_audit_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.PayBonusSecond
+#dbprocess_class=com.viettel.paybonus.database.DbPayBonusSecond
+#instances=1
+#db_name=dbapp1
+
+#[sms28]
+##mandatory
+#clusterName=CUG_RUNNER
+#nodeName=CUG_RUNNER_Node1
+#sql=select * from (select * from vip_sub_detail where next_process_time < sysdate and status = '1' order by vip_sub_detail_id) where rownum<1000 and mod(vip_sub_detail_id, %nbMembers%) = #%order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.cug.manage.CugPolicyRunner
+#dbprocess_class=com.viettel.paybonus.database.DbCug
+#instances=1
+#db_name=dbcug
+
+#[sms29]
+##mandatory
+#clusterName=CUG_TRAN_MAKER
+#nodeName=CUG_TRAN_MAKER_Node1
+#sql=select * from (select sum(total_money) as MONEY, count(*) as sub_count, policy_id, sysdate as trans_date, 'vip_sub_process_log' as table_name  from vip_sub_process_log where log_time #>= trunc(sysdate) and (make_sale_trans is null or make_sale_trans <> 1) group by policy_id) where MONEY > 0 and rownum<1000 and mod(MONEY, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[7711]
+#ip=127.0.0.1
+#port=7611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.cug.manage.CugSaleTranMaker
+#dbprocess_class=com.viettel.paybonus.database.DbMakeSaleTranCug
+#instances=1
+#db_name=dbcug
+
+#[sms30]
+##mandatory
+#clusterName=ClearDebitByBank
+#nodeName=ClearDebitByBank_Node1
+#sql=select * from (select * from bank_file_detail where substr(reference, 8, 2) = '10'  order by import_time) where rownum<1000 and mod(bank_file_detail_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.bank.manage.ClearDebitByBank
+#dbprocess_class=com.viettel.paybonus.database.DbPaymentByBank
+#instances=1
+#db_name=dbPayByBank
+
+#[sms31]
+##mandatory
+#clusterName=CONNECT_KIT
+#nodeName=CONNECT_KIT_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from cm_pre.sub_profile_info where create_time > trunc(sysdate) and connect_kit_status = '0' order by create_time) where rownum<1000 and mod(sub_profile_id, #%nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[5511]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.KitConnect
+#dbprocess_class=com.viettel.paybonus.database.DbConnectKitProcessor
+#instances=1
+#db_name=dbapp1
+
+#[sms1]
+##mandatory
+#clusterName=AddFirstPolicyMac
+#nodeName=AddFirstPolicyMac_Node1
+#sql=select * from (select * from Pay_First_Mobile_Phone where count_process=0 or (count_process <> '0' and create_time >= sysdate - 30/(24*60) and (last_process is null or last_process < #sysdate - 1/(24*60))) or (count_process <> '0' and create_time < sysdate - 30/(24*60) and last_process < sysdate - 30/(24*60)) order by count_process asc, create_time asc) where #rownum<1000 and mod(action_audit_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=10.229.40.243[8151]
+#ip=10.229.40.243
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=../etc/tcp.xml
+#process_class=com.viettel.paybonus.Capital.CapitalPayFirstMobilePhone
+#dbprocess_class=com.viettel.paybonus.database.DbPayFirstMobilePhone
+#instances=15
+#db_name=dbapp1
+
+#[sms2]
+##mandatory
+#clusterName=DeletePromotion
+#nodeName=DeletePromotion_Node1
+#sql=select * from (SELECT * from rp_arpu_300 union SELECT * from rp_arpu_300_His) where  mod(isdn, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=10.229.40.243[8154]
+#ip=10.229.40.243
+#port=5619
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=../etc/tcp.xml
+#process_class=com.viettel.paybonus.Capital.CapitalDeleteTrparu300
+#dbprocess_class=com.viettel.paybonus.database.DbTrparu300
+#instances=1
+#db_name=dbapp1
+
+#[sms3]
+##mandatory
+#clusterName=AddPromotion
+#nodeName=AddPromotion_Node1
+#sql=select * from (select * from Bounes_Monthly a where a.count_process = 0 or (a.count_process >= 0 and a.last_time < sysdate - 5/(24*60)) and not EXISTS (select 1 from Bounes_Monthly_His #where last_time > trunc(sysdate) and action_audit_id = a.action_audit_id)  order by a.last_time  asc) where rownum<1000 and mod(action_audit_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=10.229.40.243[8155]
+#ip=10.229.40.243
+#port=5621
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=../etc/tcp.xml
+#process_class=com.viettel.paybonus.Capital.CapitalPayBounesMonthly
+#dbprocess_class=com.viettel.paybonus.database.DbBounesMonthly
+#instances=1
+#db_name=dbapp1
+
+#[sms4]
+##mandatory
+#clusterName=PayBounesChannel
+#nodeName=PayBounesChannel_Node1
+#sql=select * from first_register_capital where create_date > sysdate - 5/(24*60) and rownum<1000 and mod(isdn, %nbMembers%) = %order%
+#sqlCountQueueSize =select count(*) from first_register_capital where rownum<1000
+#initialHosts=10.229.40.243[8159]
+#ip=10.229.40.243
+#port=8126
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=../etc/tcp.xml
+#process_class=com.viettel.paybonus.Capital.CapitalFirstRegister
+#dbprocess_class=com.viettel.paybonus.database.DbFirstRegister
+#instances=1
+#db_name=dbapp1
+
+#[sms4]
+##mandatory
+#clusterName=PayBonusConnectKit
+#nodeName=PayBonusConnectKit_Node1
+#sql=select * from (select * from bonus_connect_kit order by count_process desc, create_time desc) where rownum<1000 and mod(action_audit_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=8126
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.PayBonusConnectKit
+#dbprocess_class=com.viettel.paybonus.database.DbBonusConnectKit
+#instances=1
+#db_name=dbapp1
+
+#[sms2]
+##mandatory
+#clusterName=EwalletDeductDaily
+#nodeName=EwalletDeductDaily_Node1
+##Lay ra cac ban ghi can cong tien cho khach hang di cap nhat lai thong tin
+#sql=select * from (select sum(money) total_money, sum(money) MONEY_AFTER_DISCOUNT, count(1) TOTAL_RECORD, client, '602257837' fund_code, to_char(sysdate,'yyyyMMddhh24miss') || count(1) #request_Id, min(ewallet_deduct_request_id) as from_topup_log_id , max(ewallet_deduct_request_id) as to_topup_log_id, to_char(trunc(create_time),'dd-MM-yyyy') as bill_cycle_date from #ewallet_deduct_request where sysdate > to_date(to_char(sysdate, 'dd-MM-yyyy') || '05:00:00','dd-MM-yyyy hh24:mi:ss') and create_time > trunc(sysdate-1)  and create_time < trunc(sysdate) #and not exists (select 1 from ewallet_deduct_daily where bill_cycle_date = trunc(sysdate -1) and result_code = '0') and not exists (select 1 from ewallet_deduct_daily where process_date > #sysdate - 1/24  and bill_cycle_date = trunc(sysdate -1) and result_code <> '0') group by client, fund_code, trunc(create_time)) where rownum<1000 and mod(from_topup_log_id, %nbMembers%) = #%order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=8126
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.EwalletDeductDaily
+#dbprocess_class=com.viettel.paybonus.database.DbEwalletDeductDaily
+#instances=1
+#db_name=dbapp1
+
+#[sms16]
+##mandatory
+#clusterName=PAYBONUS_CREATECHANNEL
+#nodeName=CreateChannel_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from sm.request_channel where status = 0 and create_date > '01-jan-2019' and contract_status is null) where rownum<1000 and mod(id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\Restart\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.CreateChannel
+#dbprocess_class=com.viettel.paybonus.database.DbCreateChannelProcessor
+#instances=1
+#db_name=dbsm
+
+#[sms17]
+##mandatory
+#clusterName=PAYBONUS_UPDATE_CONTRACT
+#nodeName=UpdateContract_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from request_update_contract where status = 0 and contract_status is null) where rownum<1000 and mod(id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6613]
+#ip=127.0.0.1
+#port=5613
+#timeout=1200000
+#checkInterval=500
+#allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\Restart\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.UpdateContract
+#dbprocess_class=com.viettel.paybonus.database.DbUpdateContractProcessor
+#instances=1
+#db_name=dbsm
+
+
+#[sms31]
+##mandatory
+#clusterName=BRANCH_PROMOTION_SCANER
+#nodeName=BRANCH_PROMOTION_SCANER_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from branch_promotion_queue order by count_process desc, create_time desc) where rownum<1000 and mod(mo_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[5511]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.branch.process.PromotionScaner
+#dbprocess_class=com.viettel.paybonus.database.DbPromotionScaner
+#instances=1
+#db_name=dbvas
+
+#[sms1]
+##mandatory
+#clusterName=PROMOTION_ONAIR_BTS
+#nodeName=PROMOTION_ONAIR_BTS_Node1
+##Lay ra cac ban ghi can kiem tra cong hoa hong
+#sql=select * from (select * from promotion_onair_subs where status =0 and create_time >= trunc(sysdate-1)) where rownum<1000 and mod(id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6618]
+#ip=127.0.0.1
+#port=11913
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=../etc/tcp.xml
+#process_class=com.viettel.paybonus.process.AddPromotionSubsRegBTSOnair
+#dbprocess_class=com.viettel.paybonus.database.DbAddPromotionSubOnairBTS
+#instances=1
+#db_name=dbapp1
+
+[sms1]
+#mandatory
+clusterName=RETRY_CONNECT
+nodeName=RETRY_CONNECT_Node1
+#Lay ra cac ban ghi can kiem tra cong hoa hong
+sql=select * from (select * from retry_connect_kit where status =0) where rownum<1000 and mod(action_audit_id, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=127.0.0.1[5511]
+ip=127.0.0.1
+port=11913
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+protocolStack=D:\\STUDY\\Project\\Movitel\\ThreadContainer\\etc\\tcp.xml
+process_class=com.viettel.paybonus.process.RetryConnectKit
+dbprocess_class=com.viettel.paybonus.database.DbRetryConnectKit
+instances=10
+db_name=dbapp1
+
+
+[sms25]
+clusterName=EliteGroup
+nodeName=EliteGroup_Node1
+sql=select * from (select * from elite_group_input where expires_time <= sysdate order by MO_ID) where rownum<1000 and mod(mo_id, %nbMembers%) = %order%
+sqlCountQueueSize = select count(*) from elite_group_input where mod(mo_id, %nbMembers%) = %order%
+initialHosts=127.0.0.1[9911]
+ip=127.0.0.1
+port=9911
+timeout=12000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+protocolStack=F:\\1.Work\\WorkIn2019\\ThreadContainer\\etc\\tcp.xml
+process_class=com.viettel.elite.process.EliteGroupPay
+dbprocess_class=com.viettel.paybonus.database.DbProcessorEliteGroup
+instances=1
+db_name=dbElite
+
+[sms4]
+#mandatory
+clusterName=KIT_TRANS
+nodeName=KIT_TRANS_Node1
+#Lay ra cac ban ghi can kiem tra cong hoa hong
+sql=select  from (select a.isdn,a.serial,a.product_code,a.money_product From cm_pre.kit_batch_detail a, cm_pre.sub_mb b where b.sta_datetime > '15-mar-2019' and b.status =2 and b.act_status <> '03' and a.isdn = b.isdn and a.product_code  in ( select product_code from product.product_connect_kit where status = 1 and vip_product ='1' and product_code <> 'DATA_SIM' ) and a.result_Code ='0' and not exists (select  from KIT_BATCH_PROCESS_TEMP b where a.isdn = b.isdn)) where rownum<1000 and mod(isdn, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=127.0.0.1[7322]
+ip=127.0.0.1
+port=8744
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+protocolStack=D:\\BACNX\\Applications\\BCCS\\Processes\\ThreadContainer\\etc\\tcp.xml
+process_class=com.viettel.paybonus.process.KitBatchSubProcess
+dbprocess_class=com.viettel.paybonus.database.KitBatchSubProcess
+instances=10
+db_name=cm_pre
+
+[sms1]
+#mandatory
+clusterName=BLOCKPHONEFRAUD
+nodeName=BLOCKPHONEFRAUD_Node1
+#Lay ra cac ban ghi can block
+sql=select * from (select a.*,'BLOCK' as action_type from fraud_sub_input a) where rownum<1000 and mod(fraud_sub_input_id, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=127.0.0.1[6611]
+ip=127.0.0.1
+port=8126
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+#protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+process_class=com.viettel.paybonus.process.FraudBlocker
+dbprocess_class=com.viettel.paybonus.database.DbFraudSub
+instances=1
+db_name=db_payment
+
+[sms2]
+#mandatory
+clusterName=UNBLOCKPHONEFRAUD
+nodeName=UNBLOCKPHONEFRAUD_Node1
+#Lay ra cac ban ghi can block
+sql=select * from (select a.his_id as FRAUD_SUB_INPUT_ID,a.ISDN,a. COMMAND,a.INPUT_TIME,a.FILE_NAME,'UNLOCK' as action_type  from fraud_sub_input_his a where action_time > trunc(sysdate-30) and (last_unlock_time is null or last_unlock_time < sysdate-30/24/60 ) and err_code ='0' and last_unlock_status = 0 ) where rownum<1000 and mod(FRAUD_SUB_INPUT_ID, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=127.0.0.1[6612]
+ip=127.0.0.1
+port=8128
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+#protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+process_class=com.viettel.paybonus.process.FraudBlocker
+dbprocess_class=com.viettel.paybonus.database.DbFraudSub
+instances=1
+db_name=db_payment
+
+
+#Khuyen mai mot so dong may Handset khi thue bao lap vao may nay thi duoc khuyen mai, mot may chi duoc KM 1 lan
+[SMS0]
+#mandatory
+clusterName=PhonePromotion
+nodeName=PhonePromotion_Node1
+sql=select * from (select a.msisdn,a.imsi,a.imei,a.tac,a.datetime,a.hlr,a.ard,a.nam, sysdate as next_cycle,null remain_months,1 as input_type  from hlr_62xx_subscriber_cache a union select msisdn,imsi,imei,tac,datetime,0 as hlr,0 as ard,0 as nam,next_cycle,remain_months,2 as input_type from hlr_62xx_subscriber_wiffi a where  trunc(sysdate) = trunc((select max(b.next_cycle) from hlr_62xx_subscriber_wiffi b where b.imei=a.imei)) and datetime <=trunc(sysdate-28) and status =1 and remain_months >0) where rownum<1000 and mod(to_number(msisdn), %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=10.229.41.81[6878]
+ip=10.229.41.81
+port=5611
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+protocolStack=../etc/tcp.xml
+process_class=com.viettel.paybonus.process.PhonePromotion
+dbprocess_class=com.viettel.paybonus.database.DbPhonePromotion
+instances=1
+db_name=mdm
+
+#KM doi sim 4G, dau sim 4G tren server 41.53 account changesim4g
+[sms1]
+#mandatory
+clusterName=PROMOTION_CH_SIM_4G
+nodeName=PROMOTION_CH_SIM_4G_Node2
+sql=select * from (select * from   temp_table01 a where 1=1 and not exists (select * from cm_pre.waiting_bonus_changesim4g b where a.isdn = b.isdn) union select * from request_Changesim_4g where status=1 and result_code =0 and action_audit_id <> 0 and create_time > trunc(sysdate-1) and add_data_status is null and bonus_result_code is null and isdn not like '860399%' ) where rownum<1000 and mod(id, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=10.229.41.53[8961]
+ip=10.229.41.53
+port=9001
+timeout=1200000
+checkInterval=500
+extraLog=true
+protocolStack=../etc/tcp.xml
+process_class=com.viettel.paybonus.process.Bonus4GChangeSim
+dbprocess_class=com.viettel.paybonus.database.DbBonus4GChangeSim
+instances=1
+db_name=cm_pre
+
+
+[sms2]
+#mandatory
+clusterName=RETRY_PROMOTION_CH_SIM_4G
+nodeName=RETRY_PROMOTION_CH_SIM_4G_Node2
+sql=select * from (select * from waiting_bonus_changesim4g where status =1 and (last_process_date is null or last_process_date <=  sysdate-30/24/60) and isdn not like '860399%') where rownum<1000 and mod(action_audit_id, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=10.229.41.53[8965]
+ip=10.229.41.53
+port=9003
+timeout=1200000
+checkInterval=500
+extraLog=true
+protocolStack=../etc/tcp.xml
+process_class=com.viettel.paybonus.process.Bonus4GChangeSimQueue
+dbprocess_class=com.viettel.paybonus.database.DbBonus4GChangeSimQueue
+instances=10
+db_name=cm_pre
+
+[sms3]
+#mandatory
+clusterName=RETRY_PROMOTION_CONN_SIM_4G
+nodeName=RETRY_PROMOTION_CONN_SIM_4G_Node2
+sql=select * from (SELECT   a.action_audit_id,    a.isdn,    1 AS status,    a.sim_serial   FROM   cm_pre.sub_profile_info a, sm.stock_sim b  WHERE a.isdn not like '860399%' and a.create_time >= TRUNC (SYSDATE-30)    AND TO_NUMBER (a.sim_serial) = TO_NUMBER (b.serial)    AND b.stock_model_id = 207607    AND NOT EXISTS (SELECT   *    FROM   cm_pre.waiting_bonus_connectsim4g c         WHERE   a.isdn = c.isdn) UNION SELECT   action_audit_id,    isdn,    status,    sim_serial   FROM   cm_pre.waiting_bonus_connectsim4g  WHERE   last_process_date < SYSDATE - 30 / 24 / 60 AND status = 1 and isdn not like '860399%' UNION SELECT   action_audit_id,    isdn,    status,    sim_serial   FROM   cm_pre.waiting_bonus_connectsim4g  WHERE   last_process_date < SYSDATE - 30 / 24 / 60 AND status = 2 and isdn not like '860399%') where rownum<1000 and mod(action_audit_id, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=10.229.41.53[8969]
+ip=10.229.41.53
+port=9005
+timeout=1200000
+checkInterval=500
+extraLog=true
+protocolStack=../etc/tcp.xml
+process_class=com.viettel.paybonus.process.Bonus4GConnectNew
+dbprocess_class=com.viettel.paybonus.database.DbBonus4GConnectNew
+instances=10
+db_name=cm_pre
+
+[SMS1]
+#mandatory
+clusterName=PromotionConnectPOS
+nodeName=PromotionConnectPOS_Node1
+sql=select * from (select c.action_audit_id,a.sub_id,a.isdn,a.imsi,a.user_created,a.shop_code,a.product_code,a.serial from cm_pos.sub_mb a, cm_pos.special_mobile_product b , cm_pos.action_audit c  where a.create_date >= trunc(sysdate-10) and  a.create_date < sysdate - 3 and  a.status=2 and a.act_status = '000' and a.product_code = b.product_Code and b.status =1 and c.issue_datetime > trunc(sysdate-4) and a.sub_id = c.pk_id and c.description like '%ER_MAA_0196%' AND not exists (select * from bonus_connect_post_paid b where a.isdn = b.isdn)   ) where rownum<1000 and mod(to_number(action_audit_id), %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=10.229.41.35[8635]
+ip=10.229.41.35
+port=8125
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+protocolStack=../etc/tcp.xml
+process_class=com.viettel.paybonus.process.BonusConnectPostpaidProcess
+dbprocess_class=com.viettel.paybonus.database.DbBonusConnectPostpaid
+instances=1
+db_name=cm_pos
+
+[sms3]
+#mandatory
+clusterName=BLOCK_EXT_SUB
+nodeName=BLOCK_EXT_SUB_Node1
+#Lay ra cac ban ghi can block
+sql=select * from (select calling_number as isdn ,0 as rollback_id,fraud_id,'BLOCK' as act_type from fraud_suboffne_input) where rownum<1000 and mod(fraud_id, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=127.0.0.1[6612]
+ip=127.0.0.1
+port=8128
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+#protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+process_class=com.viettel.paybonus.process.FraudExtBlocker
+dbprocess_class=com.viettel.paybonus.database.DbFraudExtBlocker
+instances=1
+db_name=db_payment
+
+
+
+[sms4]
+#mandatory
+clusterName=UNLOCK_EXT_SUB
+nodeName=UNLOCK_EXT_SUB_Node1
+#Lay ra cac ban ghi can block
+sql=select * from (select id as rollback_id,isdn , 0 as fraud_id,'UNBLOCK' as act_type from fraud_suboffnet_rollback where status =0) where rownum<1000 and mod(rollback_id, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=127.0.0.1[6619]
+ip=127.0.0.1
+port=8126
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+#protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+process_class=com.viettel.paybonus.process.FraudExtBlocker
+dbprocess_class=com.viettel.paybonus.database.DbFraudExtBlocker
+instances=1
+db_name=db_payment
+
+
+[sms5]
+#mandatory
+clusterName=UNBLOCK_EXT_CYCLLE
+nodeName=UNBLOCK_EXT_CYCLLE_Node1
+#Lay ra cac ban ghi can block
+sql=select * from (select distinct id as rollback_id,isdn,fraud_id,'UNBLOCK_CYCLLE' as act_type  from fraud_suboffnet_his where process_time > trunc(sysdate-91 ) and process_time < trunc(sysdate-90) and err_code ='0' and action_type ='BLOCK' and unblock_status in (0)) where rownum<1000 and mod(rollback_id, %nbMembers%) = %order%
+sqlCountQueueSize =
+initialHosts=127.0.0.1[6610]
+ip=127.0.0.1
+port=8122
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+#protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+process_class=com.viettel.paybonus.process.FraudExtBlocker
+dbprocess_class=com.viettel.paybonus.database.DbFraudExtBlocker
+instances=1
+db_name=db_payment

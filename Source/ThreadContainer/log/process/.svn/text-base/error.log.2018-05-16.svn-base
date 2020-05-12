@@ -1,0 +1,46 @@
+16/05/2018 09:53:59 ERROR [main] Tools:mmserver: 
+16/05/2018 09:53:59 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/05/2018 09:53:59 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/05/2018 09:53:59 ERROR [main] actionlog: java.lang.NullPointerException
+16/05/2018 10:58:40 ERROR [SALE_DEBIT_BLOCK_Node1.0] 0: DbDebit: Wed May 16 10:58:40 CAT 2018
+ERROR getMoneyDepositTrans: select sum(amount) total_money from sm.deposit  where create_date > '01-may-2018' and staff_id = ?  and (a.clear_debit_status is null or a.clear_debit_status <> '1')  and status in (0,1) and type = 1
+ staffCode MV_PTUD_LINHNBV result 0.0java.sql.SQLSyntaxErrorException: ORA-00904: "A"."CLEAR_DEBIT_STATUS": invalid identifier
+
+16/05/2018 10:58:40 ERROR [SALE_DEBIT_BLOCK_Node1.0] 0: Error: java.sql.SQLSyntaxErrorException: ORA-00904: "A"."CLEAR_DEBIT_STATUS": invalid identifier
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:221)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1039)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:1146)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3959)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:4515)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at com.viettel.paybonus.database.DbDebit.getMoneyDepositTrans(DbDebit.java:538)
+	at com.viettel.paybonus.process.DebitBlockManager.processListRecord(DebitBlockManager.java:157)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 131
+16/05/2018 11:10:11 ERROR [main] Tools:mmserver: 
+16/05/2018 11:10:11 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/05/2018 11:10:11 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/05/2018 11:10:11 ERROR [main] actionlog: java.lang.NullPointerException
+16/05/2018 17:44:17 ERROR [main] Tools:mmserver: 
+16/05/2018 17:44:17 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/05/2018 17:44:17 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/05/2018 17:44:17 ERROR [main] actionlog: java.lang.NullPointerException
+16/05/2018 17:45:05 ERROR [main] Tools:mmserver: 
+16/05/2018 17:45:05 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/05/2018 17:45:05 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/05/2018 17:45:05 ERROR [main] actionlog: java.lang.NullPointerException
+16/05/2018 17:45:29 ERROR [main] Tools:mmserver: 
+16/05/2018 17:45:29 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/05/2018 17:45:30 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/05/2018 17:45:30 ERROR [main] actionlog: java.lang.NullPointerException

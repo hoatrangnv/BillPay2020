@@ -1,0 +1,45 @@
+28/03/2018 09:50:12 ERROR [main] Tools:mmserver: 
+28/03/2018 09:50:12 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+28/03/2018 09:50:12 ERROR [main] actionlog: Error in start ActionLogDbUtils
+28/03/2018 09:50:12 ERROR [main] actionlog: java.lang.NullPointerException
+28/03/2018 09:51:13 ERROR [main] Tools:mmserver: 
+28/03/2018 09:51:13 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+28/03/2018 09:51:13 ERROR [main] actionlog: Error in start ActionLogDbUtils
+28/03/2018 09:51:13 ERROR [main] actionlog: java.lang.NullPointerException
+28/03/2018 10:52:47 ERROR [main] Tools:mmserver: 
+28/03/2018 10:52:47 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+28/03/2018 10:52:47 ERROR [main] actionlog: Error in start ActionLogDbUtils
+28/03/2018 10:52:47 ERROR [main] actionlog: java.lang.NullPointerException
+28/03/2018 10:52:53 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+28/03/2018 10:59:28 ERROR [main] Tools:mmserver: 
+28/03/2018 10:59:28 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+28/03/2018 10:59:28 ERROR [main] actionlog: Error in start ActionLogDbUtils
+28/03/2018 10:59:28 ERROR [main] actionlog: java.lang.NullPointerException
+28/03/2018 10:59:31 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+28/03/2018 10:59:52 ERROR [PAYBONUS_EMOLA_Node1.0] DbEmoneyProcessor: : ERROR insertEwalletLog default return -1: isdn 870052921
+28/03/2018 10:59:52 ERROR [PAYBONUS_EMOLA_Node1.0] DbEmoneyProcessor: : Error: java.sql.SQLException: ERROR insertTable: INSERT INTO EWALLET_LOG(ACTION_AUDIT_ID,STAFF_CODE,CHANNEL_TYPE_ID,MOBILE,TRANS_ID,ACTION_CODE,AMOUNT,FUNCTION_NAME,URL,USERNAME,REQUEST,RESPONSE,DURATION,ERROR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:597)
+	at com.viettel.paybonus.database.DbEmoneyProcessor.insertEwalletLog(DbEmoneyProcessor.java:77)
+	at com.viettel.paybonus.service.Exchange.callEwallet(Exchange.java:225)
+	at com.viettel.paybonus.process.PayEmoneyInActionProfile.processListRecord(PayEmoneyInActionProfile.java:383)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (PROFILE.EH_PK) violated
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:185)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4078)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:4093)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:823)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:594)
+	... 6 more
+ Time: 98

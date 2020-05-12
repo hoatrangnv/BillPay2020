@@ -1,0 +1,261 @@
+07/09/2018 09:18:26 ERROR [main] Tools:mmserver: 
+07/09/2018 09:18:26 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/09/2018 09:18:26 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/09/2018 09:18:26 ERROR [main] actionlog: java.lang.NullPointerException
+07/09/2018 09:21:05 ERROR [PayBonusSubInfo_Node1.0] DbSubProfileProcessor: : ERROR insertEwalletLog default return -1: isdn 870038386
+07/09/2018 09:21:05 ERROR [PayBonusSubInfo_Node1.0] DbSubProfileProcessor: : Error: java.sql.SQLException: ERROR insertTable: INSERT INTO EWALLET_LOG(ACTION_AUDIT_ID,STAFF_CODE,CHANNEL_TYPE_ID,MOBILE,TRANS_ID,ACTION_CODE,AMOUNT,FUNCTION_NAME,URL,USERNAME,REQUEST,RESPONSE,DURATION,ERROR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:597)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.insertEwalletLog(DbSubProfileProcessor.java:1189)
+	at com.viettel.paybonus.service.Exchange.callEwallet(Exchange.java:329)
+	at com.viettel.paybonus.process.PayBonusFirst.processListRecord(PayBonusFirst.java:662)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (PROFILE.EH_PK) violated
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:185)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4078)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:4093)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:823)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:594)
+	... 6 more
+ Time: 14
+07/09/2018 09:21:05 ERROR [PayBonusSubInfo_Node1.0] ACTIVECARD:type=ProcessManager: ERROR updateQueue SUB_PROFILE_INFO batchid 20180907092034805
+java.sql.BatchUpdateException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.deleteQueue(DbSubProfileProcessor.java:148)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:261)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+07/09/2018 09:21:05 ERROR [PayBonusSubInfo_Node1.0] ACTIVECARD:type=ProcessManager: Error: java.sql.BatchUpdateException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.deleteQueue(DbSubProfileProcessor.java:148)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:261)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 34
+07/09/2018 09:21:05 ERROR [PayBonusSubInfo_Node1.0] 0: ProcessMoAbstract: BREAK DELETE MO ==> ERROR DATABASE ==> NOT PROCESS CONTINOUS
+[com.viettel.paybonus.obj.Bonus@79f1d448]
+07/09/2018 09:24:17 ERROR [main] Tools:mmserver: 
+07/09/2018 09:24:17 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/09/2018 09:24:17 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/09/2018 09:24:17 ERROR [main] actionlog: java.lang.NullPointerException
+07/09/2018 09:24:36 ERROR [PayBonusSubInfo_Node1.0] ACTIVECARD:type=ProcessManager: ERROR updateQueue SUB_PROFILE_INFO batchid 20180907092435215
+java.sql.BatchUpdateException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.deleteQueue(DbSubProfileProcessor.java:148)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:261)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+07/09/2018 09:24:36 ERROR [PayBonusSubInfo_Node1.0] ACTIVECARD:type=ProcessManager: Error: java.sql.BatchUpdateException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.deleteQueue(DbSubProfileProcessor.java:148)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:261)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 16
+07/09/2018 09:24:36 ERROR [PayBonusSubInfo_Node1.0] 0: ProcessMoAbstract: BREAK DELETE MO ==> ERROR DATABASE ==> NOT PROCESS CONTINOUS
+[com.viettel.paybonus.obj.Bonus@1c3508c0]
+07/09/2018 09:24:39 ERROR [PayBonusCard_Node1.0] DbPayBonusSecond: : ERROR insertEwalletLog default return -1: isdn 870038386
+07/09/2018 09:24:39 ERROR [PayBonusCard_Node1.0] DbPayBonusSecond: : Error: java.sql.SQLException: ERROR insertTable: INSERT INTO EWALLET_LOG(ACTION_AUDIT_ID,STAFF_CODE,CHANNEL_TYPE_ID,MOBILE,TRANS_ID,ACTION_CODE,AMOUNT,FUNCTION_NAME,URL,USERNAME,REQUEST,RESPONSE,DURATION,ERROR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:597)
+	at com.viettel.paybonus.database.DbPayBonusSecond.insertEwalletLog(DbPayBonusSecond.java:320)
+	at com.viettel.paybonus.service.Exchange.callEwallet(Exchange.java:331)
+	at com.viettel.paybonus.process.PayBonusSecond.processListRecord(PayBonusSecond.java:132)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (PROFILE.EH_PK) violated
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:185)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4078)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:4093)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:823)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:594)
+	... 6 more
+ Time: 16
+07/09/2018 09:27:56 ERROR [main] Tools:mmserver: 
+07/09/2018 09:27:56 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/09/2018 09:27:57 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/09/2018 09:27:57 ERROR [main] actionlog: java.lang.NullPointerException
+07/09/2018 09:28:04 ERROR [main] Tools:mmserver: 
+07/09/2018 09:28:04 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/09/2018 09:28:04 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/09/2018 09:28:04 ERROR [main] actionlog: java.lang.NullPointerException
+07/09/2018 09:28:22 ERROR [main] Tools:mmserver: 
+07/09/2018 09:28:22 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/09/2018 09:28:22 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/09/2018 09:28:22 ERROR [main] actionlog: java.lang.NullPointerException
+07/09/2018 09:28:51 ERROR [PayBonusSubInfo_Node1.0] DbSubProfileProcessor: : ERROR insertEwalletLog default return -1: isdn 870038386
+07/09/2018 09:28:51 ERROR [PayBonusSubInfo_Node1.0] DbSubProfileProcessor: : Error: java.sql.SQLException: ERROR insertTable: INSERT INTO EWALLET_LOG(ACTION_AUDIT_ID,STAFF_CODE,CHANNEL_TYPE_ID,MOBILE,TRANS_ID,ACTION_CODE,AMOUNT,FUNCTION_NAME,URL,USERNAME,REQUEST,RESPONSE,DURATION,ERROR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:597)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.insertEwalletLog(DbSubProfileProcessor.java:1189)
+	at com.viettel.paybonus.service.Exchange.callEwallet(Exchange.java:329)
+	at com.viettel.paybonus.process.PayBonusFirst.processListRecord(PayBonusFirst.java:662)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (PROFILE.EH_PK) violated
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:185)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4078)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:4093)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:823)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:594)
+	... 6 more
+ Time: 15
+07/09/2018 09:29:03 ERROR [PayBonusSubInfo_Node1.0] ACTIVECARD:type=ProcessManager: ERROR updateQueue SUB_PROFILE_INFO batchid 20180907092842930
+java.sql.BatchUpdateException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.deleteQueue(DbSubProfileProcessor.java:148)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:261)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+07/09/2018 09:29:03 ERROR [PayBonusSubInfo_Node1.0] ACTIVECARD:type=ProcessManager: Error: java.sql.BatchUpdateException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.deleteQueue(DbSubProfileProcessor.java:148)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:261)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 15
+07/09/2018 09:29:03 ERROR [PayBonusSubInfo_Node1.0] 0: ProcessMoAbstract: BREAK DELETE MO ==> ERROR DATABASE ==> NOT PROCESS CONTINOUS
+[com.viettel.paybonus.obj.Bonus@1f5b44d6]
+07/09/2018 09:48:44 ERROR [pool-1-thread-1] ACTIVECARD:type=ProcessManager: ERROR deleteQueueTimeout SUB_PROFILE_INFO listId 473094, 
+java.sql.BatchUpdateException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.deleteQueueTimeout(DbSubProfileProcessor.java:855)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.processTimeoutRecord(DbSubProfileProcessor.java:263)
+	at com.viettel.cluster.agent.Dispatcher.processTimeoutRecords(Dispatcher.java:366)
+	at com.viettel.cluster.agent.Dispatcher.access$500(Dispatcher.java:32)
+	at com.viettel.cluster.agent.Dispatcher$RecordLoader.run(Dispatcher.java:412)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+07/09/2018 09:48:44 ERROR [pool-1-thread-1] ACTIVECARD:type=ProcessManager: Error: java.sql.BatchUpdateException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.deleteQueueTimeout(DbSubProfileProcessor.java:855)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.processTimeoutRecord(DbSubProfileProcessor.java:263)
+	at com.viettel.cluster.agent.Dispatcher.processTimeoutRecords(Dispatcher.java:366)
+	at com.viettel.cluster.agent.Dispatcher.access$500(Dispatcher.java:32)
+	at com.viettel.cluster.agent.Dispatcher$RecordLoader.run(Dispatcher.java:412)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 15
+07/09/2018 09:49:14 ERROR [PayBonusSubInfo_Node1.0] DbSubProfileProcessor: : ERROR insertEwalletLog default return -1: isdn 870038386
+07/09/2018 09:49:14 ERROR [PayBonusSubInfo_Node1.0] DbSubProfileProcessor: : Error: java.sql.SQLException: ERROR insertTable: INSERT INTO EWALLET_LOG(ACTION_AUDIT_ID,STAFF_CODE,CHANNEL_TYPE_ID,MOBILE,TRANS_ID,ACTION_CODE,AMOUNT,FUNCTION_NAME,URL,USERNAME,REQUEST,RESPONSE,DURATION,ERROR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:597)
+	at com.viettel.paybonus.database.DbSubProfileProcessor.insertEwalletLog(DbSubProfileProcessor.java:1189)
+	at com.viettel.paybonus.service.Exchange.callEwallet(Exchange.java:329)
+	at com.viettel.paybonus.process.PayBonusFirst.processListRecord(PayBonusFirst.java:662)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (PROFILE.EH_PK) violated
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:185)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4078)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:4093)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:823)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:594)
+	... 6 more
+ Time: 15
+07/09/2018 10:09:47 ERROR [main] Tools:mmserver: 
+07/09/2018 10:09:47 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/09/2018 10:09:47 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/09/2018 10:09:47 ERROR [main] actionlog: java.lang.NullPointerException
+07/09/2018 10:10:46 ERROR [PayBonusCard_Node1.0] DbPayBonusSecond: : ERROR insertEwalletLog default return -1: isdn 870038386
+07/09/2018 10:10:46 ERROR [PayBonusCard_Node1.0] DbPayBonusSecond: : Error: java.sql.SQLException: ERROR insertTable: INSERT INTO EWALLET_LOG(ACTION_AUDIT_ID,STAFF_CODE,CHANNEL_TYPE_ID,MOBILE,TRANS_ID,ACTION_CODE,AMOUNT,FUNCTION_NAME,URL,USERNAME,REQUEST,RESPONSE,DURATION,ERROR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:597)
+	at com.viettel.paybonus.database.DbPayBonusSecond.insertEwalletLog(DbPayBonusSecond.java:320)
+	at com.viettel.paybonus.service.Exchange.callEwallet(Exchange.java:331)
+	at com.viettel.paybonus.process.PayBonusSecond.processListRecord(PayBonusSecond.java:132)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (PROFILE.EH_PK) violated
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:185)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4078)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:4093)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:823)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:594)
+	... 6 more
+ Time: 38

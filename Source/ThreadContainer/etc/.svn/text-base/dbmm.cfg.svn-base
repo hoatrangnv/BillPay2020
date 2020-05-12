@@ -1,0 +1,7 @@
+driver=7eef66667bde889ab6bfc54248d7850127b70febd188ad1f858fab24c8d05fd8
+connection=39036ae60c13db43ec55ebde022569b62d39b0f695440a2b269dec2c9a8d35fbc39a991a8c1650f2
+username=970a4df8941f92ae4687ccba21e07165
+password=c57853d38467f115
+schema=16816f51c100d3624687ccba21e07165
+sqlcheck=select 1 from dual
+pooling=false

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/2702/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/code/!svn/ver/2012/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/Service.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/code/!svn/ver/1937/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/Utils.java
+END
+PMSagaConnecting.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/2672/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/PMSagaConnecting.java
+END
+Exchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/code/!svn/ver/2702/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/Exchange.java
+END
+Encrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/code/!svn/ver/2012/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/Encrypt.java
+END
+PagamentoServico.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/2672/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/PagamentoServico.java
+END
+XmlConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/XmlConfig.java
+END
+EWalletUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/2702/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/EWalletUtil.java
+END
+TextSecurity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/TextSecurity.java
+END
+XmlUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/src/com/viettel/data/ws/utils/XmlUtil.java
+END

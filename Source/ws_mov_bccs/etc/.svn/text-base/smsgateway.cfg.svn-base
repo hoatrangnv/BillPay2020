@@ -1,0 +1,5 @@
+[smsws]
+url=http://10.229.42.55:18611/vasp/Service.asmx
+username= gwmovitel
+password= gwmovitel
+SYSID=warning

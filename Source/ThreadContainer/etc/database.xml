@@ -1,0 +1,474 @@
+<c3p0-config>
+	<timeout-config>
+		<!-- time out query DB (s) -->
+		<property name="queryDbTimeout">60</property>
+		<!-- thoi gian toi da khi thuc hien ham DB (ms) -->
+		<property name="timeBreak">90000</property>
+		<!-- thoi gian toi da khi thuc hien xoa record time out (ms) -->
+		<property name="timeBreakDeleteRecordTimeOut">120000</property>
+		<!--So lan thuc hien retry toi da  -->
+		<property name="maxRetry">2</property>
+	</timeout-config>
+	<named-config name="dbsm">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">SM</property>
+		<property name="password">y8YHGabrJj</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>	
+   
+	</named-config>
+	
+	
+	<named-config name="dbElite">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		</property>
+		<property name="username">VAS_ELITE</property>
+		<property name="password">VAS#2028</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<!-- cau hinh timeout & check ket noi-->
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+		
+	</named-config> 
+	<named-config name="dbReportCDR">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		</property>
+		<property name="username">PRE_CALL</property>
+		<property name="password">bzZd8W8FZxWc3nbx</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<!-- cau hinh timeout & check ket noi-->
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config> 
+  
+	<named-config name="dbProduct">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		</property>
+		<property name="username">PRODUCT</property>
+		<property name="password">a8JFagmght</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<!-- cau hinh timeout & check ket noi-->
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+  
+	<named-config name="dbINAS">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		</property>
+		<property name="username">INAS</property>
+		<property name="password">123456a#</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<!-- cau hinh timeout & check ket noi-->
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+  
+	<named-config name="dbvipsub">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))</property>
+		<property name="username">CTV_MANAGE</property>
+		<property name="password">uzfJbekfpG</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<!-- cau hinh timeout & check ket noi-->
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>	
+	</named-config>
+	<named-config name="report">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">CM_PRE</property>
+		<property name="password">pyhQJgmNxv</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	<named-config name="pre_call">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">MV_ITBL_TANNH</property>
+		<property name="password">92jd#0j#fhsl09sd</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	<named-config name="hsmdm">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">CM_PRE</property>
+		<property name="password">pyhQJgmNxv</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	<named-config name="hsmdm">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">CM_PRE</property>
+		<property name="password">pyhQJgmNxv</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	<named-config name="mdm">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">MDM</property>
+		<property name="password">mLGv9QyCPT2</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	<named-config name="cm_pos">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">CM_POS</property>
+		<property name="password">JVwreXEapC</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	<named-config name="db_payment">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">PAYMENT</property>
+		<property name="password">t38pGSYB8z</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	<named-config name="pre_call">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">MV_ITBL_LAMNT</property>
+		<property name="password">92jd#0j#fhs#l09#sd</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	<named-config name="htds">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">MV_ITBL_LAMNT</property>
+		<property name="password">92jd#0j#fhs#l09#sd</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	<named-config name="dbReport">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">MV_ITBL_MANHNV</property>
+		<property name="password">cwBz#enTh0FVIn</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	<named-config name="tms">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">MDM</property>
+		<property name="password">mLGv9QyCPT2</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	<named-config name="dbVTICT">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">MV_ITBL_MANHNV</property>
+		<property name="password">cwBz#enTh0FVIn</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+		
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	
+	<named-config name="cm_pre">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">CM_PRE</property>
+		<property name="password">pyhQJgmNxv</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+        
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	<named-config name="cm_pos">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>
+		<property name="username">CM_POS</property>
+		<property name="password">JVwreXEapC</property>
+		<property name="initialPoolSize">100</property>   
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">1</property>
+        
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+	
+	<named-config name="appBccsGw">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.229.41.121)(PORT=9988))(CONNECT_DATA=(SERVER=shared)(SERVICE_NAME=dbtemp)))
+		</property>
+		<property name="username">APP_BCCSGW</property>
+		<property name="password">4HLUCxvC4d</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>	
+	</named-config>
+	<named-config name="dbvipsub">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.229.41.121)(PORT=9988))(CONNECT_DATA=(SERVER=shared)(SERVICE_NAME=dbtemp)))</property>
+		<property name="username">CTV_MANAGE</property>
+		<property name="password">uzfJbekfpG</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<!-- cau hinh timeout & check ket noi-->
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>	
+	</named-config>
+
+	<named-config name="dbapp2">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>	
+		<property name="username">bockd</property>
+		<property name="password">8XR58qHWK2</property>
+	
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config> 
+  
+	<named-config name="dbapp1">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) </property>	
+		<property name="username">PROFILE</property>
+		<property name="password">y5MwFrRU3H</property>
+	
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config>
+  
+	<named-config name="dbvasMi">   
+		<property name="driver">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection">jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		</property>
+		<property name="username">VAS_3G_UNLIMITED</property>
+		<property name="password">qEYa6XDjdu</property>
+		<property name="initialPoolSize">5</property>   
+		<property name="maxPoolSize">10</property>
+		<property name="minPoolSize">1</property>
+		<!-- cau hinh timeout & check ket noi-->
+		<property name="readTimeout">60000</property><!-- milisecond-->
+		<property name="connectTimeout">60000</property><!-- milisecond-->
+		<property name="maxIdleTime">300</property><!-- second-->
+		<property name="checkoutTimeout">30000</property> <!-- milisecond-->
+		<property name="idleConnectionTestPeriod">30</property><!-- second-->
+		<property name="preferredTestQuery">select 1 from dual</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckout">true</property>
+	</named-config> 
+</c3p0-config>

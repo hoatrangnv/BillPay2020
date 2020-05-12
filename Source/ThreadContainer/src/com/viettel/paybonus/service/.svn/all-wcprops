@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/code/!svn/ver/2753/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2699/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/Service.java
+END
+BankTransferUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/2272/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/BankTransferUtils.java
+END
+Exchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2753/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/Exchange.java
+END
+ZipUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2555/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/ZipUtils.java
+END
+PagamentoServico.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/2279/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/PagamentoServico.java
+END
+XmlConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/XmlConfig.java
+END
+EmailUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2699/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/EmailUtils.java
+END
+ClientWs.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2069/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/ClientWs.java
+END
+CommonUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2699/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/CommonUtils.java
+END
+PdfBussinessDAL.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/2167/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/PdfBussinessDAL.java
+END
+ContractConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/2167/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/ContractConstants.java
+END
+EWalletUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2730/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/EWalletUtil.java
+END
+TextSecurity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/TextSecurity.java
+END
+XmlUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/service/XmlUtil.java
+END

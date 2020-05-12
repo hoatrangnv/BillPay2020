@@ -1,0 +1,72 @@
+22/05/2018 10:52:11 ERROR [main] Tools:mmserver: 
+22/05/2018 10:52:11 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+22/05/2018 10:52:11 ERROR [main] actionlog: Error in start ActionLogDbUtils
+22/05/2018 10:52:11 ERROR [main] actionlog: java.lang.NullPointerException
+22/05/2018 10:52:51 ERROR [DEBIT_ROLLBACK_Node1.0] 0: ProcessMoAbstract: Tue May 22 10:52:51 CAT 2018
+ERROR process:
+[com.viettel.paybonus.obj.EwalletDebitLog@43886a34]
+java.lang.ClassCastException: com.viettel.paybonus.obj.EwalletDebitLog cannot be cast to com.viettel.paybonus.obj.Bonus
+	at com.viettel.paybonus.process.DebitRollbackManager.printListRecord(DebitRollbackManager.java:94)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:188)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+22/05/2018 11:03:17 ERROR [main] Tools:mmserver: 
+22/05/2018 11:03:17 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+22/05/2018 11:03:17 ERROR [main] actionlog: Error in start ActionLogDbUtils
+22/05/2018 11:03:17 ERROR [main] actionlog: java.lang.NullPointerException
+22/05/2018 11:04:44 ERROR [main] Tools:mmserver: 
+22/05/2018 11:04:44 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+22/05/2018 11:04:44 ERROR [main] actionlog: Error in start ActionLogDbUtils
+22/05/2018 11:04:44 ERROR [main] actionlog: java.lang.NullPointerException
+22/05/2018 11:05:26 ERROR [DEBIT_ROLLBACK_Node1.0] 0: Had exception call callEwalletRollback staff MV_PTUD_LINHNBV orgRequestId 20180504143300111
+22/05/2018 11:05:26 ERROR [DEBIT_ROLLBACK_Node1.0] 0: Error: java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key DebitEwalletPartnerCode
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:374)
+	at java.util.ResourceBundle.getString(ResourceBundle.java:334)
+	at com.viettel.paybonus.service.Exchange.callEwalletRollback(Exchange.java:576)
+	at com.viettel.paybonus.process.DebitRollbackManager.processListRecord(DebitRollbackManager.java:56)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 4
+22/05/2018 11:15:11 ERROR [main] Tools:mmserver: 
+22/05/2018 11:15:11 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+22/05/2018 11:15:11 ERROR [main] actionlog: Error in start ActionLogDbUtils
+22/05/2018 11:15:11 ERROR [main] actionlog: java.lang.NullPointerException
+22/05/2018 11:17:32 ERROR [DEBIT_ROLLBACK_Node1.0] 0: DbDebitRollback: Tue May 22 11:17:30 CAT 2018
+ERROR saveEwalletDebigLog: INSERT INTO sm.ewallet_debit_log (EWALLET_DEBIT_LOG_ID,ISDN,MONEY,OTP,REQUEST_ID,STAFF_CODE, FUNCTION_NAME,URL,REQUEST,RESPONSE,LOG_TIME,DURATION,ERROR_CODE,DESCRIPTION,TOTAL_SALE_TRANS,LIST_SALE_TRANS) VALUES(ewallet_debig_log_seq.nextval,?,?,?,?,?,?,?,?,?,sysdate,?,?,?,?,?)
+ staffCode MV_PTUD_LINHNBV orgRequestId 20180504143300111 result 0java.sql.SQLSyntaxErrorException: ORA-02289: sequence does not exist
+
+22/05/2018 11:17:33 ERROR [DEBIT_ROLLBACK_Node1.0] 0: Error: java.sql.SQLSyntaxErrorException: ORA-02289: sequence does not exist
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:221)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4033)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:4008)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.viettel.paybonus.database.DbDebitRollback.saveEwalletDebigLog(DbDebitRollback.java:177)
+	at com.viettel.paybonus.service.Exchange.callEwalletRollback(Exchange.java:625)
+	at com.viettel.paybonus.process.DebitRollbackManager.processListRecord(DebitRollbackManager.java:56)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 16864
+22/05/2018 11:19:32 ERROR [main] Tools:mmserver: 
+22/05/2018 11:19:32 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+22/05/2018 11:19:32 ERROR [main] actionlog: Error in start ActionLogDbUtils
+22/05/2018 11:19:32 ERROR [main] actionlog: java.lang.NullPointerException
+22/05/2018 11:24:20 ERROR [main] Tools:mmserver: 
+22/05/2018 11:24:20 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+22/05/2018 11:24:20 ERROR [main] actionlog: Error in start ActionLogDbUtils
+22/05/2018 11:24:20 ERROR [main] actionlog: java.lang.NullPointerException
+22/05/2018 11:27:09 ERROR [main] Tools:mmserver: 
+22/05/2018 11:27:09 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+22/05/2018 11:27:09 ERROR [main] actionlog: Error in start ActionLogDbUtils
+22/05/2018 11:27:09 ERROR [main] actionlog: java.lang.NullPointerException

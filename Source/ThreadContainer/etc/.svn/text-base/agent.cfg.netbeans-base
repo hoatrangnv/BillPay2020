@@ -1,0 +1,45 @@
+reducedWarn=Cluster changes, a few members have out from the cluster.
+increasedWarn=Cluster changes, a few members have joined the cluster.
+changedClusterCannotConnectDbWarn=Cluster changes, cluster has one node. This node cann't connect database.
+changedClusterCannotConnectDbWarn2=Cluster changes, cluster has many nodes. This node cann't connect database.
+
+[sms1]
+#mandatory
+clusterName=EmolaPromAirtime
+nodeName=EmolaPromAirtime_Node1
+#Remember only setup 1 node
+sql=select i.CustomerID, i.InvoiceID, i.Quantity, i.CreatedDate, i.ServiceId, c.Mobile, c.CustomerName from Core_Invoice i inner join core_customer c on i.CustomerID = c.CustomerID where i.CreatedDate > DATEADD(DAY,-3,GETDATE()) and i.ServiceID = 5 and i.Quantity >= 50 and i.status = 1
+sqlCountQueueSize =
+initialHosts=127.0.0.1[7311]
+ip=127.0.0.1
+port=8611
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+process_class=com.viettel.emola.process.EmolaServiceBaseBtsScaner
+dbprocess_class=com.viettel.emola.process.EmolaDbProcessor
+instances=1
+db_name=dbEmolaMsSql
+
+
+[sms2]
+#mandatory
+clusterName=EmolaPromElectric
+nodeName=EmolaPromElectric_Node1
+#Remember only setup 1 node
+sql=select i.CustomerID, i.InvoiceID, i.Quantity, i.CreatedDate, i.ServiceId, c.Mobile, c.CustomerName from Core_Invoice i inner join core_customer c on i.CustomerID = c.CustomerID where i.CreatedDate > DATEADD(MINUTE,-2,GETDATE()) and i.ServiceID = 153 and i.Quantity >= 50 and i.status = 1
+sqlCountQueueSize =
+initialHosts=127.0.0.1[7312]
+ip=127.0.0.1
+port=8612
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+process_class=com.viettel.emola.process.EmolaServiceBaseBtsScaner
+dbprocess_class=com.viettel.emola.process.EmolaDbProcessor
+instances=1
+db_name=dbEmolaMsSql

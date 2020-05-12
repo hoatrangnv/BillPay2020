@@ -1,0 +1,38 @@
+06/03/2018 16:24:13 ERROR [main] Tools:mmserver: 
+06/03/2018 16:24:13 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+06/03/2018 16:24:13 ERROR [main] actionlog: Error in start ActionLogDbUtils
+06/03/2018 16:24:13 ERROR [main] actionlog: java.lang.NullPointerException
+06/03/2018 16:24:16 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+06/03/2018 16:24:49 ERROR [FbbBlock_Node1.0] 0: DbFixBroadband: Tue Mar 06 16:24:49 CAT 2018
+ERROR insertActionAudit: INSERT INTO action_audit (ACTION_AUDIT_ID,ISSUE_DATETIME,ACTION_CODE,REASON_ID,SHOP_CODE,USER_NAME, PK_TYPE,PK_ID,IP,DESCRIPTION,VALID)  VALUES(action_audit_seq.nextval,sysdate,'06',299089,'ITBILLING','ITBILLING', '3',?,'127.0.0.1',?,NULL);
+ prepaidId 10 account 3911010127256 result 0java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+06/03/2018 16:32:25 ERROR [main] Tools:mmserver: 
+06/03/2018 16:32:25 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+06/03/2018 16:32:25 ERROR [main] actionlog: Error in start ActionLogDbUtils
+06/03/2018 16:32:25 ERROR [main] actionlog: java.lang.NullPointerException
+06/03/2018 16:32:28 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+06/03/2018 16:34:20 ERROR [FbbBlock_Node1.0] 0: DbFixBroadband: Tue Mar 06 16:34:20 CAT 2018
+ERROR insertActionAudit: INSERT INTO action_audit (ACTION_AUDIT_ID,ISSUE_DATETIME,ACTION_CODE,REASON_ID,SHOP_CODE,USER_NAME, PK_TYPE,PK_ID,IP,DESCRIPTION)  VALUES(action_audit_seq.nextval,sysdate,'06',299089,'ITBILLING','ITBILLING', '3',?,'127.0.0.1',?);
+ prepaidId 10 account 3911010127256 result 0java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+06/03/2018 16:38:45 ERROR [main] Tools:mmserver: 
+06/03/2018 16:38:45 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+06/03/2018 16:38:45 ERROR [main] actionlog: Error in start ActionLogDbUtils
+06/03/2018 16:38:45 ERROR [main] actionlog: java.lang.NullPointerException
+06/03/2018 16:38:49 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+06/03/2018 16:40:01 ERROR [main] Tools:mmserver: 
+06/03/2018 16:40:01 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+06/03/2018 16:40:01 ERROR [main] actionlog: Error in start ActionLogDbUtils
+06/03/2018 16:40:01 ERROR [main] actionlog: java.lang.NullPointerException
+06/03/2018 16:40:05 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+06/03/2018 16:40:40 ERROR [main] Tools:mmserver: 
+06/03/2018 16:40:40 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+06/03/2018 16:40:40 ERROR [main] actionlog: Error in start ActionLogDbUtils
+06/03/2018 16:40:40 ERROR [main] actionlog: java.lang.NullPointerException
+06/03/2018 16:40:44 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+06/03/2018 16:43:01 ERROR [main] Tools:mmserver: 
+06/03/2018 16:43:01 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+06/03/2018 16:43:01 ERROR [main] actionlog: Error in start ActionLogDbUtils
+06/03/2018 16:43:01 ERROR [main] actionlog: java.lang.NullPointerException
+06/03/2018 16:43:05 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611

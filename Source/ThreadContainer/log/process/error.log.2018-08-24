@@ -1,0 +1,282 @@
+24/08/2018 10:36:34 ERROR [main] Tools:mmserver: 
+24/08/2018 10:36:34 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 10:36:34 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 10:36:34 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 10:41:03 ERROR [TestImport] Import:Name=TestImport: Had exception in prepareStart: java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key importDir
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:374)
+	at java.util.ResourceBundle.getString(ResourceBundle.java:334)
+	at com.viettel.bank.manage.ImportFileThread.prepareStart(ImportFileThread.java:460)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:121)
+	at java.lang.Thread.run(Thread.java:662)
+ now must stop
+24/08/2018 10:41:08 ERROR [TestImport] Import:Name=TestImport: stop process exception:java.lang.InterruptedException
+24/08/2018 10:41:29 ERROR [main] Tools:mmserver: 
+24/08/2018 10:41:29 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 10:41:29 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 10:41:29 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 10:42:53 ERROR [main] Tools:mmserver: 
+24/08/2018 10:42:53 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 10:42:53 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 10:42:53 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 10:44:30 ERROR [main] Tools:mmserver: 
+24/08/2018 10:44:30 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 10:44:30 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 10:44:30 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 10:48:38 ERROR [main] Tools:mmserver: 
+24/08/2018 10:48:38 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 10:48:38 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 10:48:38 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 10:56:13 ERROR [main] Tools:mmserver: 
+24/08/2018 10:56:13 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 10:56:13 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 10:56:13 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 11:05:40 ERROR [main] Tools:mmserver: 
+24/08/2018 11:05:40 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 11:05:40 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 11:05:40 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 11:12:12 ERROR [main] Tools:mmserver: 
+24/08/2018 11:12:12 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 11:12:12 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 11:12:12 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 11:13:14 ERROR [main] Tools:mmserver: 
+24/08/2018 11:13:14 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 11:13:14 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 11:13:14 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 11:15:16 ERROR [TestImport] DbImportFile: : ERROR getSequence BANK_FILE_INFO_SEQ
+24/08/2018 11:15:16 ERROR [TestImport] DbImportFile: : Error: java.sql.SQLSyntaxErrorException: ORA-02289: sequence does not exist
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:221)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1039)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:1146)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1464)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3959)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:4515)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at com.viettel.paybonus.database.DbImportFile.getSequence(DbImportFile.java:248)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:267)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:503)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 1281
+24/08/2018 11:20:12 ERROR [main] Tools:mmserver: 
+24/08/2018 11:20:12 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 11:20:13 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 11:20:13 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 11:21:13 ERROR [TestImport] ConnectionPoolManager: Can't connect DB, with ID: dbImportBank
+java.sql.SQLException: An attempt by a client to checkout a Connection has timed out.
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:77)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:687)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:140)
+	at com.viettel.vas.util.ConnectionPoolManager.getConnection(ConnectionPoolManager.java:203)
+	at com.viettel.paybonus.database.DbImportFile.getSequence(DbImportFile.java:244)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:267)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:503)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: com.mchange.v2.resourcepool.TimeoutException: A client timed out while waiting to acquire a resource from com.mchange.v2.resourcepool.BasicResourcePool@443acc67 -- timeout at awaitAvailable()
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1416)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:606)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:526)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutAndMarkConnectionInUse(C3P0PooledConnectionPool.java:755)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:682)
+	... 8 more
+24/08/2018 11:21:13 ERROR [TestImport] Import:Name=TestImport: ERROR getSequence BANK_FILE_INFO_SEQ
+24/08/2018 11:21:13 ERROR [TestImport] Import:Name=TestImport: Error: java.lang.NullPointerException
+	at com.viettel.paybonus.database.DbImportFile.getSequence(DbImportFile.java:245)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:267)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:503)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 31998
+24/08/2018 11:22:59 ERROR [main] Tools:mmserver: 
+24/08/2018 11:22:59 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 11:22:59 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 11:22:59 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 11:25:57 ERROR [TestImport] Import:Name=TestImport: ERROR insertBankFileInfo  fileName BMEPS_out60001508180814093300.txt
+com.viettel.vas.util.obj.ViettelException: Parameter "FILE_TIME" is not Date object
+	at com.viettel.vas.util.obj.Param.checkParameter(Param.java:247)
+	at com.viettel.vas.util.obj.Param.<init>(Param.java:127)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:176)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:292)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:503)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+24/08/2018 11:26:33 ERROR [TestImport] Import:Name=TestImport: Error: com.viettel.vas.util.obj.ViettelException: Parameter "FILE_TIME" is not Date object
+	at com.viettel.vas.util.obj.Param.checkParameter(Param.java:247)
+	at com.viettel.vas.util.obj.Param.<init>(Param.java:127)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:176)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:292)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:503)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 37884
+24/08/2018 11:34:46 ERROR [main] Tools:mmserver: 
+24/08/2018 11:34:46 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 11:34:46 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 11:34:46 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 11:35:45 ERROR [TestImport] Import:Name=TestImport: ERROR insertBankFileInfo  fileName BMEPS_out60001508180814093300.txt
+java.sql.SQLException: ERROR insertTable: INSERT INTO bank_file_info(BANK_FILE_INFO_ID,FILE_NAME,FILE_TIME,HEADER,TRAILER,FILE_SEQUENCE,TOTAL_RECORD,TOTAL_PAY,TOTAL_COM,FILE_PATH_INPUT,FILE_PATH_BACKUP,FILE_PAHT_UNRATE,ERR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:190)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:296)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:524)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.BatchUpdateException: ORA-01438: value larger than specified precision allowed for this column
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 6 more
+24/08/2018 11:35:46 ERROR [TestImport] Import:Name=TestImport: Error: java.sql.SQLException: ERROR insertTable: INSERT INTO bank_file_info(BANK_FILE_INFO_ID,FILE_NAME,FILE_TIME,HEADER,TRAILER,FILE_SEQUENCE,TOTAL_RECORD,TOTAL_PAY,TOTAL_COM,FILE_PATH_INPUT,FILE_PATH_BACKUP,FILE_PAHT_UNRATE,ERR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:190)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:296)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:524)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.BatchUpdateException: ORA-01438: value larger than specified precision allowed for this column
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 6 more
+ Time: 21465
+24/08/2018 14:41:35 ERROR [main] Tools:mmserver: 
+24/08/2018 14:41:35 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 14:41:35 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 14:41:35 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 14:45:07 ERROR [TestImport] Import:Name=TestImport: ERROR insertBankFileInfo  fileName BMEPS_out60001508180814093300.txt
+java.sql.SQLException: ERROR insertTable: INSERT INTO bank_file_info(BANK_FILE_INFO_ID,FILE_NAME,FILE_TIME,HEADER,TRAILER,FILE_SEQUENCE,TOTAL_RECORD,TOTAL_PAY,TOTAL_COM,FILE_PATH_INPUT,FILE_PATH_BACKUP,FILE_PAHT_UNRATE,ERR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:190)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:296)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:524)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.BatchUpdateException: ORA-00904: "FILE_PAHT_UNRATE": invalid identifier
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 6 more
+24/08/2018 14:45:08 ERROR [TestImport] Import:Name=TestImport: Error: java.sql.SQLException: ERROR insertTable: INSERT INTO bank_file_info(BANK_FILE_INFO_ID,FILE_NAME,FILE_TIME,HEADER,TRAILER,FILE_SEQUENCE,TOTAL_RECORD,TOTAL_PAY,TOTAL_COM,FILE_PATH_INPUT,FILE_PATH_BACKUP,FILE_PAHT_UNRATE,ERR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:190)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:296)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:524)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.BatchUpdateException: ORA-00904: "FILE_PAHT_UNRATE": invalid identifier
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 6 more
+ Time: 192480
+24/08/2018 14:46:26 ERROR [main] Tools:mmserver: 
+24/08/2018 14:46:26 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 14:46:26 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 14:46:26 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 14:46:47 ERROR [TestImport] Import:Name=TestImport: ERROR insertBankFileInfo  fileName BMEPS_out60001508180814093300.txt
+java.sql.SQLException: ERROR insertTable: INSERT INTO bank_file_info(BANK_FILE_INFO_ID,FILE_NAME,FILE_TIME,HEADER,TRAILER,FILE_SEQUENCE,TOTAL_RECORD,TOTAL_PAY,TOTAL_COM,FILE_PATH_INPUT,FILE_PATH_BACKUP,FILE_PATH_UNRATE,ERR_CODE,DESCRIPTION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:190)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:296)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:524)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.BatchUpdateException: ORA-01438: value larger than specified precision allowed for this column
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 6 more
+24/08/2018 15:42:45 ERROR [main] Tools:mmserver: 
+24/08/2018 15:42:45 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 15:42:45 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 15:42:45 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 15:43:10 ERROR [TestImport] Import:Name=TestImport: ERROR insertBankFileInfo  fileName BMEPS_out60001508180814093300.txt
+java.sql.SQLDataException: ORA-01438: value larger than specified precision allowed for this column
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:159)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4033)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:4008)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:194)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:296)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:524)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+24/08/2018 15:45:45 ERROR [main] Tools:mmserver: 
+24/08/2018 15:45:45 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 15:45:45 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 15:45:45 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 15:46:08 ERROR [TestImport] Import:Name=TestImport: ERROR insertBankFileInfo  fileName BMEPS_out60001508180814093300.txt
+java.sql.SQLDataException: ORA-01438: value larger than specified precision allowed for this column
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:159)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4033)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:4008)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.viettel.paybonus.database.DbImportFile.insertBankFileInfo(DbImportFile.java:194)
+	at com.viettel.bank.manage.ImportFileThread.importProcess(ImportFileThread.java:296)
+	at com.viettel.bank.manage.ImportFileThread.cycle(ImportFileThread.java:132)
+	at com.viettel.bank.manage.ImportFileThread.process(ImportFileThread.java:524)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+24/08/2018 15:55:07 ERROR [main] Tools:mmserver: 
+24/08/2018 15:55:07 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 15:55:07 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 15:55:07 ERROR [main] actionlog: java.lang.NullPointerException
+24/08/2018 17:00:22 ERROR [main] Tools:mmserver: 
+24/08/2018 17:00:22 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+24/08/2018 17:00:22 ERROR [main] actionlog: Error in start ActionLogDbUtils
+24/08/2018 17:00:22 ERROR [main] actionlog: java.lang.NullPointerException

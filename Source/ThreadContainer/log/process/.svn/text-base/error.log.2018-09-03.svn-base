@@ -1,0 +1,143 @@
+03/09/2018 11:29:10 ERROR [main] Tools:mmserver: 
+03/09/2018 11:29:10 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 11:29:10 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 11:29:10 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:24:54 ERROR [main] Tools:mmserver: 
+03/09/2018 13:24:54 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:24:54 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:24:54 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:25:17 ERROR [TestGetFile] GetBankFile:Name=TestGetFile: Had exception in prepareStart: java.lang.NullPointerException
+	at com.viettel.bank.manage.GetBankFile.prepareStart(GetBankFile.java:306)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:121)
+	at java.lang.Thread.run(Thread.java:662)
+ now must stop
+03/09/2018 13:28:10 ERROR [main] Tools:mmserver: 
+03/09/2018 13:28:10 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:28:10 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:28:10 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:37:02 ERROR [main] Tools:mmserver: 
+03/09/2018 13:37:02 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:37:02 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:37:02 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:38:46 ERROR [main] Tools:mmserver: 
+03/09/2018 13:38:46 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:38:46 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:38:46 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:41:58 ERROR [main] Tools:mmserver: 
+03/09/2018 13:41:58 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:41:58 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:41:58 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:43:55 ERROR [main] Tools:mmserver: 
+03/09/2018 13:43:55 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:43:55 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:43:55 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:44:56 ERROR [TestGetFile] GetBankFile:Name=TestGetFile: [Error - ftpBackup] fileName MEPS_86871_20180903_102853.txt: 3: Permission denied
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2289)
+	at com.jcraft.jsch.ChannelSftp.rename(ChannelSftp.java:1481)
+	at com.viettel.bank.manage.GetBankFile.ftpBackup(GetBankFile.java:216)
+	at com.viettel.bank.manage.GetBankFile.getFileProcess(GetBankFile.java:175)
+	at com.viettel.bank.manage.GetBankFile.cycle(GetBankFile.java:70)
+	at com.viettel.bank.manage.GetBankFile.process(GetBankFile.java:269)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+
+03/09/2018 13:47:39 ERROR [main] Tools:mmserver: 
+03/09/2018 13:47:39 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:47:39 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:47:39 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:48:01 ERROR [TestGetFile] GetBankFile:Name=TestGetFile: [Error - ftpBackup] fileName MEPS_86871_20180903_102853.txt: 3: Permission denied
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2289)
+	at com.jcraft.jsch.ChannelSftp.rename(ChannelSftp.java:1481)
+	at com.viettel.bank.manage.GetBankFile.ftpBackup(GetBankFile.java:216)
+	at com.viettel.bank.manage.GetBankFile.getFileProcess(GetBankFile.java:175)
+	at com.viettel.bank.manage.GetBankFile.cycle(GetBankFile.java:70)
+	at com.viettel.bank.manage.GetBankFile.process(GetBankFile.java:269)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+
+03/09/2018 13:49:45 ERROR [main] Tools:mmserver: 
+03/09/2018 13:49:45 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:49:45 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:49:45 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 13:50:29 ERROR [TestGetFile] GetBankFile:Name=TestGetFile: [Error - ftpBackup] fileName MEPS_86871_20180903_102853.txt: 3: Permission denied
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2289)
+	at com.jcraft.jsch.ChannelSftp.rename(ChannelSftp.java:1481)
+	at com.viettel.bank.manage.GetBankFile.ftpBackup(GetBankFile.java:216)
+	at com.viettel.bank.manage.GetBankFile.getFileProcess(GetBankFile.java:175)
+	at com.viettel.bank.manage.GetBankFile.cycle(GetBankFile.java:70)
+	at com.viettel.bank.manage.GetBankFile.process(GetBankFile.java:269)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+
+03/09/2018 13:52:56 ERROR [main] Tools:mmserver: 
+03/09/2018 13:52:56 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 13:52:56 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 13:52:56 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 15:11:08 ERROR [main] Tools:mmserver: 
+03/09/2018 15:11:08 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 15:11:08 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 15:11:08 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 15:14:26 ERROR [main] Tools:mmserver: 
+03/09/2018 15:14:26 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 15:14:26 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 15:14:26 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 15:19:11 ERROR [main] Tools:mmserver: 
+03/09/2018 15:19:11 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 15:19:11 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 15:19:11 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 16:11:09 ERROR [main] Tools:mmserver: 
+03/09/2018 16:11:09 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 16:11:09 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 16:11:09 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 16:12:41 ERROR [TestImport] Import:Name=TestImport: ERROR insertBankFileInfo  fileName MEPS_86871_20180903_102853.txt
+java.sql.SQLException: ORA-12899: value too large for column "CTV_MANAGE"."BANK_FILE_INFO"."HEADER" (actual: 107, maximum: 100)
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:120)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4033)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:4008)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.viettel.paybonus.database.DbImportBankFile.insertBankFileInfo(DbImportBankFile.java:194)
+	at com.viettel.bank.manage.ImportBankFile.importProcess(ImportBankFile.java:325)
+	at com.viettel.bank.manage.ImportBankFile.cycle(ImportBankFile.java:132)
+	at com.viettel.bank.manage.ImportBankFile.process(ImportBankFile.java:543)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+03/09/2018 16:12:41 ERROR [TestImport] Import:Name=TestImport: Error: java.sql.SQLException: ORA-12899: value too large for column "CTV_MANAGE"."BANK_FILE_INFO"."HEADER" (actual: 107, maximum: 100)
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:120)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1250)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1516)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4033)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:4008)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:147)
+	at com.viettel.paybonus.database.DbImportBankFile.insertBankFileInfo(DbImportBankFile.java:194)
+	at com.viettel.bank.manage.ImportBankFile.importProcess(ImportBankFile.java:325)
+	at com.viettel.bank.manage.ImportBankFile.cycle(ImportBankFile.java:132)
+	at com.viettel.bank.manage.ImportBankFile.process(ImportBankFile.java:543)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 48
+03/09/2018 16:16:16 ERROR [main] Tools:mmserver: 
+03/09/2018 16:16:16 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 16:16:16 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 16:16:16 ERROR [main] actionlog: java.lang.NullPointerException
+03/09/2018 16:25:50 ERROR [main] Tools:mmserver: 
+03/09/2018 16:25:50 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+03/09/2018 16:25:50 ERROR [main] actionlog: Error in start ActionLogDbUtils
+03/09/2018 16:25:50 ERROR [main] actionlog: java.lang.NullPointerException

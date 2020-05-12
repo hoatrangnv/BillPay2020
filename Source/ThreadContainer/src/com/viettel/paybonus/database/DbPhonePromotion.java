@@ -1,0 +1,742 @@
+/*
+ * Copyright 2012 Viettel Telecom. All rights reserved.
+ * VIETTEL PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ */
+package com.viettel.paybonus.database;
+
+import com.viettel.cluster.agent.integration.Record;
+import com.viettel.paybonus.obj.PhoneNewPromotion;
+import com.viettel.paybonus.obj.PhonePromotionConfig;
+import com.viettel.threadfw.manager.AppManager;
+import com.viettel.threadfw.database.DbProcessorAbstract;
+import com.viettel.vas.util.ConnectionPoolManager;
+import com.viettel.vas.util.PoolStore;
+import com.viettel.vas.util.obj.DataResources;
+import com.viettel.vas.util.obj.Param;
+import com.viettel.vas.util.obj.ParamList;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Date;
+import java.util.List;
+import org.apache.log4j.Logger;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+/**
+ *
+ * Thong tin phien ban
+ *
+ * @author HuyNQ13
+ * @version 1.0
+ * @since 24-03-2016
+ */
+public class DbPhonePromotion extends DbProcessorAbstract {
+
+    private String loggerLabel = DbPhonePromotion.class.getSimpleName() + ": ";
+    private PoolStore poolStore;
+    private String dbNameCofig;
+
+    public DbPhonePromotion() throws SQLException, Exception {
+        this.logger = Logger.getLogger(loggerLabel);
+        dbNameCofig = "dbapp1";
+        poolStore = new PoolStore(dbNameCofig, logger);
+    }
+
+    public DbPhonePromotion(String sessionName, Logger logger) throws SQLException, Exception {
+        this.logger = logger;
+        dbNameCofig = sessionName;
+        poolStore = new PoolStore(sessionName, logger);
+    }
+
+    public void closeStatement(Statement st) {
+        try {
+            if (st != null) {
+                st.close();
+                st = null;
+            }
+        } catch (Exception ex) {
+            st = null;
+        }
+    }
+
+    public void logTimeDb(String strLog, long timeSt) {
+        long timeEx = System.currentTimeMillis() - timeSt;
+
+        if (timeEx >= AppManager.minTimeDb && AppManager.loggerDbMap != null) {
+            br.setLength(0);
+            br.append(loggerLabel).
+                    append(AppManager.getTimeLevelDb(timeEx)).append(": ").
+                    append(strLog).
+                    append(": ").
+                    append(timeEx).
+                    append(" ms");
+
+            logger.warn(br);
+        } else {
+            br.setLength(0);
+            br.append(loggerLabel).
+                    append(strLog).
+                    append(": ").
+                    append(timeEx).
+                    append(" ms");
+
+            logger.info(br);
+        }
+    }
+
+    @Override
+    public Record parse(ResultSet rs) {
+        PhoneNewPromotion record = new PhoneNewPromotion();
+        long timeSt = System.currentTimeMillis();
+        try {
+            record.setMsisdn(rs.getString("msisdn"));
+            record.setImsi(rs.getString("imsi"));
+            record.setImei(rs.getString("imei"));
+            record.setTac(rs.getString("tac"));
+            record.setDatetime(rs.getTimestamp("datetime"));
+            record.setHlr(rs.getLong("hlr"));
+            record.setArd(rs.getLong("ard"));
+            record.setNam(rs.getLong("nam"));
+            record.setResultCode("0");
+            record.setErrCode("");
+            record.setCurentCycle(rs.getTimestamp("next_cycle"));
+            record.setRemainMonths(rs.getInt("remain_months"));
+            record.setInputType(rs.getInt("input_type"));
+        } catch (Exception ex) {
+            logger.error("ERROR parse NewSubscriberPhone");
+            logger.error(AppManager.logException(timeSt, ex));
+        }
+        return record;
+    }
+
+    @Override
+    public int[] deleteQueue(List<Record> listRecords) {
+        long timeStart = System.currentTimeMillis();
+        PreparedStatement ps = null;
+        Connection connection = null;
+        String batchId = "";
+        try {
+            connection = ConnectionPoolManager.getConnection("mdm");
+            ps = connection.prepareStatement("delete hlr_62xx_subscriber_input where msisdn = ?");
+            for (Record rc : listRecords) {
+                rc = (Record) rc;
+                PhoneNewPromotion fr = (PhoneNewPromotion) rc;
+                batchId = fr.getBatchId();
+                ps.setString(1, fr.getMsisdn());
+                ps.addBatch();
+            }
+            return ps.executeBatch();
+        } catch (Exception ex) {
+            this.logger.error("ERROR deleteQueue PhoneNewPromotion announcement batchid " + batchId, ex);
+            this.logger.error(AppManager.logException(timeStart, ex));
+            return null;
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            logTimeDb("Time to deleteQueue PhoneNewPromotion announcement, batchid " + batchId, timeStart);
+        }
+    }
+
+    @Override
+    public int[] insertQueueHis(List<Record> listRecords) {
+        List<ParamList> listParam = new ArrayList<ParamList>();
+        String batchId = "";
+        long timeSt = System.currentTimeMillis();
+        try {
+            for (Record rc : listRecords) {
+                PhoneNewPromotion pnp = (PhoneNewPromotion) rc;
+                batchId = pnp.getBatchId();
+                ParamList paramList = new ParamList();
+                Timestamp ts = new Timestamp(new Date().getTime());
+                paramList.add(new Param("msisdn", pnp.getMsisdn(), Param.DataType.STRING, 0));
+                paramList.add(new Param("imsi", pnp.getImsi(), Param.DataType.STRING, 0));
+                paramList.add(new Param("imei", pnp.getImei(), Param.DataType.STRING, 0));
+                paramList.add(new Param("tac", pnp.getTac(), Param.DataType.STRING, 0));
+                paramList.add(new Param("datetime", ts, Param.DataType.TIMESTAMP, 0));
+                paramList.add(new Param("hlr", pnp.getHlr(), Param.DataType.LONG, 0));
+                paramList.add(new Param("ard", pnp.getArd(), Param.DataType.LONG, 0));
+                paramList.add(new Param("nam", pnp.getNam(), Param.DataType.LONG, 0));
+                paramList.add(new Param("err_code", pnp.getErrCode(), Param.DataType.STRING, 0));
+                paramList.add(new Param("description", pnp.getDescription(), Param.DataType.STRING, 0));
+                listParam.add(paramList);
+            }
+            int[] res = this.poolStore.insertTable((ParamList[]) listParam.toArray(new ParamList[listParam.size()]), "hlr_62xx_subscriber_cache_his");
+            logTimeDb("Time to insertQueueHis announcement_his, batchid " + batchId + " total result: " + res.length, timeSt);
+            return res;
+        } catch (Exception ex) {
+            this.logger.error("ERROR insertQueueHis announcement_his batchid " + batchId, ex);
+            this.logger.error(AppManager.logException(timeSt, ex));
+        }
+        return null;
+    }
+
+    @Override
+    public int[] insertQueueOutput(List<Record> listRecords) {
+        return new int[0];
+    }
+
+    @Override
+    public int[] updateQueueInput(List<Record> listRecords) {
+        return new int[0];
+    }
+
+    @Override
+    public void processTimeoutRecord(List<String> ids) {
+        StringBuilder sb = new StringBuilder();
+        try {
+//            The first delete queue timeout
+            deleteQueueTimeout(ids);
+//            Save history
+            for (String sd : ids) {
+                sb.append(": ").append(sd);
+            }
+            logger.warn("Dispatcher not get reponse from agent, so processTimeoutRecord ID " + sb.toString());
+        } catch (Exception ex) {
+            logger.error("ERROR processTimeoutRecord ID " + sb.toString() + " " + ex.toString());
+        }
+    }
+
+    @Override
+    public void updateSqlMoParam(List<Record> lrc) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public int[] deleteQueueTimeout(List<String> listId) {
+        return new int[0];
+    }
+
+    public int sendSms(String msisdn, String message, String channel) {
+        Connection connection = null;
+        PreparedStatement ps = null;
+        StringBuilder br = new StringBuilder();
+        String sql = "";
+        int result = 0;
+        long startTime = System.currentTimeMillis();
+        try {
+            connection = getConnection("dbapp2");
+            sql = "INSERT INTO mt (mt_id,msisdn,message,mo_his_id,retry_num,receive_time,channel) "
+                    + "VALUES(mt_SEQ.nextval,?,?,null,0,sysdate,?)";
+            ps = connection.prepareStatement(sql);
+            if (!msisdn.startsWith("258")) {
+                msisdn = "258" + msisdn;
+            }
+            ps.setString(1, msisdn);
+            ps.setString(2, message);
+            ps.setString(3, channel);
+            result = ps.executeUpdate();
+            logger.info("End sendSms isdn " + msisdn + " message " + message + " result " + result + " time "
+                    + (System.currentTimeMillis() - startTime));
+        } catch (Exception ex) {
+            br.setLength(0);
+            br.append(loggerLabel).append(new Date()).
+                    append("\nERROR sendSms: ").
+                    append(sql).append("\n")
+                    .append(" isdn ")
+                    .append(msisdn)
+                    .append(" message ")
+                    .append(message)
+                    .append(" result ")
+                    .append(result);
+            logger.error(br + ex.toString());
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            return result;
+        }
+    }
+
+    public int insertSubscriberWiffi(PhoneNewPromotion bn) {
+        Connection connection = null;
+        PreparedStatement ps = null;
+        StringBuilder br = new StringBuilder();
+        String sql = "";
+        int result = 0;
+        long startTime = System.currentTimeMillis();
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(bn.getCurentCycle() != null ? bn.getCurentCycle() : new Date());
+        cal.add(Calendar.MONTH, 1);
+        SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy hhMMss");
+        try {
+            connection = getConnection("mdm");
+            sql = "INSERT INTO hlr_62xx_subscriber_wiffi (msisdn,imsi,imei,tac,datetime,next_cycle,remain_months,err_code,description,status) VALUES (?,?,?,?,sysdate,to_date(?,'ddMMyyyy HH24MISS'),?,?,?,?)";
+            ps = connection.prepareStatement(sql);
+            ps.setString(1, bn.getMsisdn());
+            ps.setString(2, bn.getImsi());
+            ps.setString(3, bn.getImei());
+            ps.setString(4, bn.getTac());
+            ps.setString(5, sdf.format(cal.getTime()));
+            ps.setInt(6, bn.getRemainMonths());
+            ps.setString(7, bn.getErrCode());
+            ps.setString(8, bn.getDescription());
+            ps.setInt(9, bn.getStatus());
+
+            result = ps.executeUpdate();
+            logger.info("End insertSubscriberWiffi imei " + bn.getImei() + " isdn " + bn.getMsisdn() + " result " + result + " time "
+                    + (System.currentTimeMillis() - startTime));
+        } catch (Exception ex) {
+            br.setLength(0);
+            br.append(loggerLabel).append(new Date()).
+                    append("\nERROR insertSubscriberWiffi: ").
+                    append(sql).append("\n")
+                    .append(" id ")
+                    .append(" isdn ")
+                    .append(bn.getMsisdn())
+                    .append(" result ")
+                    .append(result);
+            logger.error(br + ex.toString());
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            return result;
+        }
+    }
+
+    public boolean checkAlreadyProcessRecord(String imei, String msisdn) {
+        ParamList paramList = new ParamList();
+        boolean result = false;
+        long timeSt = System.currentTimeMillis();
+        try {
+            paramList.add(new Param("imei", imei, Param.DataType.STRING, Param.IN));
+            paramList.add(new Param("msisdn", msisdn, Param.DataType.STRING, Param.IN));
+            paramList.add(new Param("err_code", "0", Param.DataType.STRING, Param.IN));
+            paramList.add(new Param("msisdn", null, Param.DataType.STRING, Param.OUT));
+            DataResources rs = poolStore.selectTable(paramList, "hlr_62xx_subscriber_cache_his");
+            while (rs.next()) {
+                String id = rs.getString("msisdn");
+                if (id != null && id.length() > 0) {
+                    result = true;
+                    break;
+                }
+            }
+            logTimeDb("Time to checkAlreadyProcessRecord idRecord " + imei + " result: " + result, timeSt);
+        } catch (Exception ex) {
+            logger.error("ERROR checkAlreadyProcessRecord defaul return false" + imei);
+            logger.error(AppManager.logException(timeSt, ex));
+            result = false;
+        }
+        return result;
+    }
+
+    public int deleteNewSubscriberPhone(PhoneNewPromotion bn) {
+        long timeStart = System.currentTimeMillis();
+        PreparedStatement ps = null;
+        Connection connection = null;
+        int res = 0;
+        try {
+            connection = getConnection("mdm");
+            ps = connection.prepareStatement("delete hlr_62xx_subscriber_input where msisdn = ?");
+            ps.setString(1, bn.getMsisdn());
+            res = ps.executeUpdate();
+        } catch (Exception ex) {
+            logger.error("ERROR deleteNewSubscriberPhone id " + bn.getID() + " isdn " + bn.getMsisdn(), ex);
+            logger.error(AppManager.logException(timeStart, ex));
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            logTimeDb("Time to deleteNewSubscriberPhone, id " + bn.getId() + " isdn " + bn.getMsisdn() + " result " + res, timeStart);
+            return res;
+        }
+    }
+
+    public PhonePromotionConfig getPromotionConfig(String handsetTac) {
+        long timeStart = System.currentTimeMillis();
+        PreparedStatement ps = null;
+        Connection connection = null;
+        ResultSet rs = null;
+        PhonePromotionConfig config = null;
+        try {
+            connection = getConnection("mdm");
+            ps = connection.prepareStatement("select * from phone_promotion_config where tac = ? and status =1");
+            ps.setString(1, handsetTac);
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                config = new PhonePromotionConfig();
+                config.setStockModelCode(rs.getString("stock_model_Code"));
+                config.setId(rs.getLong("id"));
+                config.setTac(rs.getString("tac"));
+                config.setBalanceType(rs.getString("balance_type"));
+                config.setBalanceAmount(rs.getLong("balance_amount"));
+                config.setBalanceValidDays(rs.getInt("balance_valid_days"));
+                config.setDataType(rs.getString("data_type"));
+                config.setDataAmount(rs.getLong("data_amount"));
+                config.setDataValidDays(rs.getInt("data_valid_days"));
+                config.setSmsType(rs.getString("sms_type"));
+                config.setSmsAmount(rs.getLong("sms_amount"));
+                config.setSmsValidDays(rs.getInt("sms_valid_days"));
+                config.setSmsToCus(rs.getString("sms"));
+                config.setHandSetType(rs.getLong("hs_type"));
+                config.setRemainMonths(rs.getInt("remain_months"));
+            }
+        } catch (Exception ex) {
+            logger.error("ERROR getPromotionConfig handsetTac " + handsetTac, ex);
+            logger.error(AppManager.logException(timeStart, ex));
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            logTimeDb("Time to getPromotionConfig, handsetTac " + handsetTac, timeStart);
+            return config;
+        }
+    }
+
+    public boolean checkIMEIModemWiffi(String imei) {
+        long timeStart = System.currentTimeMillis();
+        PreparedStatement ps = null;
+        Connection connection = null;
+        ResultSet rs = null;
+        try {
+            connection = getConnection("mdm");
+            ps = connection.prepareStatement(" select * from hlr_62xx_subscriber_wiffi where substr(imei,0,14) =?");
+            ps.setString(1, imei.substring(0, 14));
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                return true;
+            }
+            return false;
+        } catch (Exception ex) {
+            logger.error("ERROR checkIMEIModemWiffi imei " + imei, ex);
+            logger.error(AppManager.logException(timeStart, ex));
+            return false;
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            logTimeDb("Time to checkIMEIModemWiffi, imei " + imei, timeStart);
+        }
+    }
+
+    public int checkValidTimeBonus(String imei) {
+        long timeStart = System.currentTimeMillis();
+        PreparedStatement ps = null;
+        Connection connection = null;
+        ResultSet rs = null;
+        int times = 0;
+        try {
+            connection = getConnection("mdm");
+            ps = connection.prepareStatement(" select count(1) as times from hlr_62xx_subscriber_wiffi where substr(imei,0,14) =?");
+            ps.setString(1, imei.substring(0, 14));
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                times = rs.getInt("times");
+            }
+            return times;
+        } catch (Exception ex) {
+            logger.error("ERROR checkIMEIModemWiffi imei " + imei + " time " + times, ex);
+            logger.error(AppManager.logException(timeStart, ex));
+            return times;
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            logTimeDb("Time to checkIMEIModemWiffi, imei " + imei, timeStart);
+        }
+    }
+
+    public int updateHistoryModemWifi(String imei) {
+        long timeStart = System.currentTimeMillis();
+        PreparedStatement ps = null;
+        Connection connection = null;
+        int result = 0;
+        try {
+            connection = getConnection("mdm");
+            ps = connection.prepareStatement(" update hlr_62xx_subscriber_wiffi set status =0 where substr(imei,0,14) = ?");
+            ps.setString(1, imei.substring(0, 14));
+            return ps.executeUpdate();
+        } catch (Exception ex) {
+            logger.error("ERROR updateHistoryModemWifi imei " + imei + " result " + result, ex);
+            logger.error(AppManager.logException(timeStart, ex));
+            return result;
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            logTimeDb("Time to updateHistoryModemWifi, imei " + imei, timeStart);
+        }
+    }
+
+    public String getProductCode(String isdn) {
+        ResultSet rs = null;
+        Connection connection = null;
+        PreparedStatement ps = null;
+        StringBuilder br = new StringBuilder();
+        String sql = "";
+        long startTime = System.currentTimeMillis();
+        String productCode = "";
+        if (isdn.startsWith("258")) {
+            isdn = isdn.substring(3);
+        }
+        try {
+            connection = getConnection("cm_pre");
+            sql = "SELECT PRODUCT_CODE FROM CM_PRE.SUB_MB WHERE ISDN =? AND STATUS =2";
+            ps = connection.prepareStatement(sql);
+            ps.setString(1, isdn);
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                productCode = rs.getString("PRODUCT_CODE");
+                break;
+            }
+            logger.info("End getProductCode isdn " + isdn + " product code " + productCode + " time "
+                    + (System.currentTimeMillis() - startTime));
+        } catch (Exception ex) {
+            br.setLength(0);
+            br.append(loggerLabel).append(new Date()).
+                    append("\nERROR getProductCode: ").
+                    append(sql).append("\n")
+                    .append(" isdn ")
+                    .append(isdn);
+            logger.error(br + ex.toString());
+        } finally {
+            closeResultSet(rs);
+            closeStatement(ps);
+            closeConnection(connection);
+            return productCode;
+        }
+    }
+
+	public boolean checkReceivedBonusMobile(String imei, String msisdn) {
+		long timeStart = System.currentTimeMillis();
+		PreparedStatement ps = null;
+		Connection connection = null;
+		ResultSet rs = null;
+		boolean result = false;
+		String sql = "select  * from profile.hlr_62xx_subscriber_cache_his where err_code ='0'  ";
+		if (imei != null && !imei.isEmpty()) {
+			sql += " and substr(imei,0,14) =?";
+		}
+		if (msisdn != null && !msisdn.isEmpty()) {
+			sql += " and msisdn =?";
+		}
+		try {
+			connection = getConnection("cm_pre");
+			ps = connection.prepareStatement(sql);
+			int index = 1;
+			if (imei != null && !imei.isEmpty()) {
+				ps.setString(index++, imei.substring(0, 14));
+			}
+			if (msisdn != null && !msisdn.isEmpty()) {
+				ps.setString(index++, msisdn);
+			}
+			rs = ps.executeQuery();
+			while (rs.next()) {
+				result = true;
+			}
+			logger.info("END checkReceivedBonusMobile imei " + imei + " isdn " + msisdn + " result " + result);
+			return result;
+		} catch (Exception ex) {
+			logger.error("ERROR checkReceivedBonusMobile imei " + imei + " isdn " + msisdn, ex);
+			logger.error(AppManager.logException(timeStart, ex));
+			return result;
+		} finally {
+			closeStatement(ps);
+			closeConnection(connection);
+			logTimeDb("Time to checkReceivedBonusMobile, imei " + imei, timeStart);
+		}
+	}
+
+	public boolean checkIsdnReceivedBonusWifi(String imei, String msisdn) {
+		long timeStart = System.currentTimeMillis();
+		PreparedStatement ps = null;
+		Connection connection = null;
+		ResultSet rs = null;
+		boolean result = false;
+		imei = imei.substring(0, 14);
+		String sql = "select  substr(imei,0,14) imei,to_char(datetime,'dd/MM/yyyy HH24MISS') datetime from profile.hlr_62xx_subscriber_cache_his where err_code ='0' and msisdn =?";
+
+		try {
+			connection = getConnection("cm_pre");
+			ps = connection.prepareStatement(sql);
+			int index = 1;
+			ps.setString(index++, msisdn);
+			rs = ps.executeQuery();
+			while (rs.next()) {
+				result = true;
+				if (imei.equals(rs.getString("imei"))) {
+					//check valid time
+					SimpleDateFormat dfs = new SimpleDateFormat("dd/MM/yyyy HHmmss");
+					Date lastAdded = dfs.parse(rs.getString("datetime"));
+					if (lastAdded != null) {
+						long diffMilies = new Date().getTime() - lastAdded.getTime();
+						if ((diffMilies / 1000 / 60 / 60 / 24) >= 28) {
+							result = false;
+						}
+					}
+				}
+			}
+			logger.info("END checkIsdnReceivedBonusWifi imei " + imei + " isdn " + msisdn + " result " + result);
+			return result;
+		} catch (Exception ex) {
+			logger.error("ERROR checkIsdnReceivedBonusWifi isdn " + msisdn, ex);
+			logger.error(AppManager.logException(timeStart, ex));
+			return result;
+		} finally {
+			closeStatement(ps);
+			closeConnection(connection);
+			logTimeDb("Time to checkIsdnReceivedBonusWifi, imei " + imei, timeStart);
+		}
+	}
+
+	public boolean checkImsiReceivedBonusWifi(String imei, String msisdn) {
+		long timeStart = System.currentTimeMillis();
+		PreparedStatement ps = null;
+		Connection connection = null;
+		ResultSet rs = null;
+		boolean result = false;
+		imei = imei.substring(0, 14);
+		String sql = "select  msisdn ,to_char(datetime,'dd/MM/yyyy HH24MISS') datetime from profile.hlr_62xx_subscriber_cache_his where err_code ='0' and substr(imei,0,14)  =?";
+
+		try {
+			connection = getConnection("cm_pre");
+			ps = connection.prepareStatement(sql);
+			int index = 1;
+			ps.setString(index++, imei);
+			rs = ps.executeQuery();
+			while (rs.next()) {
+				result = true;
+				if (msisdn.equals(rs.getString("msisdn"))) {
+					//check valid time
+					SimpleDateFormat dfs = new SimpleDateFormat("dd/MM/yyyy HHmmss");
+					Date lastAdded = dfs.parse(rs.getString("datetime"));
+					if (lastAdded != null) {
+						long diffMilies = new Date().getTime() - lastAdded.getTime();
+						if ((diffMilies / 1000 / 60 / 60 / 24) >= 28) {
+							result = false;
+						}
+					}
+				}
+			}
+			logger.info("END checkImsiReceivedBonusWifi imei " + imei + " isdn " + msisdn + " result " + result);
+			return result;
+		} catch (Exception ex) {
+			logger.error("ERROR checkImsiReceivedBonusWifi isdn " + msisdn, ex);
+			logger.error(AppManager.logException(timeStart, ex));
+			return result;
+		} finally {
+			closeStatement(ps);
+			closeConnection(connection);
+			logTimeDb("Time to checkImsiReceivedBonusWifi, imei " + imei, timeStart);
+		}
+	}
+
+	public boolean checkHSBelongMVT(String imei) {
+		long timeStart = System.currentTimeMillis();
+		PreparedStatement ps = null;
+		Connection connection = null;
+		ResultSet rs = null;
+		if (imei == null || imei.isEmpty() || imei.trim().length() < 14) {
+			return false;
+		}
+		imei = imei.trim().substring(0, 14);
+		String sql = " select serial from sm.stock_handset where serial like ? ";
+
+        try {
+            connection = getConnection("dbsm");
+            ps = connection.prepareStatement(sql);
+            ps.setString(1, imei + "%");
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                return true;
+            }
+            return false;
+        } catch (Exception ex) {
+            logger.error("ERROR checkHSBelongMVT imei " + imei, ex);
+            logger.error(AppManager.logException(timeStart, ex));
+            return false;
+        } finally {
+            closeStatement(ps);
+            closeConnection(connection);
+            logTimeDb("Time to checkHSBelongMVT, imei " + imei, timeStart);
+        }
+    }
+
+    public boolean checkCorrectProfile(String isdn) {
+        ResultSet rs = null;
+        Connection connection = null;
+        PreparedStatement ps = null;
+        boolean result = false;
+        StringBuilder br = new StringBuilder();
+        String sql = "";
+        if (isdn.startsWith("258")) {
+            isdn = isdn.substring(3);
+        }
+        long startTime = System.currentTimeMillis();
+        try {
+            connection = getConnection("cm_pre");
+            sql = "select a.isdn from cm_pre.sub_profile_info a, cm_pre.sub_mb b where a.isdn = b.isdn and b.status = 2 \n"
+                    + "and a.cust_id = b.cust_id and a.isdn = ? and a.check_status = 1";
+            ps = connection.prepareStatement(sql);
+            ps.setString(1, isdn);
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                String otpResult = rs.getString("isdn");
+                if (otpResult != null && otpResult.length() > 0) {
+                    result = true;
+                    break;
+                }
+            }
+            logger.info("End checkCorrectProfile isdn " + isdn + " result " + result + " time "
+                    + (System.currentTimeMillis() - startTime));
+        } catch (Exception ex) {
+            br.setLength(0);
+            br.append(loggerLabel).append(new Date()).
+                    append("\nERROR checkCorrectProfile: ").
+                    append(sql).append("\n")
+                    .append(" isdn ")
+                    .append(isdn)
+                    .append(" result ")
+                    .append(result);
+            logger.error(br + ex.toString());
+        } finally {
+            closeResultSet(rs);
+            closeStatement(ps);
+            closeConnection(connection);
+            return result;
+        }
+    }
+
+    public boolean checkCorrectOldProfile(String isdn) {
+        ResultSet rs = null;
+        Connection connection = null;
+        PreparedStatement ps = null;
+        boolean result = false;
+        StringBuilder br = new StringBuilder();
+        String sql = "";
+        if (isdn.startsWith("258")) {
+            isdn = isdn.substring(3);
+        }
+        long startTime = System.currentTimeMillis();
+        try {
+            connection = getConnection("cm_pre");
+            sql = "select a.isdn_account from profile.action_profile a, cm_pre.customer b where  \r\n"
+                    + "a.cust_id = b.cust_id and a.isdn_account = ? and a.check_info = '0' \r\n"
+                    + "and a.check_status = 1";
+            ps = connection.prepareStatement(sql);
+            ps.setString(1, isdn);
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                String otpResult = rs.getString("isdn_account");
+                if (otpResult != null && otpResult.length() > 0) {
+                    result = true;
+                    break;
+                }
+            }
+            logger.info("End checkCorrectOldProfile isdn " + isdn + " result " + result + " time "
+                    + (System.currentTimeMillis() - startTime));
+        } catch (Exception ex) {
+            br.setLength(0);
+            br.append(loggerLabel).append(new Date()).
+                    append("\nERROR checkCorrectOldProfile: ").
+                    append(sql).append("\n")
+                    .append(" isdn ")
+                    .append(isdn)
+                    .append(" result ")
+                    .append(result);
+            logger.error(br + ex.toString());
+        } finally {
+            closeResultSet(rs);
+            closeStatement(ps);
+            closeConnection(connection);
+            return result;
+        }
+    }
+}

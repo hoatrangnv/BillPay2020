@@ -1,0 +1,21 @@
+#=================================================
+#Confif
+#so test
+MSISDN_TEST=841668795938
+# chu ky thoi gian check (ms)
+PERIOD_CHECK = 30000
+#Dau so test
+CHANNEL_TEST=154
+#noi dung test
+MESSAGE_TEST=Tin nhan test
+
+#SMSGATEWAY
+[smsws]
+url = http://192.168.176.190:18008/vasp/Service.asmx
+username = sms2008
+password = sms2008
+
+[smsws]
+url = http://10.58.34.5:8091/vasp/Service.asmx
+username = sms2008
+password = sms2008

@@ -1,0 +1,165 @@
+/*
+ * Copyright (C) 2010 Viettel Telecom. All rights reserved.
+ * VIETTEL PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ */
+package com.viettel.vas.wsfw.services;
+
+import com.viettel.smsfw.manager.AppManager;
+import com.viettel.vas.wsfw.common.WebserviceAbstract;
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebService;
+import java.awt.image.BufferedImage;
+import java.io.BufferedOutputStream;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import javax.imageio.ImageIO;
+import org.apache.commons.httpclient.HttpConnectionManager;
+import org.apache.commons.httpclient.MultiThreadedHttpConnectionManager;
+import org.apache.commons.httpclient.methods.PostMethod;
+import org.apache.commons.httpclient.methods.RequestEntity;
+import org.apache.commons.httpclient.methods.StringRequestEntity;
+import org.apache.commons.httpclient.params.HttpConnectionManagerParams;
+import java.io.InputStream;
+import javax.xml.ws.WebServiceException;
+import javax.xml.ws.soap.MTOM;
+import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
+
+/**
+ *
+ * @author minhnh@viettel.com.vn
+ * @since Jun 4, 2013
+ * @version 1.0
+ */
+@WebService
+@MTOM(enabled = true, threshold = 10240)
+public class ConvertImage extends WebserviceAbstract {
+
+//    DbChannelProcessor db;
+    public ConvertImage() {
+        super("ConvertImage");
+        try {
+//            db = new DbChannelProcessor("dbBockd", logger);
+        } catch (Exception ex) {
+            logger.error("Fail init webservice ConvertImage");
+            logger.error(ex);
+        }
+    }
+
+    @WebMethod(operationName = "pushImage")
+    public String pushImage(@WebParam(name = "dataImage") String dataImage) throws Exception {
+        logger.info("Start pushImage dataImage ");
+        try {
+            // convert byte array back to BufferedImage
+            BASE64Decoder decoder = new BASE64Decoder();
+            byte[] imageByte = decoder.decodeBuffer(dataImage);
+            logger.info("imageByte " + imageByte.toString());
+            InputStream in = new ByteArrayInputStream(imageByte);
+            logger.info("start read ");
+            BufferedImage bImageFromConvert = ImageIO.read(in);
+            String signImagePath = "D:\\STUDY\\Project\\Movitel\\MOV_WS\\huy.jpg";
+            logger.info("start new file " + signImagePath);
+            File outputfile = new File(signImagePath);
+            logger.info("end new file " + outputfile.getPath());
+            logger.info("start write to file " + signImagePath);
+            ImageIO.write(bImageFromConvert, "jpg", outputfile);
+//            File outputfile = new File("/u01/app/ptud/WS_ChannelManage/image/test.png");
+//            File test = new File("/u01/app/ptud/WS_ChannelManage/image/thu.txt");            
+//            ImageIO.write(bImageFromConvert, "png", outputfile);
+        } catch (Throwable e) {
+            logger.warn("Had exception " + e.toString());
+            return "Had exception " + e.toString();
+        } finally {
+            logger.info("Finish pushImage");
+            return "success";
+        }
+
+    }
+
+    public String callHttp(String filePath) {
+        String soapResponse = "";
+//        byte[] sign = getArrayBytes(filePath);
+        long start = System.currentTimeMillis();
+        PostMethod post = new PostMethod("http://10.229.42.55:8019/WSMOV/SmartphoneWS?wsdl");
+        try {
+            byte[] imageInByte;
+            BufferedImage originalImage = ImageIO.read(new File(filePath));
+
+            // convert BufferedImage to byte array
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            ImageIO.write(originalImage, "jpg", baos);
+            baos.flush();
+            imageInByte = baos.toByteArray();
+            baos.close();
+            String soapRequest = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ws=\"http://ws.smartphonev2.bss.viettel.com/\">\n"
+                    + "   <soapenv:Header/>\n"
+                    + "   <soapenv:Body>\n"
+                    + "      <ws:pushImage>\n"
+                    + "         <!--Optional:-->\n"
+                    + "         <dataImage>"
+                    + (new BASE64Encoder()).encode(imageInByte)
+                    + "</dataImage>\n"
+                    + "      </ws:pushImage>\n"
+                    + "   </soapenv:Body>\n"
+                    + "</soapenv:Envelope>";
+            RequestEntity entity = new StringRequestEntity(soapRequest, "text/xml", "UTF-8");
+            post.setRequestEntity(entity);
+            post.setRequestHeader("SOAPAction", "false");
+            org.apache.commons.httpclient.HttpClient httpTransport = null;
+            MultiThreadedHttpConnectionManager conMgr = null;
+            if (conMgr == null) {
+                conMgr = new MultiThreadedHttpConnectionManager();
+                conMgr.setMaxConnectionsPerHost(20000);
+                conMgr.setMaxTotalConnections(20000);
+            }
+            if (httpTransport == null) {
+                httpTransport = new org.apache.commons.httpclient.HttpClient(conMgr);
+                HttpConnectionManager conMgr1 = httpTransport.getHttpConnectionManager();
+                HttpConnectionManagerParams conPars = conMgr1.getParams();
+                conPars.setMaxTotalConnections(2000);
+                conPars.setConnectionTimeout(30000); //timeout ket noi : ms
+                conPars.setSoTimeout(60000); //timeout doc ket qua : ms
+            }
+            httpTransport.executeMethod(post);
+            soapResponse = post.getResponseBodyAsString();
+            logger.info("Finish callHttp soapRequest " + soapRequest);
+            return soapResponse;
+        } catch (Exception ex) {
+            logger.info("Exception callHttp ex " + ex.toString());
+            logger.error(AppManager.logException(start, ex));
+            return soapResponse;
+        } finally {
+            post.releaseConnection();
+        }
+    }
+
+    @WebMethod
+    public void upload(String fileName, byte[] imageBytes) {
+        String filePath = "D:\\STUDY\\Project\\Movitel\\MOV_WS\\" + fileName;
+        try {
+            FileOutputStream fos = new FileOutputStream(filePath);
+            BufferedOutputStream outputStream = new BufferedOutputStream(fos);
+            outputStream.write(imageBytes);
+            outputStream.close();
+            System.out.println("Received file: " + filePath);
+        } catch (IOException ex) {
+            System.err.println(ex);
+            throw new WebServiceException(ex);
+        }
+    }
+
+    public static void main(String[] args) {
+        String ts = "	<Error>0</Error>\n" +
+"	<Description>Recharge card lock success.</Description>\n" +
+"	<Original>MmlResponse: sessionId=0x0 sessionControl=DLGCON transactionId=0x0 transXControl=TXBEG commandPerfix=ACK command=TOPUP RCMS CARD parameters=[FACEVALUE=10|SERIAL=119098131040|DESC=Recharge card lock success.|CARDSTATUS=2|RETN=0|EXPIREDATE=20201031|]</Original>";        
+        String val = ts.substring(ts.indexOf("FACEVALUE=") + 10, ts.indexOf("|"));
+        System.out.println("Result " + val);
+//        ConvertImage test = new ConvertImage();
+//        String result = test.callHttp("D:\\STUDY\\Project\\Movitel\\MOV_WS\\test.jpg");
+//        System.out.println("Result " + result);
+    }
+}

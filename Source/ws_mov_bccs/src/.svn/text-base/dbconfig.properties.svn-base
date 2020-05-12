@@ -1,0 +1,11 @@
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+#dao_package=com.viettel.im.database.DAO.
+im_hibernate_file=com/viettel/vas/wsfw/database/hibernate.cfg.xml
+#IM_FILE_CONFIG=com/viettel/im/database/config/im
+#IM_FILE_CONFIG=com/viettel/im/database/config/im_cm_lib
+#IM_FILE_CONFIG=com/viettel/im/database/config/test_hibernate.cfg
+IM_FILE_CONFIG=com/viettel/vas/wsfw/database/hibernate.cfg
+#IM_FILE_CONFIG=com/viettel/im/database/config/smsgatews.cfg
+error_page_forward=error
+pathLocalExportFile=/u01/app/ptud/WS_ChannelManage/tempFile/

@@ -1,0 +1,407 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib
+END
+axis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/axis.jar
+END
+IM.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/IM.jar
+END
+jaxb-xjc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jaxb-xjc.jar
+END
+sjsxp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/sjsxp.jar
+END
+wsdl4j-1.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/wsdl4j-1.5.1.jar
+END
+c3p0-0.9.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/c3p0-0.9.2.1.jar
+END
+PropertiesUtils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/PropertiesUtils.jar
+END
+commons-discovery-0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-discovery-0.2.jar
+END
+httpclient-4.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/httpclient-4.1.1.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jta.jar
+END
+VasUtils_v1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/VasUtils_v1.2.1.jar
+END
+http.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/http.jar
+END
+telnetd2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/telnetd2.jar
+END
+vsa3-vpclient-ws-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/vsa3-vpclient-ws-1.0.jar
+END
+jaxb-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jaxb-impl.jar
+END
+jaxrpc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jaxrpc.jar
+END
+jdom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jdom.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/servlet-api.jar
+END
+jgroups-2.10.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jgroups-2.10.0.GA.jar
+END
+annotations-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/annotations-1.3.2.jar
+END
+commons-net-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-net-2.0.jar
+END
+vsa3-vptoken-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/vsa3-vptoken-1.0.jar
+END
+ultis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/ultis.jar
+END
+log4j-1.2.17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/log4j-1.2.17.jar
+END
+mmserver-3.2.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/mmserver-3.2.7.jar
+END
+bcprov-jdk16-141.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/bcprov-jdk16-141.jar
+END
+commons-v2.1-yc14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-v2.1-yc14.jar
+END
+jep.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jep.jar
+END
+jaxws-rt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jaxws-rt.jar
+END
+commons-dbcp-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-dbcp-1.2.2.jar
+END
+mina-core-2.0.0-M5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/mina-core-2.0.0-M5.jar
+END
+mimepull.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/mimepull.jar
+END
+jta-spec1_0_1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jta-spec1_0_1.jar
+END
+commons-collections-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-collections-3.2.jar
+END
+stax-ex.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/stax-ex.jar
+END
+httpcore-4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/httpcore-4.3.jar
+END
+slf4j-api-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/slf4j-api-1.5.6.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/activation.jar
+END
+slf4j-jdk14-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/slf4j-jdk14-1.5.6.jar
+END
+jaxws-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jaxws-api.jar
+END
+viettelsecurity.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/viettelsecurity.jar
+END
+CollaborationAgent-2.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/CollaborationAgent-2.3.1.jar
+END
+gson-2.2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/gson-2.2.4.jar
+END
+PropertiesUtilsAESv1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/PropertiesUtilsAESv1.1.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/dom4j-1.6.1.jar
+END
+ojdbc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/ojdbc.jar
+END
+jsr173_api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jsr173_api.jar
+END
+org-openide-util.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/org-openide-util.jar
+END
+axis-ant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/axis-ant.jar
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-httpclient-3.1.jar
+END
+httpmime-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/httpmime-4.0.jar
+END
+jaxws-tools.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jaxws-tools.jar
+END
+jsr250-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jsr250-api.jar
+END
+jts1_0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jts1_0.jar
+END
+commons-pool-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-pool-1.3.jar
+END
+ViettelLib 2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/ViettelLib%202.0.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/hibernate3.jar
+END
+streambuffer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/streambuffer.jar
+END
+commons-codec-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-codec-1.3.jar
+END
+VAS_FW_Process_v2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/VAS_FW_Process_v2.1.1.jar
+END
+mchange-commons-java-0.2.3.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/mchange-commons-java-0.2.3.4.jar
+END
+commons-lang-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-lang-2.4.jar
+END
+jaxb-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jaxb-api.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/commons-logging-1.0.4.jar
+END
+sendmtv1.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/sendmtv1.2.0.jar
+END
+jsr181-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jsr181-api.jar
+END
+jmxlog.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/lib/jmxlog.jar
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc
+END
+paymentgw.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/paymentgw.keystore
+END
+webservices.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/webservices.xml
+END
+smsgateway.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/smsgateway.cfg
+END
+dbBccsPos.conf
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/dbBccsPos.conf
+END
+database.xml.ept
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/database.xml.ept
+END
+aeskey.sec
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/aeskey.sec
+END
+loglevel.conf
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/loglevel.conf
+END
+dbBccsPre.conf.ept
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/dbBccsPre.conf.ept
+END
+database.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/database.xml
+END
+server.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/server.cfg
+END
+app.conf
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/app.conf
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/log.conf
+END
+exchange_client.cfg.ept
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/exchange_client.cfg.ept
+END
+smsgateway.cfg.ept
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/smsgateway.cfg.ept
+END
+log_writer.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/log_writer.cfg
+END
+dbBccsPre.conf
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/dbBccsPre.conf
+END
+dbBccsPos.conf.ept
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/dbBccsPos.conf.ept
+END
+exchange_client.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/etc/exchange_client.cfg
+END

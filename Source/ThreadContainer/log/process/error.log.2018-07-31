@@ -1,0 +1,8 @@
+31/07/2018 18:16:37 ERROR [main] Tools:mmserver: 
+31/07/2018 18:16:37 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+31/07/2018 18:16:37 ERROR [main] actionlog: Error in start ActionLogDbUtils
+31/07/2018 18:16:37 ERROR [main] actionlog: java.lang.NullPointerException
+31/07/2018 18:16:46 ERROR [main] Tools:mmserver: 
+31/07/2018 18:16:46 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+31/07/2018 18:16:46 ERROR [main] actionlog: Error in start ActionLogDbUtils
+31/07/2018 18:16:46 ERROR [main] actionlog: java.lang.NullPointerException

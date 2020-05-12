@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/code/!svn/ver/2702/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database
+END
+hibernate.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/hibernate.cfg
+END
+IMSessionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/IMSessionFactory.java
+END
+DbSyncBankTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2392/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/DbSyncBankTransfer.java
+END
+DbProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/2702/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/DbProcessor.java
+END
+DbSyncRevenueBccs.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2392/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/DbSyncRevenueBccs.java
+END
+DbSyncStockTransBccs.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2392/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/DbSyncStockTransBccs.java
+END
+DbPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/code/!svn/ver/1937/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/DbPost.java
+END
+DbPre.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/code/!svn/ver/2702/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/DbPre.java
+END
+DbChannelProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2281/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/DbChannelProcessor.java
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/database/hibernate.cfg.xml
+END

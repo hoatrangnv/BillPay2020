@@ -1,0 +1,220 @@
+reducedWarn=Cluster changes, a few members have out from the cluster.
+increasedWarn=Cluster changes, a few members have joined the cluster.
+changedClusterCannotConnectDbWarn=Cluster changes, cluster has one node. This node cann't connect database.
+
+<<<<<<< .mine
+#[sms1]
+##mandatory
+#clusterName=BLOCKPHONEFRAUD
+#nodeName=BLOCKPHONEFRAUD_Node1
+##Lay ra cac ban ghi can block
+#sql=select * from (select a.*,'BLOCK' as action_type from fraud_sub_input a) where rownum<1000 and mod(fraud_sub_input_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6611]R
+#ip=127.0.0.1
+#port=8126
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+##protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.BlockOneWaySmuggleNumber
+#dbprocess_class=com.viettel.paybonus.database.DbFraudSub
+#instances=1
+#db_name=db_payment
+=======
+>>>>>>> .r2693
+
+<<<<<<< .mine
+#[sms2]
+##mandatory
+#clusterName=UNBLOCKPHONEFRAUD
+#nodeName=UNBLOCKPHONEFRAUD_Node1
+##Lay ra cac ban ghi can block
+#sql=select * from (select a.his_id as FRAUD_SUB_INPUT_ID,a.ISDN,a. COMMAND,a.INPUT_TIME,a.FILE_NAME,'UNLOCK' as action_type  from fraud_sub_input_his a where action_time > trunc(sysdate-30) and (last_unlock_time is null or last_unlock_time < sysdate-30/24/60 ) and err_code ='0' and last_unlock_status = 0 ) where rownum<1000 and mod(FRAUD_SUB_INPUT_ID, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6612]
+#ip=127.0.0.1
+#port=8128
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+##protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.BlockOneWaySmuggleNumber
+#dbprocess_class=com.viettel.paybonus.database.DbFraudSub
+#instances=1
+#db_name=db_payment
+
+#[sms3]
+##mandatory
+#clusterName=BLOCKEXTSUB
+#nodeName=BLOCKEXTSUB_Node1
+##Lay ra cac ban ghi can block
+#sql=select * from (select calling_number as isdn ,0 as rollback_id,fraud_id,'BLOCK' as act_type from fraud_suboffne_input) where rownum<1000 and mod(fraud_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6612]
+#ip=127.0.0.1
+#port=8128
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+##protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.FraudExtBlocker
+#dbprocess_class=com.viettel.paybonus.database.DbFraudExtBlocker
+#instances=1
+#db_name=db_payment
+
+
+
+#[sms4]
+##mandatory
+#clusterName=UNLOCK
+#nodeName=UNLOCK_Node1
+##Lay ra cac ban ghi can block
+#sql=select * from (select id as rollback_id,isdn , 0 as fraud_id,'UNBLOCK' as act_type from fraud_suboffnet_rollback where status =0) where rownum<1000 and mod(rollback_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6619]
+#ip=127.0.0.1
+#port=8126
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+##protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.FraudExtBlocker
+#dbprocess_class=com.viettel.paybonus.database.DbFraudExtBlocker
+#instances=1
+#db_name=db_payment
+
+
+#[sms5]
+##mandatory
+#clusterName=UNLOCK2
+#nodeName=UNLOCK2_Node1
+##Lay ra cac ban ghi can block
+#sql=select * from (select distinct id as rollback_id,isdn,fraud_id,'UNBLOCK_CYCLLE' as act_type  from fraud_suboffnet_his where process_time > trunc(sysdate-1 ) and process_time < trunc(sysdate) and err_code ='0' and action_type ='BLOCK' and unblock_status in (0)) where rownum<1000 and mod(rollback_id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[6610]
+#ip=127.0.0.1
+#port=8122
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+##protocolStack=G:\\Workspace\\netbean\\process\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.FraudExtBlocker
+#dbprocess_class=com.viettel.paybonus.database.DbFraudExtBlocker
+#instances=1
+#db_name=db_payment
+
+#[SMS1]
+##mandatory
+#clusterName=PhonePromotionPOS
+#nodeName=PhonePromotionPOS_Node1
+#sql=select * from (select c.action_audit_id,a.sub_id,a.isdn,a.imsi,a.user_created,a.shop_code,a.product_code,a.serial from cm_pos.sub_mb a, cm_pos.special_mobile_product b , cm_pos.action_audit c  where a.create_date >= trunc(sysdate-10) and  a.create_date < sysdate - 3 and  a.status=2 and a.act_status = '000' and a.product_code = b.product_Code and b.status =1 and c.issue_datetime > trunc(sysdate-10) and a.sub_id = c.pk_id and c.description like '%ER_MAA_0196%' AND not exists (select * from bonus_connect_post_paid b where a.isdn = b.isdn)   ) where rownum<1000 and mod(to_number(action_audit_id), %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[8636]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\BACNX\\Applications\\BCCS\\Processes\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.BonusConnectPostpaidProcess
+#dbprocess_class=com.viettel.paybonus.database.DbBonusConnectPostpaid
+#instances=1
+#db_name=cm_pos
+
+
+#[SMS1]
+##mandatory
+#clusterName=PhonePromotionPOS
+#nodeName=PhonePromotionPOS_Node1
+#sql=select * from (select * from bonus_connect_post_paid_req where status =0) where rownum<1000 and mod(id, %nbMembers%) = %order%
+#sqlCountQueueSize =
+#initialHosts=127.0.0.1[8636]
+#ip=127.0.0.1
+#port=5611
+#timeout=1200000
+#checkInterval=500
+##allow or disallow to log timeout and loaded records
+#extraLog=true
+#protocolStack=D:\\BACNX\\Applications\\BCCS\\Processes\\ThreadContainer\\etc\\tcp.xml
+#process_class=com.viettel.paybonus.process.BonusConnectPostpaidProcess
+#dbprocess_class=com.viettel.paybonus.database.DbBonusConnectPostpaid
+#instances=1
+#db_name=cm_pos
+
+
+[SMS2]
+=======
+[sms1]
+>>>>>>> .r2693
+#mandatory
+<<<<<<< .mine
+clusterName=REPORT_BUILDER
+nodeName=REPORT_BUILDER_Node1
+sql=select * from (select * from report_profile_branch where status =1 and ((last_process_time < trunc(sysdate) and to_char(last_process_time,'MI') ='11') or last_process_time is null) order by priority) where rownum<1000 and mod(id, %nbMembers%) = %order%
+=======
+clusterName=EmolaPromAirtime
+nodeName=EmolaPromAirtime_Node1
+#Remember only setup 1 node
+sql=select i.CustomerID, i.InvoiceID, i.Quantity, i.CreatedDate, i.ServiceId, c.Mobile, c.CustomerName from Core_Invoice i inner join core_customer c on i.CustomerID = c.CustomerID where i.CreatedDate > DATEADD(DAY,-3,GETDATE()) and i.ServiceID = 5 and i.Quantity >= 50 and i.status = 1
+>>>>>>> .r2693
+sqlCountQueueSize =
+<<<<<<< .mine
+initialHosts=127.0.0.1[8577]
+=======
+initialHosts=127.0.0.1[7311]
+>>>>>>> .r2693
+ip=127.0.0.1
+<<<<<<< .mine
+port=5512
+=======
+port=8611
+>>>>>>> .r2693
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+<<<<<<< .mine
+protocolStack=F:\\Workspace\\netbean\\process\\3g_process\\etc\\tcp.xml
+process_class=com.viettel.report.ReportBuilder
+dbprocess_class=com.viettel.report.ReportRawDataBuilder
+=======
+protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+process_class=com.viettel.emola.process.EmolaServiceBaseBtsScaner
+dbprocess_class=com.viettel.emola.process.EmolaDbProcessor
+>>>>>>> .r2693
+instances=1
+<<<<<<< .mine
+db_name=dbReport
+=======
+db_name=dbEmolaMsSql
+>>>>>>> .r2693
+
+
+<<<<<<< .mine
+=======
+[sms2]
+#mandatory
+clusterName=EmolaPromElectric
+nodeName=EmolaPromElectric_Node1
+#Remember only setup 1 node
+sql=select i.CustomerID, i.InvoiceID, i.Quantity, i.CreatedDate, i.ServiceId, c.Mobile, c.CustomerName from Core_Invoice i inner join core_customer c on i.CustomerID = c.CustomerID where i.CreatedDate > DATEADD(MINUTE,-2,GETDATE()) and i.ServiceID = 153 and i.Quantity >= 50 and i.status = 1
+sqlCountQueueSize =
+initialHosts=127.0.0.1[7312]
+ip=127.0.0.1
+port=8612
+timeout=1200000
+checkInterval=500
+#allow or disallow to log timeout and loaded records
+extraLog=true
+protocolStack=D:\\STUDY\\Project\\Movitel\\mBCCS_MOZ_FULL\\PayBonus\\etc\\tcp.xml
+process_class=com.viettel.emola.process.EmolaServiceBaseBtsScaner
+dbprocess_class=com.viettel.emola.process.EmolaDbProcessor
+instances=1
+db_name=dbEmolaMsSql>>>>>>> .r2693

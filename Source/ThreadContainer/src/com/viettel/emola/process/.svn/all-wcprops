@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/emola/process
+END
+EmolaDbProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/emola/process/EmolaDbProcessor.java
+END
+EmolaDepositServiceBaseBtsScaner.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/emola/process/EmolaDepositServiceBaseBtsScaner.java
+END
+EmolaTransactionDbProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/emola/process/EmolaTransactionDbProcessor.java
+END
+EmolaDepositCashoutServiceBaseBtsScaner.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/emola/process/EmolaDepositCashoutServiceBaseBtsScaner.java
+END
+EmolaServiceBaseBtsScaner.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/emola/process/EmolaServiceBaseBtsScaner.java
+END

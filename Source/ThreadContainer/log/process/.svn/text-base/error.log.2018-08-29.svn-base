@@ -1,0 +1,166 @@
+29/08/2018 11:03:13 ERROR [main] Tools:mmserver: 
+29/08/2018 11:03:13 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 11:03:13 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 11:03:13 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 11:47:43 ERROR [main] Tools:mmserver: 
+29/08/2018 11:47:43 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 11:47:43 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 11:47:43 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 11:47:49 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 11:48:20 ERROR [PayForBank_Node1.0] 0: ProcessMoAbstract: Wed Aug 29 11:48:20 CAT 2018
+ERROR process:
+[com.viettel.paybonus.obj.BankFileDetail@73e2bda7, com.viettel.paybonus.obj.BankFileDetail@2b115a61]
+java.lang.ClassCastException: com.viettel.paybonus.obj.BankFileDetail cannot be cast to com.viettel.paybonus.obj.KitVas
+	at com.viettel.bank.manage.PaymentByBank.printListRecord(PaymentByBank.java:94)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:188)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+29/08/2018 11:50:30 ERROR [main] Tools:mmserver: 
+29/08/2018 11:50:30 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 11:50:30 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 11:50:30 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 11:50:34 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 11:52:08 ERROR [PayForBank_Node1.0] ACTIVECARD:type=ProcessManager: ERROR deleteQueue BankFileDetail batchid 20180829115052997
+java.sql.BatchUpdateException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbPaymentByBank.deleteQueue(DbPaymentByBank.java:129)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:261)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+29/08/2018 11:52:13 ERROR [PayForBank_Node1.0] ACTIVECARD:type=ProcessManager: Error: java.sql.BatchUpdateException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.paybonus.database.DbPaymentByBank.deleteQueue(DbPaymentByBank.java:129)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:261)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 19689
+29/08/2018 11:52:13 ERROR [PayForBank_Node1.0] 0: ProcessMoAbstract: BREAK DELETE MO ==> ERROR DATABASE ==> NOT PROCESS CONTINOUS
+[com.viettel.paybonus.obj.BankFileDetail@698281b8, com.viettel.paybonus.obj.BankFileDetail@77128d25]
+29/08/2018 11:58:25 ERROR [main] Tools:mmserver: 
+29/08/2018 11:58:25 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 11:58:25 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 11:58:25 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 11:58:30 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 12:01:01 ERROR [main] Tools:mmserver: 
+29/08/2018 12:01:01 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 12:01:01 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 12:01:01 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 12:01:06 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 14:00:01 ERROR [main] Tools:mmserver: 
+29/08/2018 14:00:01 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 14:00:01 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 14:00:01 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 14:00:06 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 14:37:10 ERROR [main] Tools:mmserver: 
+29/08/2018 14:37:10 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 14:37:10 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 14:37:10 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 14:37:15 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 14:39:54 ERROR [main] Tools:mmserver: 
+29/08/2018 14:39:54 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 14:39:54 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 14:39:54 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 14:39:58 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 14:41:40 ERROR [main] Tools:mmserver: 
+29/08/2018 14:41:40 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 14:41:40 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 14:41:40 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 14:41:45 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 15:05:51 ERROR [main] Tools:mmserver: 
+29/08/2018 15:05:51 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:05:51 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:05:51 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:05:56 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 15:15:23 ERROR [main] Tools:mmserver: 
+29/08/2018 15:15:23 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:15:23 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:15:23 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:15:27 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 15:17:09 ERROR [PayForBank_Node1.0] 0: 
+ERROR process request:
+Error: java.lang.UnsupportedOperationException: Not supported yet.
+	at com.viettel.paybonus.database.DbPaymentByBank.insertQueueOutput(DbPaymentByBank.java:182)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:306)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 84587
+29/08/2018 15:17:57 ERROR [PayForBank_Node1.0] ACTIVECARD:type=ProcessManager: ERROR insertQueueHis bank_file_his batchid 20180829151545129
+java.sql.SQLException: ERROR insertTable: INSERT INTO bank_file_his(BANK_FILE_DETAIL_ID,BANK_FILE_INFO_ID,REFERENCE,VALUE_PAY,VALUE_COM,FILE_TIME,IMPORT_TIME,TRANS_ID,TERMINAL_ID,TERMINAL_LOCATION,ERR_CODE,DESCRIPTION,PROCESS_TIME,NODE_NAME,CLUSTER_NAME,DURATION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,sysdate,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.DbPaymentByBank.insertQueueHis(DbPaymentByBank.java:170)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:447)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.BatchUpdateException: ORA-00001: unique constraint (CTV_MANAGE.BFH_PK) violated
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 4 more
+29/08/2018 15:17:57 ERROR [PayForBank_Node1.0] ACTIVECARD:type=ProcessManager: Error: java.sql.SQLException: ERROR insertTable: INSERT INTO bank_file_his(BANK_FILE_DETAIL_ID,BANK_FILE_INFO_ID,REFERENCE,VALUE_PAY,VALUE_COM,FILE_TIME,IMPORT_TIME,TRANS_ID,TERMINAL_ID,TERMINAL_LOCATION,ERR_CODE,DESCRIPTION,PROCESS_TIME,NODE_NAME,CLUSTER_NAME,DURATION) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,sysdate,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.DbPaymentByBank.insertQueueHis(DbPaymentByBank.java:170)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:447)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.BatchUpdateException: ORA-00001: unique constraint (CTV_MANAGE.BFH_PK) violated
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 4 more
+ Time: 42
+29/08/2018 15:17:57 ERROR [PayForBank_Node1.0] 0: ProcessMoAbstract: BREAK INSERT HISTORY ==> ERROR DATABASE
+[com.viettel.paybonus.obj.BankFileDetail@1b4d774f, com.viettel.paybonus.obj.BankFileDetail@7ad3f189]
+29/08/2018 15:17:57 ERROR [PayForBank_Node1.0] 0: ProcessMoAbstract: Wed Aug 29 15:17:57 CAT 2018
+ERROR process:
+[com.viettel.paybonus.obj.BankFileDetail@1b4d774f, com.viettel.paybonus.obj.BankFileDetail@7ad3f189]
+java.lang.UnsupportedOperationException: Not supported yet.
+	at com.viettel.paybonus.database.DbPaymentByBank.insertQueueOutput(DbPaymentByBank.java:182)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:467)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+29/08/2018 15:22:16 ERROR [main] Tools:mmserver: 
+29/08/2018 15:22:16 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:22:16 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:22:16 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:23:57 ERROR [main] Tools:mmserver: 
+29/08/2018 15:23:57 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:23:57 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:23:57 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:24:02 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 15:39:38 ERROR [main] Tools:mmserver: 
+29/08/2018 15:39:38 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:39:38 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:39:38 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:43:38 ERROR [main] Tools:mmserver: 
+29/08/2018 15:43:38 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:43:38 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:43:38 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:43:43 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 15:44:03 ERROR [main] Tools:mmserver: 
+29/08/2018 15:44:03 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:44:03 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:44:03 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:44:40 ERROR [main] Tools:mmserver: 
+29/08/2018 15:44:40 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:44:40 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:44:40 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:44:45 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+29/08/2018 15:47:46 ERROR [main] Tools:mmserver: 
+29/08/2018 15:47:46 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+29/08/2018 15:47:46 ERROR [main] actionlog: Error in start ActionLogDbUtils
+29/08/2018 15:47:46 ERROR [main] actionlog: java.lang.NullPointerException
+29/08/2018 15:47:51 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611

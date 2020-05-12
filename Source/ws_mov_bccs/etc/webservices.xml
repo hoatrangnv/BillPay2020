@@ -1,0 +1,14 @@
+<list>
+     
+<!--        <webservice name='SyncMerchantAccountBCCS' implementClass='com.viettel.vas.wsfw.services.SyncMerchantAccountBCCS' ip='127.0.0.1' port='8078' path='BCCS-API'/>
+		<webservice name='SyncEmolaFloatBCCS' implementClass='com.viettel.vas.wsfw.services.SyncEmolaFloatBCCS' ip='127.0.0.1' port='8077' path='BCCS-API'/>
+		<webservice name='SyncBankTransferBCCS' implementClass='com.viettel.vas.wsfw.services.SyncBankTransferBCCS' ip='127.0.0.1' port='8075' path='BCCS-API'/>
+		<webservice name='SyncRevenueBCCS' implementClass='com.viettel.vas.wsfw.services.SyncRevenueBCCS' ip='127.0.0.1' port='8088' path='BCCS-API'/>
+	
+		 <webservice name='TopupHavePosFund' implementClass='com.viettel.vas.wsfw.services.TopupHavePosFund' ip='127.0.0.1' port='9598' path='TopupHavePosFund'/>
+	 <webservice name='TopupHavePreFund' implementClass='com.viettel.vas.wsfw.services.TopupHavePreFund' ip='127.0.0.1' port='9699' path='TopupHavePreFund'/>
+	-->
+			 <webservice name='TopupNoFund' implementClass='com.viettel.vas.wsfw.services.TopupNoFund' ip='127.0.0.1' port='9797' path='TopupNoFund'/>
+
+
+</list>

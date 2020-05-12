@@ -1,0 +1,1533 @@
+07/05/2020 11:02:31 ERROR [main] Tools:mmserver: 
+07/05/2020 11:02:31 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/05/2020 11:02:31  INFO [main] Error Definition Handler: register MBeanServer:Tools:name=ErrorDefinitionHandler
+07/05/2020 11:02:31  INFO [main] Tools:name=ErrorDefinitionHandler: Created an instance of ErrorDefinitionHandler
+07/05/2020 11:02:31  INFO [main] Scheduler: register MBeanServer:Tools:name=Scheduler
+07/05/2020 11:02:31  INFO [main] Tools:name=Scheduler: starting Scheduler process...
+07/05/2020 11:02:31  INFO [main] Tools:name=Scheduler: Scheduler process  is started
+07/05/2020 11:02:31  INFO [Scheduler] Tools:name=Scheduler: Scheduler is starting to run
+07/05/2020 11:02:31  INFO [Scheduler] Tools:name=Scheduler: Timer is OK!
+07/05/2020 11:02:31  INFO [Timer-0] Tools:name=Scheduler: Test if the timer is cancel or not 
+07/05/2020 11:02:31  INFO [main] Blocked Detecting Thread: register MBeanServer:Tools:name=BlockedDetector
+07/05/2020 11:02:31  INFO [main] Tools:name=BlockedDetector: starting Blocked Detecting Thread process...
+07/05/2020 11:02:31  INFO [main] Tools:name=BlockedDetector: Blocked Detecting Thread process  is started
+07/05/2020 11:02:31  INFO [Blocked Detecting Thread] Tools:name=BlockedDetector: Blocked Detecting Thread is starting to run
+07/05/2020 11:02:31  INFO [main] Tools:name=ErrorDefinitionHandler: starting Error Definition Handler process...
+07/05/2020 11:02:31  INFO [main] Tools:name=ErrorDefinitionHandler: Error Definition Handler process  is started
+07/05/2020 11:02:31  INFO [Error Definition Handler] Tools:name=ErrorDefinitionHandler: Error Definition Handler is starting to run
+07/05/2020 11:02:31  INFO [main] Action Log Thread: starting Action Log Thread process...
+07/05/2020 11:02:31  INFO [main] Action Log Thread: Action Log Thread process  is started
+07/05/2020 11:02:31  INFO [Action Log Thread] Action Log Thread: Action Log Thread is starting to run
+07/05/2020 11:02:31 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/05/2020 11:02:31 ERROR [main] actionlog: java.lang.NullPointerException
+07/05/2020 11:02:31  INFO [main] mbeanserver: Init Authenticator
+07/05/2020 11:02:32  INFO [main] mbeanserver: Creating JMX Url connection
+07/05/2020 11:02:32  INFO [main] mbeanserver: Creating MBean Server Forwarder
+07/05/2020 11:02:32  INFO [main] mbeanserver: Started succesfully
+07/05/2020 11:29:39 ERROR [main] Tools:mmserver: 
+07/05/2020 11:29:39 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/05/2020 11:29:39  INFO [main] Error Definition Handler: register MBeanServer:Tools:name=ErrorDefinitionHandler
+07/05/2020 11:29:39  INFO [main] Tools:name=ErrorDefinitionHandler: Created an instance of ErrorDefinitionHandler
+07/05/2020 11:29:39  INFO [main] mmserver: ErrorFilterJDBCAppender is trying to get Error Definition from database 
+07/05/2020 11:29:39  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:29:39  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:29:39  WARN [main] mmserver: ErrorFilterJDBCAppender can not load error Definition from database 
+07/05/2020 11:29:39  INFO [main] mmserver: Starting M&M Server...
+07/05/2020 11:29:39  INFO [main] mmserver: Application ID: ACTIVECARD
+07/05/2020 11:29:39  INFO [main] Scheduler: register MBeanServer:Tools:name=Scheduler
+07/05/2020 11:29:39  INFO [main] Tools:name=Scheduler: starting Scheduler process...
+07/05/2020 11:29:39  INFO [main] Tools:name=Scheduler: Scheduler process  is started
+07/05/2020 11:29:39  INFO [Scheduler] Tools:name=Scheduler: Scheduler is starting to run
+07/05/2020 11:29:39  INFO [Scheduler] Tools:name=Scheduler: Timer is OK!
+07/05/2020 11:29:39  INFO [Timer-0] Tools:name=Scheduler: Test if the timer is cancel or not 
+07/05/2020 11:29:39  WARN [Scheduler] mmserver: java.lang.NullPointerException
+07/05/2020 11:29:39  INFO [main] Blocked Detecting Thread: register MBeanServer:Tools:name=BlockedDetector
+07/05/2020 11:29:39  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:29:39  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:29:39  INFO [main] Tools:name=BlockedDetector: starting Blocked Detecting Thread process...
+07/05/2020 11:29:39  INFO [main] Tools:name=BlockedDetector: Blocked Detecting Thread process  is started
+07/05/2020 11:29:39  INFO [main] mmserver: Register Status Collector
+07/05/2020 11:29:39  INFO [Blocked Detecting Thread] Tools:name=BlockedDetector: Blocked Detecting Thread is starting to run
+07/05/2020 11:29:39  INFO [main] mmserver: Initlizing a ErrorDefinitionHandler
+07/05/2020 11:29:39  INFO [main] Tools:name=ErrorDefinitionHandler: starting Error Definition Handler process...
+07/05/2020 11:29:39  INFO [main] Tools:name=ErrorDefinitionHandler: Error Definition Handler process  is started
+07/05/2020 11:29:39  INFO [Error Definition Handler] Tools:name=ErrorDefinitionHandler: Error Definition Handler is starting to run
+07/05/2020 11:29:39  INFO [main] mmserver: Initlized a ErrorDefinitionHandler
+07/05/2020 11:29:39  INFO [main] mmserver: Registering Command Interface
+07/05/2020 11:29:39  INFO [main] mmserver: JmxAgent starting with ip: 127.0.0.1 and port: 14482
+07/05/2020 11:29:39  INFO [main] Action Log Thread: starting Action Log Thread process...
+07/05/2020 11:29:39  INFO [main] Action Log Thread: Action Log Thread process  is started
+07/05/2020 11:29:39 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/05/2020 11:29:39  INFO [Action Log Thread] Action Log Thread: Action Log Thread is starting to run
+07/05/2020 11:29:39 ERROR [main] actionlog: java.lang.NullPointerException
+07/05/2020 11:29:39  INFO [main] mbeanserver: Init Authenticator
+07/05/2020 11:29:39  INFO [main] mbeanserver: Creating JMX Url connection
+07/05/2020 11:29:39  INFO [main] mbeanserver: Creating MBean Server Forwarder
+07/05/2020 11:29:39  INFO [main] mbeanserver: Started succesfully
+07/05/2020 11:29:39  INFO [main] mmserver: JmxAgent started with ip: 127.0.0.1 and port: 14482
+07/05/2020 11:29:39  INFO [main] mmserver: Log Socket with ip: 127.0.0.1 and port: 14485
+07/05/2020 11:29:39  INFO [main] mmserver: M&M Server started!
+07/05/2020 11:29:41  INFO [main] ProcessManager: register MBeanServer:USSD_VAS_GW:type=ProcessManager
+07/05/2020 11:29:41  INFO [main] USSD_VAS_GW:type=ProcessManager: ===> Load class: com.viettel.vasgw.process.Vas155
+07/05/2020 11:29:41  INFO [main] Vas155: Config:VasProcess-0
+07/05/2020 11:29:41  INFO [main] Vas155: register MBeanServer:USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0
+07/05/2020 11:29:41  INFO [main] VasProcess_1: idle time = 15
+07/05/2020 11:29:41  INFO [main] VasProcess_1: allMsgEncrypted = 0
+07/05/2020 11:29:41  INFO [main] VasProcess_1: make sender
+07/05/2020 11:29:41  INFO [main] VasProcess_1-Sender: make Nioconnector
+07/05/2020 11:29:41  INFO [main] VasProcess_1: make receiver
+07/05/2020 11:29:41  INFO [main] VasProcess_1-Receiver: make acceptor and open a port
+07/05/2020 11:29:41  INFO [main] VasProcess_1: load secret key if any
+07/05/2020 11:29:41  INFO [main] VasProcess_1: encryption mode
+07/05/2020 11:29:41  INFO [main] VasProcess_1: get backup connector id
+07/05/2020 11:29:41  INFO [main] VasProcess_1: backup connector id: 0
+07/05/2020 11:29:41  WARN [main] VasProcess_1: None backup connector for connector: 1
+07/05/2020 11:29:41  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Initing TransferRequest process before start 
+07/05/2020 11:29:41  INFO [main] MLog: MLog clients using log4j logging.
+07/05/2020 11:29:41  INFO [main] C3P0Registry: Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+07/05/2020 11:29:44  INFO [main] Vas155DbProcessor: Loading Biz config from DB....
+07/05/2020 11:29:45  INFO [main] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91u603f33fc4gp|16fbcb70, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91u603f33fc4gp|16fbcb70, idleConnectionTestPeriod -> 30, initialPoolSize -> 20, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+07/05/2020 11:29:45  INFO [main] Vas155DbProcessor: Load Biz config done. Map size 105. Time 722
+07/05/2020 11:29:45  INFO [main] Vas155DbProcessor: Loading Menu config from DB....
+07/05/2020 11:29:45  INFO [main] Vas155DbProcessor: Load Menu config done. Map size 836. Time 361
+07/05/2020 11:29:46  INFO [main] Vas155DbProcessor: getParramValueConfig from DB....
+07/05/2020 11:29:46  INFO [main] Vas155DbProcessor: getParramValueConfig value  TRUE. Time 7
+07/05/2020 11:29:46  INFO [main] ProcessVasgwLog0: register MBeanServer:USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0
+07/05/2020 11:29:46  INFO [main] LogWriter[0]: LogWriter is actived
+07/05/2020 11:29:46  INFO [main] LogWriter[0]: register MBeanServer:logging:type=LogWriter, name=LogWriter[0]
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[0]: starting LogWriter[0] process...
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] process  is started
+07/05/2020 11:29:46  INFO [LogWriter[0]] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] is starting to run
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] is started
+07/05/2020 11:29:46  INFO [main] ProcessVasgwLog1: register MBeanServer:USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1
+07/05/2020 11:29:46  INFO [main] LogWriter[1]: LogWriter is actived
+07/05/2020 11:29:46  INFO [main] LogWriter[1]: register MBeanServer:logging:type=LogWriter, name=LogWriter[1]
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[1]: starting LogWriter[1] process...
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] process  is started
+07/05/2020 11:29:46  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] is starting to run
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] is started
+07/05/2020 11:29:46  INFO [main] ProcessTransLog0: register MBeanServer:USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0
+07/05/2020 11:29:46  INFO [main] LogWriter[2]: LogWriter is actived
+07/05/2020 11:29:46  INFO [main] LogWriter[2]: register MBeanServer:logging:type=LogWriter, name=LogWriter[2]
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[2]: starting LogWriter[2] process...
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] process  is started
+07/05/2020 11:29:46  INFO [LogWriter[2]] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] is starting to run
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] is started
+07/05/2020 11:29:46  INFO [main] ProcessTransLog1: register MBeanServer:USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1
+07/05/2020 11:29:46  INFO [main] LogWriter[3]: LogWriter is actived
+07/05/2020 11:29:46  INFO [main] LogWriter[3]: register MBeanServer:logging:type=LogWriter, name=LogWriter[3]
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[3]: starting LogWriter[3] process...
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] process  is started
+07/05/2020 11:29:46  INFO [LogWriter[3]] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] is starting to run
+07/05/2020 11:29:46  INFO [main] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] is started
+07/05/2020 11:29:46  INFO [main] VasProcess_1-Receiver: bind to port: 1760
+07/05/2020 11:29:46  INFO [main] VasProcess_1-Receiver: bind success
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: starting ConnectorProcessThreadAbstract process...
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ConnectorProcessThreadAbstract process  is started
+07/05/2020 11:29:46  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ConnectorProcessThreadAbstract is starting to run
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start ConnectorProcessThreadAbstract: VasProcess-0
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: starting ProcessVasgwLog0 process...
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: ProcessVasgwLog0 process  is started
+07/05/2020 11:29:46  INFO [ProcessVasgwLog0] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: ProcessVasgwLog0 is starting to run
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: starting ProcessVasgwLog1 process...
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: ProcessVasgwLog1 process  is started
+07/05/2020 11:29:46  INFO [ProcessVasgwLog1] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: ProcessVasgwLog1 is starting to run
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: starting ProcessTransLog0 process...
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: ProcessTransLog0 process  is started
+07/05/2020 11:29:46  INFO [ProcessTransLog0] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: ProcessTransLog0 is starting to run
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: starting ProcessTransLog1 process...
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: ProcessTransLog1 process  is started
+07/05/2020 11:29:46  INFO [ProcessTransLog1] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: ProcessTransLog1 is starting to run
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessManager: starting ProcessManager process...
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessManager: ProcessManager process  is started
+07/05/2020 11:29:46  INFO [ProcessManager] USSD_VAS_GW:type=ProcessManager: ProcessManager is starting to run
+07/05/2020 11:29:46  INFO [main] USSD_VAS_GW:type=ProcessManager: +++ SYSTEM PROCESS STARTED  +++
+07/05/2020 11:30:01  INFO [NioProcessor-10] VasProcess_1-Receiver: have a new connection, id = 1
+07/05/2020 11:30:01  INFO [NioProcessor-10] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:30:02  INFO [NioProcessor-10] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:30:02  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:30:02  INFO [NioProcessor-10] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:30:02  INFO [NioProcessor-10] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:30:02  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:30:02  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:30:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:30:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888438019731
+msisdn: 84973718628
+imsi: null
+bizid: 1018
+
+07/05/2020 11:30:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: 8978dfcdadbe1d0d
+07/05/2020 11:30:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:30:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1018 input *860#
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888438019731
+content: 0
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:30:03  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:30:03  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:30:03  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888438036252
+msisdn: 84973718628
+imsi: null
+bizid: 203
+
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:30:03  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 203 input 0
+07/05/2020 11:30:04  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113004122
+07/05/2020 11:30:04  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113004122.log
+07/05/2020 11:30:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888438036252
+content: 0
+07/05/2020 11:30:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:30:04  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:30:04  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:30:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:30:12  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:30:12  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:30:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:30:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888438120543
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 11:30:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 11:30:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:30:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 1
+07/05/2020 11:30:13  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888438120543
+content: SHARE
+07/05/2020 11:30:13  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:30:13  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:30:13  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:30:13  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:30:19  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:30:19  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:30:19  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:30:19  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888438198514
+msisdn: 84973718628
+imsi: null
+bizid: 207
+
+07/05/2020 11:30:19  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 2
+07/05/2020 11:30:19  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:30:19  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 207 input 2
+07/05/2020 11:30:20  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113020130
+07/05/2020 11:30:20  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113020130.log
+07/05/2020 11:30:21  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888438198514
+content: 0
+07/05/2020 11:30:21  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:30:21  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:30:21  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:30:21  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:30:32  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:30:32  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:30:32  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:30:32  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888438326965
+msisdn: 84973718628
+imsi: null
+bizid: 205
+
+07/05/2020 11:30:32  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: e6859e15787d37be1b8919e819b73c26
+07/05/2020 11:30:32  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:30:32  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 205 input 870079534
+07/05/2020 11:30:35  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113035147
+07/05/2020 11:30:35  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113035147.log
+07/05/2020 11:30:36  INFO [NioProcessor-1] VasProcess_1-Sender: session closed!
+07/05/2020 11:30:47  INFO [NioProcessor-10] VasProcess_1-Receiver: session 1 idle. Close it.
+07/05/2020 11:30:47  INFO [NioProcessor-10] VasProcess_1-Receiver: session 1 closed!
+07/05/2020 11:31:51  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888438326965
+content: 1. Via conta principal
+2. Via conta e-Mola
+0. Volta
+07/05/2020 11:31:51  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:31:51  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:31:51  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:31:51  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:31:51  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:31:51  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:31:51  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:31:51  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:31:52  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113152181
+07/05/2020 11:31:52  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113152181.log
+07/05/2020 11:32:06  INFO [NioProcessor-2] VasProcess_1-Sender: session closed!
+07/05/2020 11:32:06  INFO [NioProcessor-11] VasProcess_1-Receiver: have a new connection, id = 4
+07/05/2020 11:32:06  INFO [NioProcessor-11] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:32:06  INFO [NioProcessor-11] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:32:06  INFO [NioProcessor-11] VasProcess_1-Receiver: receive message
+07/05/2020 11:32:06  INFO [NioProcessor-11] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:32:06  INFO [NioProcessor-11] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:32:06  INFO [NioProcessor-11] VasProcess_1-Receiver: receive message
+07/05/2020 11:32:06  INFO [NioProcessor-11] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:32:06  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:32:06  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888439268906
+msisdn: 84973718628
+imsi: null
+bizid: 1018
+
+07/05/2020 11:32:06  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: 8978dfcdadbe1d0d
+07/05/2020 11:32:06  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:32:06  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1018 input *860#
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888439268906
+content: 0
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:32:09  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:32:09  INFO [NioProcessor-11] VasProcess_1-Receiver: receive message
+07/05/2020 11:32:09  INFO [NioProcessor-11] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888439295357
+msisdn: 84973718628
+imsi: null
+bizid: 203
+
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:32:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 203 input 0
+07/05/2020 11:32:10  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113210190
+07/05/2020 11:32:10  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113210190.log
+07/05/2020 11:32:10  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888439295357
+content: 0
+07/05/2020 11:32:10  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:32:10  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:32:10  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:32:10  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:32:24  INFO [NioProcessor-11] VasProcess_1-Receiver: session 4 idle. Close it.
+07/05/2020 11:32:24  INFO [NioProcessor-11] VasProcess_1-Receiver: session 4 closed!
+07/05/2020 11:32:25  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113225197
+07/05/2020 11:32:25  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113225197.log
+07/05/2020 11:32:25  INFO [NioProcessor-3] VasProcess_1-Sender: session closed!
+07/05/2020 11:37:28  INFO [NioProcessor-12] VasProcess_1-Receiver: have a new connection, id = 6
+07/05/2020 11:37:28  INFO [NioProcessor-12] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:37:28  INFO [NioProcessor-12] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:37:28  INFO [NioProcessor-12] VasProcess_1-Receiver: receive message
+07/05/2020 11:37:28  INFO [NioProcessor-12] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:37:28  INFO [NioProcessor-12] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:37:28  INFO [NioProcessor-12] VasProcess_1-Receiver: receive message
+07/05/2020 11:37:28  INFO [NioProcessor-12] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:37:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:37:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888442483078
+msisdn: 84973718628
+imsi: null
+bizid: 1018
+
+07/05/2020 11:37:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: 8978dfcdadbe1d0d
+07/05/2020 11:37:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:37:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1018 input *860#
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888442483078
+content: 0
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:37:29  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:37:29  INFO [NioProcessor-12] VasProcess_1-Receiver: receive message
+07/05/2020 11:37:29  INFO [NioProcessor-12] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 115888442498729
+msisdn: 84973718628
+imsi: null
+bizid: 203
+
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:37:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 203 input 0
+07/05/2020 11:37:30  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113730351
+07/05/2020 11:37:30  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113730351.log
+07/05/2020 11:37:30  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 115888442498729
+content: 0
+07/05/2020 11:37:30  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:37:30  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:37:30  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:37:30  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:37:37  INFO [NioProcessor-12] VasProcess_1-Receiver: receive message
+07/05/2020 11:37:37  INFO [NioProcessor-12] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:37:37  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:37:37  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884425748310
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 11:37:37  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 2
+07/05/2020 11:37:37  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:37:37  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 2
+07/05/2020 11:37:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884425748310
+content: SHARE
+07/05/2020 11:37:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:37:38  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:37:38  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:37:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:37:45  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113745358
+07/05/2020 11:37:45  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113745358.log
+07/05/2020 11:37:46  INFO [NioProcessor-12] VasProcess_1-Receiver: receive message
+07/05/2020 11:37:46  INFO [NioProcessor-12] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:37:46  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:37:46  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884426603211
+msisdn: 84973718628
+imsi: null
+bizid: 208
+
+07/05/2020 11:37:46  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 11:37:46  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:37:46  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 208 input 1
+07/05/2020 11:37:53  INFO [NioProcessor-4] VasProcess_1-Sender: session closed!
+07/05/2020 11:38:01  INFO [NioProcessor-12] VasProcess_1-Receiver: session 6 idle. Close it.
+07/05/2020 11:38:01  INFO [NioProcessor-12] VasProcess_1-Receiver: session 6 closed!
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884426603211
+content: 0
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:38:11  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:38:11  INFO [NioProcessor-13] VasProcess_1-Receiver: have a new connection, id = 9
+07/05/2020 11:38:11  INFO [NioProcessor-13] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:38:11  INFO [NioProcessor-13] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:38:11  INFO [NioProcessor-13] VasProcess_1-Receiver: receive message
+07/05/2020 11:38:11  INFO [NioProcessor-13] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:38:11  INFO [NioProcessor-13] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:38:11  INFO [NioProcessor-13] VasProcess_1-Receiver: receive message
+07/05/2020 11:38:11  INFO [NioProcessor-13] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884429157312
+msisdn: 84973718628
+imsi: null
+bizid: 205
+
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:38:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 205 input 0
+07/05/2020 11:38:12  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113812374
+07/05/2020 11:38:12  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113812374.log
+07/05/2020 11:38:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Set menu rechage option with discount or not confCheckDiscount SQL_CONDITION_DISCOUNT_GROUP-dbkmkg
+07/05/2020 11:38:13  INFO [ConnectorProcessThreadAbstract] Vas155DbProcessor: Time to getParamValueFromConfig paramCode SQL_CONDITION_DISCOUNT_GROUP
+07/05/2020 11:38:14  INFO [ConnectorProcessThreadAbstract] Vas155DbProcessor: Start getGroupByCondition
+07/05/2020 11:38:14  WARN [ConnectorProcessThreadAbstract] ConnectionPoolManager: PooledDataSource don't have ID: dbkmkg
+07/05/2020 11:38:14 ERROR [ConnectorProcessThreadAbstract] Vas155DbProcessor: ERROR when getGroupByCondition,detail java.lang.NullPointerException time 1
+07/05/2020 11:38:14  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Get menu with sGroupDiscount NONE for msisdn 84973718628 key NONE.MENU.EMOLA.DISCOUNT.pt
+07/05/2020 11:38:14  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884429157312
+content: 1. Via conta principal
+2. Via conta e-Mola (desconto 5%)
+0. Volta
+07/05/2020 11:38:14  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:38:14  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:38:14  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:38:14  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:38:21  INFO [NioProcessor-13] VasProcess_1-Receiver: receive message
+07/05/2020 11:38:21  INFO [NioProcessor-13] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:38:21  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:38:21  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884430145513
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 11:38:21  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:38:21  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:38:21  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 0
+07/05/2020 11:38:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884430145513
+content: SHARE
+07/05/2020 11:38:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:38:22  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:38:22  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:38:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:38:27  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113827382
+07/05/2020 11:38:27  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113827382.log
+07/05/2020 11:38:29  INFO [NioProcessor-13] VasProcess_1-Receiver: receive message
+07/05/2020 11:38:29  INFO [NioProcessor-13] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:38:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:38:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884430985314
+msisdn: 84973718628
+imsi: null
+bizid: 207
+
+07/05/2020 11:38:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 2
+07/05/2020 11:38:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:38:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 207 input 2
+07/05/2020 11:38:37  INFO [NioProcessor-5] VasProcess_1-Sender: session closed!
+07/05/2020 11:38:44  INFO [NioProcessor-13] VasProcess_1-Receiver: session 9 idle. Close it.
+07/05/2020 11:38:44  INFO [NioProcessor-13] VasProcess_1-Receiver: session 9 closed!
+07/05/2020 11:38:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884430985314
+content: 0
+07/05/2020 11:38:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:38:47  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:38:47  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:38:47  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:38:47  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:38:47  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:38:47  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:38:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:38:48  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113848390
+07/05/2020 11:38:48  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113848390.log
+07/05/2020 11:39:02  INFO [NioProcessor-6] VasProcess_1-Sender: session closed!
+07/05/2020 11:39:09  INFO [NioProcessor-14] VasProcess_1-Receiver: have a new connection, id = 11
+07/05/2020 11:39:09  INFO [NioProcessor-14] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:39:09  INFO [NioProcessor-14] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:39:09  INFO [NioProcessor-14] VasProcess_1-Receiver: receive message
+07/05/2020 11:39:09  INFO [NioProcessor-14] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:39:09  INFO [NioProcessor-14] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:39:09  INFO [NioProcessor-14] VasProcess_1-Receiver: receive message
+07/05/2020 11:39:09  INFO [NioProcessor-14] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:39:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:39:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884434975015
+msisdn: 84973718628
+imsi: null
+bizid: 1018
+
+07/05/2020 11:39:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: 8978dfcdadbe1d0d
+07/05/2020 11:39:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:39:09  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1018 input *860#
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884434975015
+content: 0
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:39:11  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:39:11  INFO [NioProcessor-14] VasProcess_1-Receiver: receive message
+07/05/2020 11:39:11  INFO [NioProcessor-14] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884435109216
+msisdn: 84973718628
+imsi: null
+bizid: 203
+
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:39:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 203 input 0
+07/05/2020 11:39:11  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113911403
+07/05/2020 11:39:11  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113911403.log
+07/05/2020 11:39:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884435109216
+content: 0
+07/05/2020 11:39:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:39:12  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:39:12  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:39:12  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:39:17  INFO [NioProcessor-14] VasProcess_1-Receiver: receive message
+07/05/2020 11:39:17  INFO [NioProcessor-14] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:39:17  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:39:17  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884435725017
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 11:39:17  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 11:39:17  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:39:17  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 1
+07/05/2020 11:39:19  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884435725017
+content: SHARE
+07/05/2020 11:39:19  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:39:19  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:39:19  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:39:19  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:39:25  INFO [NioProcessor-14] VasProcess_1-Receiver: receive message
+07/05/2020 11:39:25  INFO [NioProcessor-14] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:39:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:39:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884436594418
+msisdn: 84973718628
+imsi: null
+bizid: 207
+
+07/05/2020 11:39:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 2
+07/05/2020 11:39:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:39:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 207 input 2
+07/05/2020 11:39:26  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113926408
+07/05/2020 11:39:26  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113926408.log
+07/05/2020 11:39:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884436594418
+content: 0
+07/05/2020 11:39:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:39:29  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:39:29  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:39:29  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:39:39  INFO [NioProcessor-14] VasProcess_1-Receiver: receive message
+07/05/2020 11:39:39  INFO [NioProcessor-14] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:39:39  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:39:39  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884437943819
+msisdn: 84973718628
+imsi: null
+bizid: 205
+
+07/05/2020 11:39:39  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: e6859e15787d37be1b8919e819b73c26
+07/05/2020 11:39:39  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:39:39  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 205 input 870079534
+07/05/2020 11:39:41  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.113941413
+07/05/2020 11:39:41  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.113941413.log
+07/05/2020 11:39:44  INFO [NioProcessor-7] VasProcess_1-Sender: session closed!
+07/05/2020 11:39:54  INFO [NioProcessor-14] VasProcess_1-Receiver: session 11 idle. Close it.
+07/05/2020 11:39:54  INFO [NioProcessor-14] VasProcess_1-Receiver: session 11 closed!
+07/05/2020 11:40:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884437943819
+content: 1. Via conta principal
+2. Via conta e-Mola
+0. Volta
+07/05/2020 11:40:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:40:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:40:54  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:40:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:40:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:40:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:40:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:40:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:40:55  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.114055452
+07/05/2020 11:40:55  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.114055452.log
+07/05/2020 11:41:09  INFO [NioProcessor-8] VasProcess_1-Sender: session closed!
+07/05/2020 11:41:36 ERROR [main] Tools:mmserver: 
+07/05/2020 11:41:36 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/05/2020 11:41:36  INFO [main] Error Definition Handler: register MBeanServer:Tools:name=ErrorDefinitionHandler
+07/05/2020 11:41:36  INFO [main] Tools:name=ErrorDefinitionHandler: Created an instance of ErrorDefinitionHandler
+07/05/2020 11:41:36  INFO [main] mmserver: ErrorFilterJDBCAppender is trying to get Error Definition from database 
+07/05/2020 11:41:36  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:41:36  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:41:36  WARN [main] mmserver: ErrorFilterJDBCAppender can not load error Definition from database 
+07/05/2020 11:41:36  INFO [main] mmserver: Starting M&M Server...
+07/05/2020 11:41:36  INFO [main] mmserver: Application ID: ACTIVECARD
+07/05/2020 11:41:36  INFO [main] Scheduler: register MBeanServer:Tools:name=Scheduler
+07/05/2020 11:41:36  INFO [main] Tools:name=Scheduler: starting Scheduler process...
+07/05/2020 11:41:36  INFO [main] Tools:name=Scheduler: Scheduler process  is started
+07/05/2020 11:41:36  INFO [Scheduler] Tools:name=Scheduler: Scheduler is starting to run
+07/05/2020 11:41:36  INFO [Scheduler] Tools:name=Scheduler: Timer is OK!
+07/05/2020 11:41:36  INFO [Timer-0] Tools:name=Scheduler: Test if the timer is cancel or not 
+07/05/2020 11:41:36  WARN [Scheduler] mmserver: java.lang.NullPointerException
+07/05/2020 11:41:36  INFO [main] Blocked Detecting Thread: register MBeanServer:Tools:name=BlockedDetector
+07/05/2020 11:41:36  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:41:36  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:41:36  INFO [main] Tools:name=BlockedDetector: starting Blocked Detecting Thread process...
+07/05/2020 11:41:36  INFO [main] Tools:name=BlockedDetector: Blocked Detecting Thread process  is started
+07/05/2020 11:41:36  INFO [main] mmserver: Register Status Collector
+07/05/2020 11:41:36  INFO [Blocked Detecting Thread] Tools:name=BlockedDetector: Blocked Detecting Thread is starting to run
+07/05/2020 11:41:36  INFO [main] mmserver: Initlizing a ErrorDefinitionHandler
+07/05/2020 11:41:36  INFO [main] Tools:name=ErrorDefinitionHandler: starting Error Definition Handler process...
+07/05/2020 11:41:36  INFO [main] Tools:name=ErrorDefinitionHandler: Error Definition Handler process  is started
+07/05/2020 11:41:36  INFO [Error Definition Handler] Tools:name=ErrorDefinitionHandler: Error Definition Handler is starting to run
+07/05/2020 11:41:36  INFO [main] mmserver: Initlized a ErrorDefinitionHandler
+07/05/2020 11:41:36  INFO [main] mmserver: Registering Command Interface
+07/05/2020 11:41:36  INFO [main] mmserver: JmxAgent starting with ip: 127.0.0.1 and port: 14482
+07/05/2020 11:41:36  INFO [main] Action Log Thread: starting Action Log Thread process...
+07/05/2020 11:41:36  INFO [main] Action Log Thread: Action Log Thread process  is started
+07/05/2020 11:41:36 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/05/2020 11:41:36  INFO [Action Log Thread] Action Log Thread: Action Log Thread is starting to run
+07/05/2020 11:41:36 ERROR [main] actionlog: java.lang.NullPointerException
+07/05/2020 11:41:36  INFO [main] mbeanserver: Init Authenticator
+07/05/2020 11:41:36  INFO [main] mbeanserver: Creating JMX Url connection
+07/05/2020 11:41:36  INFO [main] mbeanserver: Creating MBean Server Forwarder
+07/05/2020 11:41:36  INFO [main] mbeanserver: Started succesfully
+07/05/2020 11:41:36  INFO [main] mmserver: JmxAgent started with ip: 127.0.0.1 and port: 14482
+07/05/2020 11:41:36  INFO [main] mmserver: Log Socket with ip: 127.0.0.1 and port: 14485
+07/05/2020 11:41:36  INFO [main] mmserver: M&M Server started!
+07/05/2020 11:41:38  INFO [main] ProcessManager: register MBeanServer:USSD_VAS_GW:type=ProcessManager
+07/05/2020 11:41:38  INFO [main] USSD_VAS_GW:type=ProcessManager: ===> Load class: com.viettel.vasgw.process.Vas155
+07/05/2020 11:41:38  INFO [main] Vas155: Config:VasProcess-0
+07/05/2020 11:41:38  INFO [main] Vas155: register MBeanServer:USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0
+07/05/2020 11:41:38  INFO [main] VasProcess_1: idle time = 15
+07/05/2020 11:41:38  INFO [main] VasProcess_1: allMsgEncrypted = 0
+07/05/2020 11:41:38  INFO [main] VasProcess_1: make sender
+07/05/2020 11:41:38  INFO [main] VasProcess_1-Sender: make Nioconnector
+07/05/2020 11:41:38  INFO [main] VasProcess_1: make receiver
+07/05/2020 11:41:38  INFO [main] VasProcess_1-Receiver: make acceptor and open a port
+07/05/2020 11:41:38  INFO [main] VasProcess_1: load secret key if any
+07/05/2020 11:41:38  INFO [main] VasProcess_1: encryption mode
+07/05/2020 11:41:39  INFO [main] VasProcess_1: get backup connector id
+07/05/2020 11:41:39  INFO [main] VasProcess_1: backup connector id: 0
+07/05/2020 11:41:39  WARN [main] VasProcess_1: None backup connector for connector: 1
+07/05/2020 11:41:39  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Initing TransferRequest process before start 
+07/05/2020 11:41:39  INFO [main] MLog: MLog clients using log4j logging.
+07/05/2020 11:41:39  INFO [main] C3P0Registry: Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+07/05/2020 11:41:42  INFO [main] Vas155DbProcessor: Loading Biz config from DB....
+07/05/2020 11:41:42  INFO [main] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91u6fgwm12ye1py|699c9f16, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91u6fgwm12ye1py|699c9f16, idleConnectionTestPeriod -> 30, initialPoolSize -> 20, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+07/05/2020 11:41:42  INFO [main] Vas155DbProcessor: Load Biz config done. Map size 105. Time 731
+07/05/2020 11:41:43  INFO [main] Vas155DbProcessor: Loading Menu config from DB....
+07/05/2020 11:41:43  INFO [main] Vas155DbProcessor: Load Menu config done. Map size 836. Time 401
+07/05/2020 11:41:44  INFO [main] Vas155DbProcessor: getParramValueConfig from DB....
+07/05/2020 11:41:44  INFO [main] Vas155DbProcessor: getParramValueConfig value  TRUE. Time 6
+07/05/2020 11:41:44  INFO [main] ProcessVasgwLog0: register MBeanServer:USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0
+07/05/2020 11:41:44  INFO [main] LogWriter[0]: LogWriter is actived
+07/05/2020 11:41:44  INFO [main] LogWriter[0]: register MBeanServer:logging:type=LogWriter, name=LogWriter[0]
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[0]: starting LogWriter[0] process...
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] process  is started
+07/05/2020 11:41:44  INFO [LogWriter[0]] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] is starting to run
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] is started
+07/05/2020 11:41:44  INFO [main] ProcessVasgwLog1: register MBeanServer:USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1
+07/05/2020 11:41:44  INFO [main] LogWriter[1]: LogWriter is actived
+07/05/2020 11:41:44  INFO [main] LogWriter[1]: register MBeanServer:logging:type=LogWriter, name=LogWriter[1]
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[1]: starting LogWriter[1] process...
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] process  is started
+07/05/2020 11:41:44  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] is starting to run
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] is started
+07/05/2020 11:41:44  INFO [main] ProcessTransLog0: register MBeanServer:USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0
+07/05/2020 11:41:44  INFO [main] LogWriter[2]: LogWriter is actived
+07/05/2020 11:41:44  INFO [main] LogWriter[2]: register MBeanServer:logging:type=LogWriter, name=LogWriter[2]
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[2]: starting LogWriter[2] process...
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] process  is started
+07/05/2020 11:41:44  INFO [LogWriter[2]] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] is starting to run
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] is started
+07/05/2020 11:41:44  INFO [main] ProcessTransLog1: register MBeanServer:USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1
+07/05/2020 11:41:44  INFO [main] LogWriter[3]: LogWriter is actived
+07/05/2020 11:41:44  INFO [main] LogWriter[3]: register MBeanServer:logging:type=LogWriter, name=LogWriter[3]
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[3]: starting LogWriter[3] process...
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] process  is started
+07/05/2020 11:41:44  INFO [LogWriter[3]] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] is starting to run
+07/05/2020 11:41:44  INFO [main] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] is started
+07/05/2020 11:41:44  INFO [main] VasProcess_1-Receiver: bind to port: 1760
+07/05/2020 11:41:44  INFO [main] VasProcess_1-Receiver: bind success
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: starting ConnectorProcessThreadAbstract process...
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ConnectorProcessThreadAbstract process  is started
+07/05/2020 11:41:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ConnectorProcessThreadAbstract is starting to run
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start ConnectorProcessThreadAbstract: VasProcess-0
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: starting ProcessVasgwLog0 process...
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: ProcessVasgwLog0 process  is started
+07/05/2020 11:41:44  INFO [ProcessVasgwLog0] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: ProcessVasgwLog0 is starting to run
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: starting ProcessVasgwLog1 process...
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: ProcessVasgwLog1 process  is started
+07/05/2020 11:41:44  INFO [ProcessVasgwLog1] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: ProcessVasgwLog1 is starting to run
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: starting ProcessTransLog0 process...
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: ProcessTransLog0 process  is started
+07/05/2020 11:41:44  INFO [ProcessTransLog0] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: ProcessTransLog0 is starting to run
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: starting ProcessTransLog1 process...
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: ProcessTransLog1 process  is started
+07/05/2020 11:41:44  INFO [ProcessTransLog1] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: ProcessTransLog1 is starting to run
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessManager: starting ProcessManager process...
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessManager: ProcessManager process  is started
+07/05/2020 11:41:44  INFO [ProcessManager] USSD_VAS_GW:type=ProcessManager: ProcessManager is starting to run
+07/05/2020 11:41:44  INFO [main] USSD_VAS_GW:type=ProcessManager: +++ SYSTEM PROCESS STARTED  +++
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: have a new connection, id = 1
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884452110120
+msisdn: 84973718628
+imsi: null
+bizid: 1018
+
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: 8978dfcdadbe1d0d
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1018 input *860#
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884452110120
+content: 0
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:01  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:01  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884452116321
+msisdn: 84973718628
+imsi: null
+bizid: 203
+
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 203 input 0
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884452116321
+content: 0
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:42:01  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.114201920
+07/05/2020 11:42:01  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.114201920.log
+07/05/2020 11:42:04  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:04  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884452476422
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 1
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884452476422
+content: SHARE
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:04  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:42:08  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:08  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884452805023
+msisdn: 84973718628
+imsi: null
+bizid: 208
+
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 208 input 1
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884452805023
+content: 0
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:42:08  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:08  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884452813924
+msisdn: 84973718628
+imsi: null
+bizid: 205
+
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:08  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 205 input 0
+07/05/2020 11:42:10  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Set menu rechage option with discount or not confCheckDiscount SQL_CONDITION_DISCOUNT_GROUP-dbkmkg
+07/05/2020 11:42:10  INFO [ConnectorProcessThreadAbstract] Vas155DbProcessor: Time to getParamValueFromConfig paramCode SQL_CONDITION_DISCOUNT_GROUP
+07/05/2020 11:42:11  INFO [ConnectorProcessThreadAbstract] Vas155DbProcessor: Start getGroupByCondition
+07/05/2020 11:42:11  WARN [ConnectorProcessThreadAbstract] ConnectionPoolManager: PooledDataSource don't have ID: dbkmkg
+07/05/2020 11:42:11 ERROR [ConnectorProcessThreadAbstract] Vas155DbProcessor: ERROR when getGroupByCondition,detail java.lang.NullPointerException time 0
+07/05/2020 11:42:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Get menu with sGroupDiscount NONE for msisdn 84973718628 key NONE.MENU.EMOLA.DISCOUNT.pt
+07/05/2020 11:42:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884452813924
+content: 1. Via conta principal
+2. Via conta e-Mola (desconto 5%)
+0. Volta
+07/05/2020 11:42:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:11  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:11  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:42:17  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.114217147
+07/05/2020 11:42:17  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.114217147.log
+07/05/2020 11:42:22  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:22  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884454216025
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 0
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884454216025
+content: SHARE
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:22  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:42:26  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:26  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:26  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:26  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884454619526
+msisdn: 84973718628
+imsi: null
+bizid: 207
+
+07/05/2020 11:42:26  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 2
+07/05/2020 11:42:26  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:26  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 207 input 2
+07/05/2020 11:42:27  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884454619526
+content: 0
+07/05/2020 11:42:27  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:27  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:27  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:27  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:42:32  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.114232935
+07/05/2020 11:42:32  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.114232935.log
+07/05/2020 11:42:38  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:38  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884455822527
+msisdn: 84973718628
+imsi: null
+bizid: 205
+
+07/05/2020 11:42:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: e6859e15787d37be1b8919e819b73c26
+07/05/2020 11:42:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 205 input 870079534
+07/05/2020 11:42:42  INFO [NioProcessor-1] VasProcess_1-Sender: session closed!
+07/05/2020 11:42:43  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884455822527
+content: 1. Via conta principal
+2. Via conta e-Mola
+0. Volta
+07/05/2020 11:42:43  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:43  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:43  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:42:43  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:42:43  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:42:43  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:42:43  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:43  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:42:47  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.114247941
+07/05/2020 11:42:47  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.114247941.log
+07/05/2020 11:42:49  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:42:49  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884456960628
+msisdn: 84973718628
+imsi: null
+bizid: 1043
+
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1043 input 1
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ********************MO PARAM:pt|2|-|870079534|1
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91u6fgwm12ye1py|bba92db, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91u6fgwm12ye1py|bba92db, idleConnectionTestPeriod -> 30, initialPoolSize -> 20, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+07/05/2020 11:42:49 ERROR [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Fail to insert MO msisdn 84973718628java.sql.SQLException: ORA-00001: unique constraint (VAS_3G_UNLIMITED.MO_UNK) violated
+
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: DbProcessor-FW: : 65 ms
+07/05/2020 11:42:49 ERROR [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Insert MO failed 84973718628 transid A1588844520396 msisdn84973718628 DB ID dbvas error ORA-00001: unique constraint (VAS_3G_UNLIMITED.MO_UNK) violated
+
+07/05/2020 11:42:49 ERROR [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Insert MO failed 84973718628 transid A1588844520396 msisdn84973718628 DB ID dbvas
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884456960628
+content: 0
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:42:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:43:02  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.114302949
+07/05/2020 11:43:02  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.114302949.log
+07/05/2020 11:43:04  INFO [NioProcessor-10] VasProcess_1-Receiver: session 1 idle. Close it.
+07/05/2020 11:43:04  INFO [NioProcessor-10] VasProcess_1-Receiver: session 1 closed!
+07/05/2020 11:43:04  INFO [NioProcessor-2] VasProcess_1-Sender: session closed!
+07/05/2020 11:58:44 ERROR [main] Tools:mmserver: 
+07/05/2020 11:58:44 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/05/2020 11:58:44  INFO [main] Error Definition Handler: register MBeanServer:Tools:name=ErrorDefinitionHandler
+07/05/2020 11:58:44  INFO [main] Tools:name=ErrorDefinitionHandler: Created an instance of ErrorDefinitionHandler
+07/05/2020 11:58:44  INFO [main] mmserver: ErrorFilterJDBCAppender is trying to get Error Definition from database 
+07/05/2020 11:58:44  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:58:44  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:58:44  WARN [main] mmserver: ErrorFilterJDBCAppender can not load error Definition from database 
+07/05/2020 11:58:44  INFO [main] mmserver: Starting M&M Server...
+07/05/2020 11:58:44  INFO [main] mmserver: Application ID: ACTIVECARD
+07/05/2020 11:58:44  INFO [main] Scheduler: register MBeanServer:Tools:name=Scheduler
+07/05/2020 11:58:44  INFO [main] Tools:name=Scheduler: starting Scheduler process...
+07/05/2020 11:58:44  INFO [main] Tools:name=Scheduler: Scheduler process  is started
+07/05/2020 11:58:44  INFO [Scheduler] Tools:name=Scheduler: Scheduler is starting to run
+07/05/2020 11:58:44  INFO [Scheduler] Tools:name=Scheduler: Timer is OK!
+07/05/2020 11:58:44  INFO [Timer-0] Tools:name=Scheduler: Test if the timer is cancel or not 
+07/05/2020 11:58:44  WARN [Scheduler] mmserver: java.lang.NullPointerException
+07/05/2020 11:58:44  INFO [main] Blocked Detecting Thread: register MBeanServer:Tools:name=BlockedDetector
+07/05/2020 11:58:44  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:58:44  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 11:58:44  INFO [main] Tools:name=BlockedDetector: starting Blocked Detecting Thread process...
+07/05/2020 11:58:44  INFO [main] Tools:name=BlockedDetector: Blocked Detecting Thread process  is started
+07/05/2020 11:58:44  INFO [main] mmserver: Register Status Collector
+07/05/2020 11:58:44  INFO [Blocked Detecting Thread] Tools:name=BlockedDetector: Blocked Detecting Thread is starting to run
+07/05/2020 11:58:44  INFO [main] mmserver: Initlizing a ErrorDefinitionHandler
+07/05/2020 11:58:44  INFO [main] Tools:name=ErrorDefinitionHandler: starting Error Definition Handler process...
+07/05/2020 11:58:44  INFO [main] Tools:name=ErrorDefinitionHandler: Error Definition Handler process  is started
+07/05/2020 11:58:44  INFO [Error Definition Handler] Tools:name=ErrorDefinitionHandler: Error Definition Handler is starting to run
+07/05/2020 11:58:44  INFO [main] mmserver: Initlized a ErrorDefinitionHandler
+07/05/2020 11:58:44  INFO [main] mmserver: Registering Command Interface
+07/05/2020 11:58:44  INFO [main] mmserver: JmxAgent starting with ip: 127.0.0.1 and port: 14482
+07/05/2020 11:58:44  INFO [main] Action Log Thread: starting Action Log Thread process...
+07/05/2020 11:58:44  INFO [main] Action Log Thread: Action Log Thread process  is started
+07/05/2020 11:58:44  INFO [Action Log Thread] Action Log Thread: Action Log Thread is starting to run
+07/05/2020 11:58:44 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/05/2020 11:58:44 ERROR [main] actionlog: java.lang.NullPointerException
+07/05/2020 11:58:44  INFO [main] mbeanserver: Init Authenticator
+07/05/2020 11:58:44  INFO [main] mbeanserver: Creating JMX Url connection
+07/05/2020 11:58:44  INFO [main] mbeanserver: Creating MBean Server Forwarder
+07/05/2020 11:58:44  INFO [main] mbeanserver: Started succesfully
+07/05/2020 11:58:44  INFO [main] mmserver: JmxAgent started with ip: 127.0.0.1 and port: 14482
+07/05/2020 11:58:44  INFO [main] mmserver: Log Socket with ip: 127.0.0.1 and port: 14485
+07/05/2020 11:58:44  INFO [main] mmserver: M&M Server started!
+07/05/2020 11:58:46  INFO [main] ProcessManager: register MBeanServer:USSD_VAS_GW:type=ProcessManager
+07/05/2020 11:58:46  INFO [main] USSD_VAS_GW:type=ProcessManager: ===> Load class: com.viettel.vasgw.process.Vas155
+07/05/2020 11:58:46  INFO [main] Vas155: Config:VasProcess-0
+07/05/2020 11:58:46  INFO [main] Vas155: register MBeanServer:USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0
+07/05/2020 11:58:46  INFO [main] VasProcess_1: idle time = 15
+07/05/2020 11:58:46  INFO [main] VasProcess_1: allMsgEncrypted = 0
+07/05/2020 11:58:46  INFO [main] VasProcess_1: make sender
+07/05/2020 11:58:46  INFO [main] VasProcess_1-Sender: make Nioconnector
+07/05/2020 11:58:46  INFO [main] VasProcess_1: make receiver
+07/05/2020 11:58:46  INFO [main] VasProcess_1-Receiver: make acceptor and open a port
+07/05/2020 11:58:46  INFO [main] VasProcess_1: load secret key if any
+07/05/2020 11:58:46  INFO [main] VasProcess_1: encryption mode
+07/05/2020 11:58:47  INFO [main] VasProcess_1: get backup connector id
+07/05/2020 11:58:47  INFO [main] VasProcess_1: backup connector id: 0
+07/05/2020 11:58:47  WARN [main] VasProcess_1: None backup connector for connector: 1
+07/05/2020 11:58:47  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Initing TransferRequest process before start 
+07/05/2020 11:58:47  INFO [main] MLog: MLog clients using log4j logging.
+07/05/2020 11:58:47  INFO [main] C3P0Registry: Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+07/05/2020 11:58:49  INFO [main] Vas155DbProcessor: Loading Biz config from DB....
+07/05/2020 11:58:49  INFO [main] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91u71i6tiy0scp|16fbcb70, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91u71i6tiy0scp|16fbcb70, idleConnectionTestPeriod -> 30, initialPoolSize -> 20, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+07/05/2020 11:58:50  INFO [main] Vas155DbProcessor: Load Biz config done. Map size 105. Time 725
+07/05/2020 11:58:50  INFO [main] Vas155DbProcessor: Loading Menu config from DB....
+07/05/2020 11:58:50  INFO [main] Vas155DbProcessor: Load Menu config done. Map size 836. Time 353
+07/05/2020 11:58:52  INFO [main] Vas155DbProcessor: getParramValueConfig from DB....
+07/05/2020 11:58:52  INFO [main] Vas155DbProcessor: getParramValueConfig value  TRUE. Time 7
+07/05/2020 11:58:52  INFO [main] ProcessVasgwLog0: register MBeanServer:USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0
+07/05/2020 11:58:52  INFO [main] LogWriter[0]: LogWriter is actived
+07/05/2020 11:58:52  INFO [main] LogWriter[0]: register MBeanServer:logging:type=LogWriter, name=LogWriter[0]
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[0]: starting LogWriter[0] process...
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] process  is started
+07/05/2020 11:58:52  INFO [LogWriter[0]] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] is starting to run
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] is started
+07/05/2020 11:58:52  INFO [main] ProcessVasgwLog1: register MBeanServer:USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1
+07/05/2020 11:58:52  INFO [main] LogWriter[1]: LogWriter is actived
+07/05/2020 11:58:52  INFO [main] LogWriter[1]: register MBeanServer:logging:type=LogWriter, name=LogWriter[1]
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[1]: starting LogWriter[1] process...
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] process  is started
+07/05/2020 11:58:52  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] is starting to run
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] is started
+07/05/2020 11:58:52  INFO [main] ProcessTransLog0: register MBeanServer:USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0
+07/05/2020 11:58:52  INFO [main] LogWriter[2]: LogWriter is actived
+07/05/2020 11:58:52  INFO [main] LogWriter[2]: register MBeanServer:logging:type=LogWriter, name=LogWriter[2]
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[2]: starting LogWriter[2] process...
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] process  is started
+07/05/2020 11:58:52  INFO [LogWriter[2]] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] is starting to run
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] is started
+07/05/2020 11:58:52  INFO [main] ProcessTransLog1: register MBeanServer:USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1
+07/05/2020 11:58:52  INFO [main] LogWriter[3]: LogWriter is actived
+07/05/2020 11:58:52  INFO [main] LogWriter[3]: register MBeanServer:logging:type=LogWriter, name=LogWriter[3]
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[3]: starting LogWriter[3] process...
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] process  is started
+07/05/2020 11:58:52  INFO [main] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] is started
+07/05/2020 11:58:52  INFO [LogWriter[3]] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] is starting to run
+07/05/2020 11:58:52  INFO [main] VasProcess_1-Receiver: bind to port: 1760
+07/05/2020 11:58:52  INFO [main] VasProcess_1-Receiver: bind success
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: starting ConnectorProcessThreadAbstract process...
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ConnectorProcessThreadAbstract process  is started
+07/05/2020 11:58:52  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ConnectorProcessThreadAbstract is starting to run
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start ConnectorProcessThreadAbstract: VasProcess-0
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: starting ProcessVasgwLog0 process...
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: ProcessVasgwLog0 process  is started
+07/05/2020 11:58:52  INFO [ProcessVasgwLog0] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: ProcessVasgwLog0 is starting to run
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: starting ProcessVasgwLog1 process...
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: ProcessVasgwLog1 process  is started
+07/05/2020 11:58:52  INFO [ProcessVasgwLog1] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: ProcessVasgwLog1 is starting to run
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: starting ProcessTransLog0 process...
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: ProcessTransLog0 process  is started
+07/05/2020 11:58:52  INFO [ProcessTransLog0] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: ProcessTransLog0 is starting to run
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: starting ProcessTransLog1 process...
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: ProcessTransLog1 process  is started
+07/05/2020 11:58:52  INFO [ProcessTransLog1] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: ProcessTransLog1 is starting to run
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessManager: starting ProcessManager process...
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessManager: ProcessManager process  is started
+07/05/2020 11:58:52  INFO [ProcessManager] USSD_VAS_GW:type=ProcessManager: ProcessManager is starting to run
+07/05/2020 11:58:52  INFO [main] USSD_VAS_GW:type=ProcessManager: +++ SYSTEM PROCESS STARTED  +++
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: have a new connection, id = 1
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884553817729
+msisdn: 84973718628
+imsi: null
+bizid: 1018
+
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: 8978dfcdadbe1d0d
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1018 input *860#
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884553817729
+content: 0
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:58:58  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:58:58  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884553827130
+msisdn: 84973718628
+imsi: null
+bizid: 203
+
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 203 input 0
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884553827130
+content: 0
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:58:58  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:59:00  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:59:00  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884554057031
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 1
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884554057031
+content: SHARE
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:59:00  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:59:02  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:59:02  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884554260232
+msisdn: 84973718628
+imsi: null
+bizid: 208
+
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 208 input 1
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884554260232
+content: 0
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:59:02  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 11:59:02  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884554266233
+msisdn: 84973718628
+imsi: null
+bizid: 205
+
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:59:02  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 205 input 0
+07/05/2020 11:59:07  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.115907212
+07/05/2020 11:59:07  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.115907212.log
+07/05/2020 11:59:13  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Set menu rechage option with discount or not confCheckDiscount SQL_CONDITION_DISCOUNT_GROUP-dbkmkg
+07/05/2020 11:59:14  INFO [ConnectorProcessThreadAbstract] Vas155DbProcessor: Time to getParamValueFromConfig paramCode SQL_CONDITION_DISCOUNT_GROUP
+07/05/2020 11:59:15  INFO [ConnectorProcessThreadAbstract] Vas155DbProcessor: Start getGroupByCondition
+07/05/2020 11:59:15  WARN [ConnectorProcessThreadAbstract] ConnectionPoolManager: PooledDataSource don't have ID: dbkmkg
+07/05/2020 11:59:15 ERROR [ConnectorProcessThreadAbstract] Vas155DbProcessor: ERROR when getGroupByCondition,detail java.lang.NullPointerException time 1
+07/05/2020 11:59:15  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Get menu with sGroupDiscount NONE for msisdn 84973718628 key NONE.MENU.EMOLA.DISCOUNT.pt
+07/05/2020 11:59:15  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884554266233
+content: 1. Via conta principal
+2. Via conta e-Mola (desconto 5%)
+0. Volta
+07/05/2020 11:59:15  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:59:15  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:59:15  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:59:15  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:59:17  INFO [NioProcessor-10] VasProcess_1-Receiver: session 1 idle. Close it.
+07/05/2020 11:59:17  INFO [NioProcessor-10] VasProcess_1-Receiver: session 1 closed!
+07/05/2020 11:59:23  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.115923221
+07/05/2020 11:59:23  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.115923221.log
+07/05/2020 11:59:25  INFO [NioProcessor-11] VasProcess_1-Receiver: have a new connection, id = 3
+07/05/2020 11:59:25  INFO [NioProcessor-11] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:59:25  INFO [NioProcessor-11] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:59:25  INFO [NioProcessor-11] VasProcess_1-Receiver: receive message
+07/05/2020 11:59:25  INFO [NioProcessor-11] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:59:25  INFO [NioProcessor-11] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:59:25  INFO [NioProcessor-11] VasProcess_1-Receiver: receive message
+07/05/2020 11:59:25  INFO [NioProcessor-11] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884556534434
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 0
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884556534434
+content: SHARE
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:59:25  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:59:28  INFO [NioProcessor-11] VasProcess_1-Receiver: receive message
+07/05/2020 11:59:28  INFO [NioProcessor-11] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:59:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:59:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884556841735
+msisdn: 84973718628
+imsi: null
+bizid: 207
+
+07/05/2020 11:59:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 2
+07/05/2020 11:59:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:59:28  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 207 input 2
+07/05/2020 11:59:38  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.115938227
+07/05/2020 11:59:38  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.115938227.log
+07/05/2020 11:59:40  INFO [NioProcessor-1] VasProcess_1-Sender: session closed!
+07/05/2020 11:59:42  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884556841735
+content: 0
+07/05/2020 11:59:42  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 11:59:42  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 11:59:42  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 11:59:42  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 11:59:42  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 11:59:42  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 11:59:42  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 11:59:42  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 11:59:43  INFO [NioProcessor-11] VasProcess_1-Receiver: session 3 idle. Close it.
+07/05/2020 11:59:43  INFO [NioProcessor-11] VasProcess_1-Receiver: session 3 closed!
+07/05/2020 11:59:52  INFO [NioProcessor-12] VasProcess_1-Receiver: have a new connection, id = 5
+07/05/2020 11:59:52  INFO [NioProcessor-12] VasProcess_1-Receiver: check incoming ip
+07/05/2020 11:59:52  INFO [NioProcessor-12] VasProcess_1-Receiver: send random string successed!
+07/05/2020 11:59:52  INFO [NioProcessor-12] VasProcess_1-Receiver: receive message
+07/05/2020 11:59:52  INFO [NioProcessor-12] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 11:59:52  INFO [NioProcessor-12] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 11:59:52  INFO [NioProcessor-12] VasProcess_1-Receiver: receive message
+07/05/2020 11:59:52  INFO [NioProcessor-12] VasProcess_1-Receiver: put message in queue
+07/05/2020 11:59:52  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 11:59:52  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884559241236
+msisdn: 84973718628
+imsi: null
+bizid: 205
+
+07/05/2020 11:59:52  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: e6859e15787d37be1b8919e819b73c26
+07/05/2020 11:59:52  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 11:59:52  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 205 input 870079534
+07/05/2020 11:59:54  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.115954234
+07/05/2020 11:59:54  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.115954234.log
+07/05/2020 11:59:57  INFO [NioProcessor-2] VasProcess_1-Sender: session closed!
+07/05/2020 12:00:07  INFO [NioProcessor-12] VasProcess_1-Receiver: session 5 idle. Close it.
+07/05/2020 12:00:07  INFO [NioProcessor-12] VasProcess_1-Receiver: session 5 closed!
+07/05/2020 12:06:00 ERROR [main] Tools:mmserver: 
+07/05/2020 12:06:00 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/05/2020 12:06:00  INFO [main] Error Definition Handler: register MBeanServer:Tools:name=ErrorDefinitionHandler
+07/05/2020 12:06:00  INFO [main] Tools:name=ErrorDefinitionHandler: Created an instance of ErrorDefinitionHandler
+07/05/2020 12:06:00  INFO [main] Scheduler: register MBeanServer:Tools:name=Scheduler
+07/05/2020 12:06:00  INFO [main] Tools:name=Scheduler: starting Scheduler process...
+07/05/2020 12:06:00  INFO [main] Tools:name=Scheduler: Scheduler process  is started
+07/05/2020 12:06:00  INFO [Scheduler] Tools:name=Scheduler: Scheduler is starting to run
+07/05/2020 12:06:00  INFO [Scheduler] Tools:name=Scheduler: Timer is OK!
+07/05/2020 12:06:00  INFO [Timer-0] Tools:name=Scheduler: Test if the timer is cancel or not 
+07/05/2020 12:06:00  INFO [main] Blocked Detecting Thread: register MBeanServer:Tools:name=BlockedDetector
+07/05/2020 12:06:00  INFO [main] Tools:name=BlockedDetector: starting Blocked Detecting Thread process...
+07/05/2020 12:06:00  INFO [main] Tools:name=BlockedDetector: Blocked Detecting Thread process  is started
+07/05/2020 12:06:00  INFO [Blocked Detecting Thread] Tools:name=BlockedDetector: Blocked Detecting Thread is starting to run
+07/05/2020 12:06:00  INFO [main] Tools:name=ErrorDefinitionHandler: starting Error Definition Handler process...
+07/05/2020 12:06:00  INFO [main] Tools:name=ErrorDefinitionHandler: Error Definition Handler process  is started
+07/05/2020 12:06:00  INFO [Error Definition Handler] Tools:name=ErrorDefinitionHandler: Error Definition Handler is starting to run
+07/05/2020 12:06:00  INFO [main] Action Log Thread: starting Action Log Thread process...
+07/05/2020 12:06:00  INFO [main] Action Log Thread: Action Log Thread process  is started
+07/05/2020 12:06:00 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/05/2020 12:06:00 ERROR [main] actionlog: java.lang.NullPointerException
+07/05/2020 12:06:00  INFO [Action Log Thread] Action Log Thread: Action Log Thread is starting to run
+07/05/2020 12:06:00  INFO [main] mbeanserver: Init Authenticator
+07/05/2020 12:06:00  INFO [main] mbeanserver: Creating JMX Url connection
+07/05/2020 12:06:00  INFO [main] mbeanserver: Creating MBean Server Forwarder
+07/05/2020 12:06:00  INFO [main] mbeanserver: Started succesfully
+07/05/2020 12:06:00  INFO [main] MLog: MLog clients using log4j logging.
+07/05/2020 12:06:00  INFO [main] C3P0Registry: Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+07/05/2020 12:06:01  INFO [main] ProcessManager: register MBeanServer:ACTIVECARD:type=ProcessManager
+07/05/2020 12:06:01  INFO [main] ACTIVECARD:type=ProcessManager: ===> Load LoaderClass: com.viettel.paybonus.database.TmsPospaidAssingDb
+07/05/2020 12:06:01  INFO [main] agent:name=viewChangeHandlersms20: register MBeanServer:agent:name=viewChangeHandlersms20
+07/05/2020 12:06:01  INFO [main] agent:name=viewChangeHandlersms20: starting ViewHandlersms20 process...
+07/05/2020 12:06:01  INFO [main] agent:name=viewChangeHandlersms20: ViewHandlersms20 process  is started
+07/05/2020 12:06:01  INFO [ViewHandlersms20] agent:name=viewChangeHandlersms20: ViewHandlersms20 is starting to run
+07/05/2020 12:06:01  INFO [main] JChannel: JGroups version: 2.10.0.GA
+07/05/2020 12:06:01  WARN [main] Configurator: TCPGOSSIP property gossip_refresh_rate was deprecated and is ignored
+07/05/2020 12:06:01  WARN [main] Configurator: GMS.disable_initial_coord: This method will be deprecated in 3.0
+07/05/2020 12:06:02 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+07/05/2020 12:06:03  WARN [Timer-1,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+07/05/2020 12:06:03  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+07/05/2020 12:06:04  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+07/05/2020 12:06:05  WARN [Timer-3,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+07/05/2020 12:06:05  INFO [main] ACTIVECARD:type=ProcessManager: ===> Load class: com.viettel.paybonus.process.TmsAssignPospaidProcess
+07/05/2020 12:06:05  INFO [main] TmsAssignPospaidProcess: Config:AssignAuto_Node1.0
+07/05/2020 12:06:05  INFO [main] 0: register MBeanServer:ACTIVECARD:type=ProcessManager,name=AssignAuto_Node1.0
+07/05/2020 12:06:05  INFO [main] ScanProcessManager: +++  SYSTEM IS STARTING  +++
+07/05/2020 12:06:05  INFO [main] 0: starting AssignAuto_Node1.0 process...
+07/05/2020 12:06:05  INFO [main] 0: AssignAuto_Node1.0 process  is started
+07/05/2020 12:06:05  INFO [main] ACTIVECARD:type=ProcessManager: starting ProcessManager process...
+07/05/2020 12:06:05  INFO [AssignAuto_Node1.0] 0: AssignAuto_Node1.0 is starting to run
+07/05/2020 12:06:05  INFO [main] ACTIVECARD:type=ProcessManager: ProcessManager process  is started
+07/05/2020 12:06:05  INFO [main] ACTIVECARD:type=ProcessManager: +++ SYSTEM PROCESS STARTED  +++
+07/05/2020 12:06:05  INFO [ProcessManager] ACTIVECARD:type=ProcessManager: ProcessManager is starting to run
+07/05/2020 12:06:11  INFO [ViewHandlersms20] Dispatchersms20: NEW POLICY: NUMBER_MEMBER=1ORDER=0
+07/05/2020 12:06:15  WARN [Timer-2,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+07/05/2020 12:06:16  INFO [pool-1-thread-1] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91u7asqy1bgpt65|496833a4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91u7asqy1bgpt65|496833a4, idleConnectionTestPeriod -> 30, initialPoolSize -> 100, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    )) , maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+07/05/2020 12:06:21  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+07/05/2020 12:06:22  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed fetching members from /127.0.0.1:8639: java.lang.Exception: Connection to /127.0.0.1:8639 broken. Could not send GOSSIP_GET request
+07/05/2020 12:06:26  WARN [Timer-4,AssignAuto,AssignAuto_Node1] TCPGOSSIP: failed reconnecting stub to GR at /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+07/05/2020 12:06:37 ERROR [main] Tools:mmserver: 
+07/05/2020 12:06:37 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/05/2020 12:06:37  INFO [main] Error Definition Handler: register MBeanServer:Tools:name=ErrorDefinitionHandler
+07/05/2020 12:06:37  INFO [main] Tools:name=ErrorDefinitionHandler: Created an instance of ErrorDefinitionHandler
+07/05/2020 12:06:37  INFO [main] mmserver: ErrorFilterJDBCAppender is trying to get Error Definition from database 
+07/05/2020 12:06:37  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 12:06:37  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 12:06:37  WARN [main] mmserver: ErrorFilterJDBCAppender can not load error Definition from database 
+07/05/2020 12:06:37  INFO [main] mmserver: Starting M&M Server...
+07/05/2020 12:06:37  INFO [main] mmserver: Application ID: ACTIVECARD
+07/05/2020 12:06:37  INFO [main] Scheduler: register MBeanServer:Tools:name=Scheduler
+07/05/2020 12:06:37  INFO [main] Tools:name=Scheduler: starting Scheduler process...
+07/05/2020 12:06:37  INFO [main] Tools:name=Scheduler: Scheduler process  is started
+07/05/2020 12:06:37  INFO [Scheduler] Tools:name=Scheduler: Scheduler is starting to run
+07/05/2020 12:06:37  INFO [Scheduler] Tools:name=Scheduler: Timer is OK!
+07/05/2020 12:06:37  INFO [Timer-0] Tools:name=Scheduler: Test if the timer is cancel or not 
+07/05/2020 12:06:37  WARN [Scheduler] mmserver: java.lang.NullPointerException
+07/05/2020 12:06:37  INFO [main] Blocked Detecting Thread: register MBeanServer:Tools:name=BlockedDetector
+07/05/2020 12:06:37  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 12:06:37  WARN [main] mmserver: java.lang.NullPointerException
+07/05/2020 12:06:37  INFO [main] Tools:name=BlockedDetector: starting Blocked Detecting Thread process...
+07/05/2020 12:06:37  INFO [main] Tools:name=BlockedDetector: Blocked Detecting Thread process  is started
+07/05/2020 12:06:37  INFO [Blocked Detecting Thread] Tools:name=BlockedDetector: Blocked Detecting Thread is starting to run
+07/05/2020 12:06:37  INFO [main] mmserver: Register Status Collector
+07/05/2020 12:06:37  INFO [main] mmserver: Initlizing a ErrorDefinitionHandler
+07/05/2020 12:06:37  INFO [main] Tools:name=ErrorDefinitionHandler: starting Error Definition Handler process...
+07/05/2020 12:06:37  INFO [main] Tools:name=ErrorDefinitionHandler: Error Definition Handler process  is started
+07/05/2020 12:06:37  INFO [main] mmserver: Initlized a ErrorDefinitionHandler
+07/05/2020 12:06:37  INFO [Error Definition Handler] Tools:name=ErrorDefinitionHandler: Error Definition Handler is starting to run
+07/05/2020 12:06:37  INFO [main] mmserver: Registering Command Interface
+07/05/2020 12:06:37  INFO [main] mmserver: JmxAgent starting with ip: 127.0.0.1 and port: 14482
+07/05/2020 12:06:37  INFO [main] Action Log Thread: starting Action Log Thread process...
+07/05/2020 12:06:37  INFO [main] Action Log Thread: Action Log Thread process  is started
+07/05/2020 12:06:37 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/05/2020 12:06:37 ERROR [main] actionlog: java.lang.NullPointerException
+07/05/2020 12:06:37  INFO [main] mbeanserver: Init Authenticator
+07/05/2020 12:06:37  INFO [Action Log Thread] Action Log Thread: Action Log Thread is starting to run
+07/05/2020 12:06:37  INFO [main] mbeanserver: Creating JMX Url connection
+07/05/2020 12:06:37  INFO [main] mbeanserver: Creating MBean Server Forwarder
+07/05/2020 12:06:37  INFO [main] mbeanserver: Started succesfully
+07/05/2020 12:06:37  INFO [main] mmserver: JmxAgent started with ip: 127.0.0.1 and port: 14482
+07/05/2020 12:06:37  INFO [main] mmserver: Log Socket with ip: 127.0.0.1 and port: 14485
+07/05/2020 12:06:37  INFO [main] mmserver: M&M Server started!
+07/05/2020 12:06:37  INFO [main] ProcessManager: register MBeanServer:USSD_VAS_GW:type=ProcessManager
+07/05/2020 12:06:37  INFO [main] USSD_VAS_GW:type=ProcessManager: ===> Load class: com.viettel.vasgw.process.Vas155
+07/05/2020 12:06:37  INFO [main] Vas155: Config:VasProcess-0
+07/05/2020 12:06:37  INFO [main] Vas155: register MBeanServer:USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0
+07/05/2020 12:06:37  INFO [main] VasProcess_1: idle time = 15
+07/05/2020 12:06:37  INFO [main] VasProcess_1: allMsgEncrypted = 0
+07/05/2020 12:06:37  INFO [main] VasProcess_1: make sender
+07/05/2020 12:06:37  INFO [main] VasProcess_1-Sender: make Nioconnector
+07/05/2020 12:06:37  INFO [main] VasProcess_1: make receiver
+07/05/2020 12:06:37  INFO [main] VasProcess_1-Receiver: make acceptor and open a port
+07/05/2020 12:06:37  INFO [main] VasProcess_1: load secret key if any
+07/05/2020 12:06:37  INFO [main] VasProcess_1: encryption mode
+07/05/2020 12:06:37  INFO [main] VasProcess_1: get backup connector id
+07/05/2020 12:06:37  INFO [main] VasProcess_1: backup connector id: 0
+07/05/2020 12:06:37  WARN [main] VasProcess_1: None backup connector for connector: 1
+07/05/2020 12:06:37  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Initing TransferRequest process before start 
+07/05/2020 12:06:37  INFO [main] MLog: MLog clients using log4j logging.
+07/05/2020 12:06:37  INFO [main] C3P0Registry: Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+07/05/2020 12:06:37  INFO [main] Vas155DbProcessor: Loading Biz config from DB....
+07/05/2020 12:06:37  INFO [main] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91u7bkwpdmtben|154e45b3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91u7bkwpdmtben|154e45b3, idleConnectionTestPeriod -> 30, initialPoolSize -> 20, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+07/05/2020 12:06:37  INFO [main] Vas155DbProcessor: Load Biz config done. Map size 105. Time 297
+07/05/2020 12:06:37  INFO [main] Vas155DbProcessor: Loading Menu config from DB....
+07/05/2020 12:06:38  INFO [main] Vas155DbProcessor: Load Menu config done. Map size 836. Time 208
+07/05/2020 12:06:38  INFO [main] Vas155DbProcessor: getParramValueConfig from DB....
+07/05/2020 12:06:38  INFO [main] Vas155DbProcessor: getParramValueConfig value  TRUE. Time 7
+07/05/2020 12:06:38  INFO [main] ProcessVasgwLog0: register MBeanServer:USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0
+07/05/2020 12:06:38  INFO [main] LogWriter[0]: LogWriter is actived
+07/05/2020 12:06:38  INFO [main] LogWriter[0]: register MBeanServer:logging:type=LogWriter, name=LogWriter[0]
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[0]: starting LogWriter[0] process...
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] process  is started
+07/05/2020 12:06:38  INFO [LogWriter[0]] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] is starting to run
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[0]: LogWriter[0] is started
+07/05/2020 12:06:38  INFO [main] ProcessVasgwLog1: register MBeanServer:USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1
+07/05/2020 12:06:38  INFO [main] LogWriter[1]: LogWriter is actived
+07/05/2020 12:06:38  INFO [main] LogWriter[1]: register MBeanServer:logging:type=LogWriter, name=LogWriter[1]
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[1]: starting LogWriter[1] process...
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] process  is started
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] is started
+07/05/2020 12:06:38  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: LogWriter[1] is starting to run
+07/05/2020 12:06:38  INFO [main] ProcessTransLog0: register MBeanServer:USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0
+07/05/2020 12:06:38  INFO [main] LogWriter[2]: LogWriter is actived
+07/05/2020 12:06:38  INFO [main] LogWriter[2]: register MBeanServer:logging:type=LogWriter, name=LogWriter[2]
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[2]: starting LogWriter[2] process...
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] process  is started
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] is started
+07/05/2020 12:06:38  INFO [LogWriter[2]] logging:type=LogWriter, name=LogWriter[2]: LogWriter[2] is starting to run
+07/05/2020 12:06:38  INFO [main] ProcessTransLog1: register MBeanServer:USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1
+07/05/2020 12:06:38  INFO [main] LogWriter[3]: LogWriter is actived
+07/05/2020 12:06:38  INFO [main] LogWriter[3]: register MBeanServer:logging:type=LogWriter, name=LogWriter[3]
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[3]: starting LogWriter[3] process...
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] process  is started
+07/05/2020 12:06:38  INFO [main] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] is started
+07/05/2020 12:06:38  INFO [LogWriter[3]] logging:type=LogWriter, name=LogWriter[3]: LogWriter[3] is starting to run
+07/05/2020 12:06:38  INFO [main] VasProcess_1-Receiver: bind to port: 1760
+07/05/2020 12:06:38  INFO [main] VasProcess_1-Receiver: bind success
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: starting ConnectorProcessThreadAbstract process...
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ConnectorProcessThreadAbstract process  is started
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start ConnectorProcessThreadAbstract: VasProcess-0
+07/05/2020 12:06:38  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ConnectorProcessThreadAbstract is starting to run
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: starting ProcessVasgwLog0 process...
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: ProcessVasgwLog0 process  is started
+07/05/2020 12:06:38  INFO [ProcessVasgwLog0] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog0: ProcessVasgwLog0 is starting to run
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: starting ProcessVasgwLog1 process...
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: ProcessVasgwLog1 process  is started
+07/05/2020 12:06:38  INFO [ProcessVasgwLog1] USSD_VAS_GW:type=ProcessVasgwLog,name=ProcessVasgwLog1: ProcessVasgwLog1 is starting to run
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: starting ProcessTransLog0 process...
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: ProcessTransLog0 process  is started
+07/05/2020 12:06:38  INFO [ProcessTransLog0] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog0: ProcessTransLog0 is starting to run
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: starting ProcessTransLog1 process...
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: ProcessTransLog1 process  is started
+07/05/2020 12:06:38  INFO [ProcessTransLog1] USSD_VAS_GW:type=ProcessTransLog,name=ProcessTransLog1: ProcessTransLog1 is starting to run
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessManager: starting ProcessManager process...
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessManager: ProcessManager process  is started
+07/05/2020 12:06:38  INFO [main] USSD_VAS_GW:type=ProcessManager: +++ SYSTEM PROCESS STARTED  +++
+07/05/2020 12:06:38  INFO [ProcessManager] USSD_VAS_GW:type=ProcessManager: ProcessManager is starting to run
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: have a new connection, id = 1
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: check incoming ip
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: send random string successed!
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: login message. check user/pass
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: authenticate pass. Send login response message back
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884600445216
+msisdn: 84973718628
+imsi: null
+bizid: 1018
+
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: 8978dfcdadbe1d0d
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1018 input *860#
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884600445216
+content: 0
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 12:06:44  WARN [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connection down. Try reconnect
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: connected to server
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send login
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: login success
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 12:06:44  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884600448917
+msisdn: 84973718628
+imsi: null
+bizid: 203
+
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 203 input 0
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884600448917
+content: 0
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 12:06:44  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 12:06:47  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 12:06:47  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884600778518
+msisdn: 84973718628
+imsi: null
+bizid: 204
+
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 204 input 1
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884600778518
+content: SHARE
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 12:06:47  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 12:06:49  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 12:06:49  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884600992019
+msisdn: 84973718628
+imsi: null
+bizid: 207
+
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 2
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 207 input 2
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884600992019
+content: 0
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 12:06:49  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 12:06:53  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.120653057
+07/05/2020 12:06:53  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.120653057.log
+07/05/2020 12:06:54  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 12:06:54  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884601485020
+msisdn: 84973718628
+imsi: null
+bizid: 208
+
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params encrypted: e6859e15787d37be1b8919e819b73c26
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 208 input 870079534
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884601485020
+content: 0
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 12:06:54  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 12:06:54  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884601485221
+msisdn: 84973718628
+imsi: null
+bizid: 205
+
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 0
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 205 input 0
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884601485221
+content: 1. Via conta principal
+2. Via conta e-Mola
+0. Volta
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 12:06:54  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 12:07:01  INFO [NioProcessor-10] VasProcess_1-Receiver: receive message
+07/05/2020 12:07:01  INFO [NioProcessor-10] VasProcess_1-Receiver: put message in queue
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  get req msg from receive queue
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  request: id: 1158884602185622
+msisdn: 84973718628
+imsi: null
+bizid: 1043
+
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  params: 1
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send response
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Start Vas155 for msisdn 84973718628,BIZ ID 1043 input 1
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: ********************MO PARAM:pt|2|870079534|1|1
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] AbstractPoolBackedDataSource: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 30tv65a91u7bkwpdmtben|6986dda3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30tv65a91u7bkwpdmtben|6986dda3, idleConnectionTestPeriod -> 30, initialPoolSize -> 20, jdbcUrl -> jdbc:oracle:thin:@(DESCRIPTION=    (ADDRESS_LIST=(ADDRESS=        (PROTOCOL=TCP)        (HOST=10.229.41.121)        (PORT=9988)      )) (CONNECT_DATA=  (   SERVER=shared)      (SERVICE_NAME=dbtemp)    ))
+		, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> select 1 from dual, properties -> {oracle.jdbc.ReadTimeout=60000, user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+07/05/2020 12:07:01 ERROR [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Fail to insert MO msisdn 84973718628java.sql.SQLException: ORA-00001: unique constraint (VAS_3G_UNLIMITED.MO_UNK) violated
+
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: DbProcessor-FW: : 20 ms
+07/05/2020 12:07:01 ERROR [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Insert MO failed 84973718628 transid A1588846004053 msisdn84973718628 DB ID dbvas error ORA-00001: unique constraint (VAS_3G_UNLIMITED.MO_UNK) violated
+
+07/05/2020 12:07:01 ERROR [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0: Insert MO failed 84973718628 transid A1588846004053 msisdn84973718628 DB ID dbvas
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  response: id: 1158884602185622
+content: 0
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  ----->sleep in 0s
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: check is connected first
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] VasProcess_1-Sender: send message
+07/05/2020 12:07:01  INFO [ConnectorProcessThreadAbstract] USSD_VAS_GW:type=ConnectorProcessThreadAbstract,name=VasProcess-0:  send sucess
+07/05/2020 12:07:09  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: created a log file: ../log/gw_log/vasgw\vasgwlog.20200507.120709065
+07/05/2020 12:07:09  INFO [LogWriter[1]] logging:type=LogWriter, name=LogWriter[1]: rename to ../log/gw_log/vasgw\vasgwlog.20200507.120709065.log
+07/05/2020 12:07:16  INFO [NioProcessor-10] VasProcess_1-Receiver: session 1 idle. Close it.
+07/05/2020 12:07:16  INFO [NioProcessor-10] VasProcess_1-Receiver: session 1 closed!
+07/05/2020 12:07:16  INFO [NioProcessor-1] VasProcess_1-Sender: session closed!

@@ -1,0 +1,10 @@
+max_cache_size=100000000
+# max_size_to_erase_cache=500000000; tham so nay ban 2.1 khong dung nua
+max_lines=50
+# chu ky xuat log file (ms)
+flush_cycle=15000
+seperator=@@@
+logpath=../log/db_log
+# warning_queue_size=60 ; tham so nay ban 2.1 khong dung nua
+replaced_string_for_endline=#@n@#
+replaced_string_for_tab=#@t@#

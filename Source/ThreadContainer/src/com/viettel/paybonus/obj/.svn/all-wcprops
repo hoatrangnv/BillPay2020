@@ -1,0 +1,611 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/code/!svn/ver/2753/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj
+END
+OutputChangeCommAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/OutputChangeCommAccount.java
+END
+SpecialProductMB.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2555/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SpecialProductMB.java
+END
+TransactionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2738/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/TransactionInfo.java
+END
+EpayEmolaBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2164/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EpayEmolaBean.java
+END
+ProductConnectKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/2753/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ProductConnectKit.java
+END
+LogRegisterInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/LogRegisterInfo.java
+END
+KitBatchSub.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2315/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/KitBatchSub.java
+END
+Staff.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/2555/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Staff.java
+END
+Comission.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/2423/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Comission.java
+END
+EliteConvertProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/code/!svn/ver/2266/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EliteConvertProduct.java
+END
+EmolaPromotion.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EmolaPromotion.java
+END
+StockModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/StockModel.java
+END
+BonusConnectPostPaid.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/2555/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BonusConnectPostPaid.java
+END
+SubInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/2214/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SubInfo.java
+END
+KitBatchGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2701/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/KitBatchGroup.java
+END
+PhonePromotionConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/2496/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/PhonePromotionConfig.java
+END
+EwalletDebitLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2730/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EwalletDebitLog.java
+END
+SalaryInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SalaryInfo.java
+END
+FirstMobilePhone.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2095/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/FirstMobilePhone.java
+END
+SaleServicesPrice.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SaleServicesPrice.java
+END
+KitRetry.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/2225/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/KitRetry.java
+END
+CmSubRelProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/CmSubRelProduct.java
+END
+SubscriberInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2167/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SubscriberInfo.java
+END
+EmolaTransactionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EmolaTransactionInfo.java
+END
+RequestChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2167/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/RequestChannel.java
+END
+MobileShopChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/2069/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/MobileShopChannel.java
+END
+ProvisionLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ProvisionLog.java
+END
+SmasAnnounce.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SmasAnnounce.java
+END
+LuckyWordSub.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/LuckyWordSub.java
+END
+RateExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2069/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/RateExchange.java
+END
+LogUpdateInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/LogUpdateInfo.java
+END
+KitVas.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/2164/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/KitVas.java
+END
+Offer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/2644/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Offer.java
+END
+KitBatchInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2753/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/KitBatchInfo.java
+END
+BounesMonthly.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2095/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BounesMonthly.java
+END
+AgentReportInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2555/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/AgentReportInfo.java
+END
+ChannelWalletBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/2167/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ChannelWalletBean.java
+END
+TopupLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/2423/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/TopupLog.java
+END
+BundleHis.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BundleHis.java
+END
+ComplainInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ComplainInfo.java
+END
+StaffInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/2095/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/StaffInfo.java
+END
+VcRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/2555/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/VcRequest.java
+END
+SubscriberEmola.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SubscriberEmola.java
+END
+BonusReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BonusReport.java
+END
+EmolaBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/2095/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EmolaBean.java
+END
+Bonus.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/2730/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Bonus.java
+END
+SaleServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SaleServices.java
+END
+SimDoiHis.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SimDoiHis.java
+END
+ContractInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ContractInfo.java
+END
+ChargeLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ChargeLog.java
+END
+EliteGroupInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2267/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EliteGroupInput.java
+END
+Trparu300.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/2095/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Trparu300.java
+END
+Price.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Price.java
+END
+BonusConnectKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2683/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BonusConnectKit.java
+END
+CDR.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/CDR.java
+END
+AccountAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/AccountAgent.java
+END
+KitWarning.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/KitWarning.java
+END
+RevertTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/RevertTransaction.java
+END
+ItemFee.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ItemFee.java
+END
+KitElitePrepaid.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/code/!svn/ver/2753/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/KitElitePrepaid.java
+END
+BonusSecond.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/1993/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BonusSecond.java
+END
+VipSubInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2423/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/VipSubInfo.java
+END
+SubRemoveService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SubRemoveService.java
+END
+BranchPromotionConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/2218/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BranchPromotionConfig.java
+END
+BonusSim4G.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2496/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BonusSim4G.java
+END
+SofFloodInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2279/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SofFloodInput.java
+END
+FraudSubInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2644/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/FraudSubInput.java
+END
+FirstRegister.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2095/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/FirstRegister.java
+END
+ActionProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ActionProfile.java
+END
+BankFileDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BankFileDetail.java
+END
+EwalletLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2423/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EwalletLog.java
+END
+SmasAbsent.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SmasAbsent.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/2315/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Customer.java
+END
+Subscriber.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2167/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Subscriber.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Config.java
+END
+RequestChangeSim.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2225/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/RequestChangeSim.java
+END
+ResponseWallet.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ResponseWallet.java
+END
+AccountInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/AccountInfo.java
+END
+PaymentVoucher.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/PaymentVoucher.java
+END
+SubscriberPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SubscriberPost.java
+END
+BranchPromotionMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/code/!svn/ver/2214/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BranchPromotionMonitor.java
+END
+SubscriberWallet.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2315/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SubscriberWallet.java
+END
+BranchPromotionBts.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/2214/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BranchPromotionBts.java
+END
+BranchPromotionSub.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/2214/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BranchPromotionSub.java
+END
+WalletBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2555/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/WalletBean.java
+END
+Serial.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Serial.java
+END
+EmolaPromotionPackage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/EmolaPromotionPackage.java
+END
+ActionLogPr.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2315/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/ActionLogPr.java
+END
+PinCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/2654/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/PinCode.java
+END
+QueryInforResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/2699/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/QueryInforResponse.java
+END
+IntegrationProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/code/!svn/ver/2266/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/IntegrationProduct.java
+END
+BonusAgentVip.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/2069/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BonusAgentVip.java
+END
+BonusSubsBTSOnair.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/2225/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/BonusSubsBTSOnair.java
+END
+StockIsdnBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/StockIsdnBean.java
+END
+SaleTransOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2555/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SaleTransOrder.java
+END
+KitBatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/2753/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/KitBatch.java
+END
+PhoneNewPromotion.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/code/!svn/ver/2496/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/PhoneNewPromotion.java
+END
+SubAdslLLPrepaid.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2069/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/SubAdslLLPrepaid.java
+END
+VipSubDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2423/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/VipSubDetail.java
+END
+AssignedUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2272/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/AssignedUser.java
+END
+Agent.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/code/!svn/ver/1929/BCCS_SV/ThreadContainer/src/com/viettel/paybonus/obj/Agent.java
+END

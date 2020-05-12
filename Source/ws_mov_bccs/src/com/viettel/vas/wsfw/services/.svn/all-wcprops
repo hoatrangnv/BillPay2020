@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/code/!svn/ver/2702/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services
+END
+TopupHavePreFund.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2672/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/TopupHavePreFund.java
+END
+ReceiverMo.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/2672/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/ReceiverMo.java
+END
+SyncRevenueBCCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2353/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/SyncRevenueBCCS.java
+END
+ShowAccInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/ShowAccInfo.java
+END
+ValidateAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/1937/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/ValidateAccount.java
+END
+RechargeWithCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/1751/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/RechargeWithCard.java
+END
+RechargeNoCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/1751/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/RechargeNoCard.java
+END
+SyncBankTransferBCCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/2392/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/SyncBankTransferBCCS.java
+END
+TopupHavePosFund.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/code/!svn/ver/2672/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/TopupHavePosFund.java
+END
+AddPrice.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/code/!svn/ver/1751/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/AddPrice.java
+END
+UssdProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/2281/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/UssdProcess.java
+END
+TopupNoFund.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/code/!svn/ver/2672/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/TopupNoFund.java
+END
+ChannelManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/code/!svn/ver/1860/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/ChannelManage.java
+END
+SyncStockTransBCCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/code/!svn/ver/2392/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/SyncStockTransBCCS.java
+END
+ConvertImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/code/!svn/ver/2672/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/ConvertImage.java
+END
+AddMoneyDataForKeeto.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/code/!svn/ver/1502/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/AddMoneyDataForKeeto.java
+END
+GroupManagement.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/code/!svn/ver/2702/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/GroupManagement.java
+END
+SendMT.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/code/!svn/ver/517/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/SendMT.java
+END
+BankTransferWs.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/code/!svn/ver/2672/BCCS_SV/MOV_WS/src/com/viettel/vas/wsfw/services/BankTransferWs.java
+END

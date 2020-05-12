@@ -1,0 +1,41 @@
+23/05/2018 15:37:30 ERROR [main] Tools:mmserver: 
+23/05/2018 15:37:30 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+23/05/2018 15:37:30 ERROR [main] actionlog: Error in start ActionLogDbUtils
+23/05/2018 15:37:30 ERROR [main] actionlog: java.lang.NullPointerException
+23/05/2018 16:09:30 ERROR [PayBonusSubInfo_Node1.0] 0: 
+ERROR process request:
+Error: java.lang.NullPointerException
+	at com.viettel.paybonus.process.PayAnypayInSubProfileInfo.processListRecord(PayAnypayInSubProfileInfo.java:416)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 337128
+23/05/2018 16:11:34 ERROR [main] Tools:mmserver: 
+23/05/2018 16:11:34 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+23/05/2018 16:11:34 ERROR [main] actionlog: Error in start ActionLogDbUtils
+23/05/2018 16:11:34 ERROR [main] actionlog: java.lang.NullPointerException
+23/05/2018 17:40:29 ERROR [pool-1-thread-1] ConnectionPoolManager: Can't connect DB, with ID: dbapp1
+java.sql.SQLException: An attempt by a client to checkout a Connection has timed out.
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:77)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:687)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:140)
+	at com.viettel.vas.util.ConnectionPoolManager.getConnection(ConnectionPoolManager.java:203)
+	at com.viettel.threadfw.database.DbProcessorAbstract.getConnection(DbProcessorAbstract.java:110)
+	at com.viettel.threadfw.database.DbProcessorAbstract.getRecords(DbProcessorAbstract.java:144)
+	at com.viettel.cluster.agent.Dispatcher$RecordLoader.loadMoMessages(Dispatcher.java:428)
+	at com.viettel.cluster.agent.Dispatcher$RecordLoader.run(Dispatcher.java:400)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: com.mchange.v2.resourcepool.TimeoutException: A client timed out while waiting to acquire a resource from com.mchange.v2.resourcepool.BasicResourcePool@741b3967 -- timeout at awaitAvailable()
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1416)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:606)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:633)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:633)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:526)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:563)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:563)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutAndMarkConnectionInUse(C3P0PooledConnectionPool.java:755)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:682)
+	... 9 more

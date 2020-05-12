@@ -1,0 +1,198 @@
+30/04/2020 07:37:41 ERROR [main] Tools:mmserver: 
+30/04/2020 07:37:41 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 07:37:41 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 07:37:41 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 07:37:43 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 07:41:30 ERROR [AssignAuto_Node1.0] TmsPospaidAssingDb: : ERROR getSequence ACTIVECARD:type=ProcessManager,name=AssignAuto_Node1.0
+30/04/2020 07:41:30 ERROR [AssignAuto_Node1.0] TmsPospaidAssingDb: : Error: java.sql.SQLException: Missing IN or OUT parameter at index:: 1
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:120)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:250)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:330)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:355)
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1852)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3874)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3959)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:4515)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at com.viettel.paybonus.database.TmsPospaidAssingDb.getSequence(TmsPospaidAssingDb.java:492)
+	at com.viettel.paybonus.process.TmsAssignPospaidProcess.processListRecord(TmsAssignPospaidProcess.java:97)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+ Time: 3
+30/04/2020 07:41:30 ERROR [AssignAuto_Node1.0] 0: 
+ERROR process request:
+Error: java.lang.NullPointerException
+	at com.viettel.paybonus.process.TmsAssignPospaidProcess.processListRecord(TmsAssignPospaidProcess.java:97)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+ Time: 25
+30/04/2020 07:42:34 ERROR [main] Tools:mmserver: 
+30/04/2020 07:42:34 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 07:42:34 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 07:42:34 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 07:42:36 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 07:43:26 ERROR [AssignAuto_Node1.0] TmsPospaidAssingDb: : ERROR getSequence ACTIVECARD:type=ProcessManager,name=AssignAuto_Node1.0
+30/04/2020 07:43:26 ERROR [AssignAuto_Node1.0] TmsPospaidAssingDb: : Error: java.sql.SQLException: Missing IN or OUT parameter at index:: 1
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:120)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:250)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:330)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:355)
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1852)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3874)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3959)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:4515)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at com.viettel.paybonus.database.TmsPospaidAssingDb.getSequence(TmsPospaidAssingDb.java:492)
+	at com.viettel.paybonus.process.TmsAssignPospaidProcess.processListRecord(TmsAssignPospaidProcess.java:97)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+ Time: 4
+30/04/2020 07:43:26 ERROR [AssignAuto_Node1.0] 0: 
+ERROR process request:
+Error: java.lang.NullPointerException
+	at com.viettel.paybonus.process.TmsAssignPospaidProcess.processListRecord(TmsAssignPospaidProcess.java:97)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+ Time: 30
+30/04/2020 07:43:44 ERROR [main] Tools:mmserver: 
+30/04/2020 07:43:44 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 07:43:44 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 07:43:44 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 07:44:25 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 07:46:31 ERROR [main] Tools:mmserver: 
+30/04/2020 07:46:31 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 07:46:31 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 07:46:31 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 07:47:15 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 07:49:54 ERROR [main] Tools:mmserver: 
+30/04/2020 07:49:54 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 07:49:54 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 07:49:54 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 07:50:35 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 08:06:51 ERROR [main] Tools:mmserver: 
+30/04/2020 08:06:51 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 08:06:51 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 08:06:51 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 08:06:53 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 08:10:13 ERROR [main] Tools:mmserver: 
+30/04/2020 08:10:13 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 08:10:13 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 08:10:13 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 08:10:56 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 08:14:31 ERROR [main] Tools:mmserver: 
+30/04/2020 08:14:31 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 08:14:31 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 08:14:31 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 08:14:34 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 08:39:17 ERROR [main] Tools:mmserver: 
+30/04/2020 08:39:17 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 08:39:17 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 08:39:17 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 08:40:03 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 08:40:21 ERROR [AssignAuto_Node1.0] TmsPospaidAssingDb: : TmsPospaidAssingDb: Thu Apr 30 08:40:21 CAT 2020
+ERROR checkDuplicateProcess.java.sql.SQLSyntaxErrorException: ORA-00904: "OBJECT_CODE": invalid identifier
+
+30/04/2020 08:40:21 ERROR [AssignAuto_Node1.0] TmsPospaidAssingDb: : Error: java.sql.SQLSyntaxErrorException: ORA-00904: "OBJECT_CODE": invalid identifier
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:221)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:257)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:468)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:418)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1089)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1039)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:1146)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3889)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3959)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:4515)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at com.viettel.paybonus.database.TmsPospaidAssingDb.checkDuplicateProcess(TmsPospaidAssingDb.java:218)
+	at com.viettel.paybonus.process.TmsAssignPospaidProcess.processListRecord(TmsAssignPospaidProcess.java:81)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+ Time: 18
+30/04/2020 08:41:53 ERROR [main] Tools:mmserver: 
+30/04/2020 08:41:53 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 08:41:53 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 08:41:53 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 08:41:59 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 08:42:27 ERROR [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: ERROR insertQueueHis TMS_POSPAID_ASSIGN_HIS batchid 20200430084214185
+java.sql.SQLException: ERROR insertTable: INSERT INTO TMS_POSPAID_ASSIGN_HIS(ID,TARGET_CODE,VALUE_ASSIGN,RESULT_CODE,DESCRIPTION,NODE_NAME,CLUSTER_NAME,PROCESS_TIME,DURATION,OBJECT,TARGET_MONTH) VALUES (TMS_PA_HIS_SEQ.nextval,?,?,?,?,?,?,SYSDATE,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.TmsPospaidAssingDb.insertQueueHis(TmsPospaidAssingDb.java:158)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:286)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.BatchUpdateException: ORA-00904: "OBJECT": invalid identifier
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 4 more
+30/04/2020 08:42:27 ERROR [AssignAuto_Node1.0] ACTIVECARD:type=ProcessManager: Error: java.sql.SQLException: ERROR insertTable: INSERT INTO TMS_POSPAID_ASSIGN_HIS(ID,TARGET_CODE,VALUE_ASSIGN,RESULT_CODE,DESCRIPTION,NODE_NAME,CLUSTER_NAME,PROCESS_TIME,DURATION,OBJECT,TARGET_MONTH) VALUES (TMS_PA_HIS_SEQ.nextval,?,?,?,?,?,?,SYSDATE,?,?,?)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:674)
+	at com.viettel.paybonus.database.TmsPospaidAssingDb.insertQueueHis(TmsPospaidAssingDb.java:158)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:286)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.BatchUpdateException: ORA-00904: "OBJECT": invalid identifier
+
+	at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:867)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:14480)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:589)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1135)
+	at com.viettel.vas.util.PoolStore.insertTable(PoolStore.java:672)
+	... 4 more
+ Time: 17
+30/04/2020 08:42:27 ERROR [AssignAuto_Node1.0] 0: ProcessMoAbstract: BREAK INSERT MO_HIS ==> ERROR DATABASE
+[com.viettel.paybonus.obj.TmsPospaidAssign@4f7f3c0a, com.viettel.paybonus.obj.TmsPospaidAssign@2a3edd4c, com.viettel.paybonus.obj.TmsPospaidAssign@532be3f, com.viettel.paybonus.obj.TmsPospaidAssign@46681cc3, com.viettel.paybonus.obj.TmsPospaidAssign@5d386a51, com.viettel.paybonus.obj.TmsPospaidAssign@22cc1ba7, com.viettel.paybonus.obj.TmsPospaidAssign@62b82ca, com.viettel.paybonus.obj.TmsPospaidAssign@12979ef0]
+30/04/2020 08:42:51 ERROR [main] Tools:mmserver: 
+30/04/2020 08:42:51 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 08:42:51 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 08:42:51 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 08:42:56 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 12:05:10 ERROR [main] Tools:mmserver: 
+30/04/2020 12:05:10 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 12:05:10 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 12:05:10 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 12:05:17 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 19:20:59 ERROR [main] Tools:mmserver: 
+30/04/2020 19:20:59 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 19:20:59 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 19:20:59 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 19:21:04 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639
+30/04/2020 19:22:59 ERROR [AssignAuto_Node1.0] TmsPospaidAssingDb: : TmsPospaidAssingDb: Thu Apr 30 19:22:59 CAT 2020
+ERROR getAssingInfo.java.sql.SQLException: Missing IN or OUT parameter at index:: 2
+30/04/2020 19:22:59 ERROR [AssignAuto_Node1.0] TmsPospaidAssingDb: : Error: java.sql.SQLException: Missing IN or OUT parameter at index:: 2
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:120)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:137)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:250)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:330)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:355)
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1852)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3874)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3959)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:4515)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at com.viettel.paybonus.database.TmsPospaidAssingDb.getAssingInfo(TmsPospaidAssingDb.java:326)
+	at com.viettel.paybonus.process.TmsAssignPospaidProcess.processListRecord(TmsAssignPospaidProcess.java:91)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+ Time: 9
+30/04/2020 19:23:58 ERROR [main] Tools:mmserver: 
+30/04/2020 19:23:58 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+30/04/2020 19:23:58 ERROR [main] actionlog: Error in start ActionLogDbUtils
+30/04/2020 19:23:58 ERROR [main] actionlog: java.lang.NullPointerException
+30/04/2020 19:24:02 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639

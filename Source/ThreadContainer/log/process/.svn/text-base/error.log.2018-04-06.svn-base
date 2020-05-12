@@ -1,0 +1,19 @@
+06/04/2018 17:17:45 ERROR [main] Tools:mmserver: 
+06/04/2018 17:17:45 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+06/04/2018 17:17:45 ERROR [main] actionlog: Error in start ActionLogDbUtils
+06/04/2018 17:17:45 ERROR [main] actionlog: java.lang.NullPointerException
+06/04/2018 17:18:26 ERROR [main] ConnectionPoolManager: ==> ERROR INIT DATABASE LIST
+org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:249)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:284)
+	at com.viettel.vas.util.ConnectionPoolManager.loadConfig(ConnectionPoolManager.java:60)
+	at com.viettel.threadfw.manager.AppManager.initProcess(AppManager.java:177)
+	at com.viettel.threadfw.manager.AppManager.getInstance(AppManager.java:72)
+	at com.viettel.threadfw.process.ScanProcessManager.<init>(ScanProcessManager.java:26)
+	at com.viettel.threadfw.process.ScanProcessManager.getInstance(ScanProcessManager.java:31)
+	at com.viettel.threadfw.process.Start.main(Start.java:25)
+06/04/2018 17:21:25 ERROR [main] Tools:mmserver: 
+06/04/2018 17:21:25 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+06/04/2018 17:21:25 ERROR [main] actionlog: Error in start ActionLogDbUtils
+06/04/2018 17:21:25 ERROR [main] actionlog: java.lang.NullPointerException
+06/04/2018 17:21:31 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611

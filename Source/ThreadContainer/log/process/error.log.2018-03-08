@@ -1,0 +1,10 @@
+08/03/2018 08:55:36 ERROR [main] Tools:mmserver: 
+08/03/2018 08:55:36 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+08/03/2018 08:55:36 ERROR [main] actionlog: Error in start ActionLogDbUtils
+08/03/2018 08:55:36 ERROR [main] actionlog: java.lang.NullPointerException
+08/03/2018 08:56:13 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+08/03/2018 09:02:19 ERROR [main] Tools:mmserver: 
+08/03/2018 09:02:19 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+08/03/2018 09:02:19 ERROR [main] actionlog: Error in start ActionLogDbUtils
+08/03/2018 09:02:19 ERROR [main] actionlog: java.lang.NullPointerException
+08/03/2018 09:02:34 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611

@@ -1,0 +1,11 @@
+<list>
+<!--
+		<webservice name='ShowAccInfo' implementClass='com.viettel.vas.wsfw.topup.ShowAccInfo' ip='10.229.47.30' port='8089' path='ShowAccInfo'/>
+        <webservice name='Recharge' implementClass='com.viettel.vas.wsfw.topup.RechargeNoCard' ip='10.229.47.30' port='8090' path='Recharge'/>
+        <webservice name='TopupNoFund' implementClass='com.viettel.vas.wsfw.topup.TopupNoFund' ip='10.229.47.30' port='8097' path='topup'/>
+        <webservice name='SendMT' implementClass='com.viettel.vas.wsfw.topup.SendMT' ip='10.229.47.30' port='8095' path='SendMT'/>
+        <webservice name='TopupHavePosFund' implementClass='com.viettel.vas.wsfw.topup.TopupHavePosFund' ip='10.229.47.30' port='8097' path='topup'/>    
+        <webservice name='TopupNoFund' implementClass='com.viettel.vas.wsfw.topup.TopupNoFund' ip='10.229.47.30' port='8097' path='topup'/>    
+-->        
+        <webservice name='AddPrice' implementClass='com.viettel.vas.wsfw.services.AddPrice' ip='10.229.47.30' port='8097' path='AddPrice'/>
+</list>

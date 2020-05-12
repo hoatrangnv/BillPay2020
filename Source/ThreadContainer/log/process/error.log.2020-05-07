@@ -1,0 +1,9 @@
+07/05/2020 11:02:31 ERROR [main] Tools:mmserver: 
+07/05/2020 11:02:31 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/05/2020 11:02:31 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/05/2020 11:02:31 ERROR [main] actionlog: java.lang.NullPointerException
+07/05/2020 12:06:00 ERROR [main] Tools:mmserver: 
+07/05/2020 12:06:00 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+07/05/2020 12:06:00 ERROR [main] actionlog: Error in start ActionLogDbUtils
+07/05/2020 12:06:00 ERROR [main] actionlog: java.lang.NullPointerException
+07/05/2020 12:06:02 ERROR [main] TCPGOSSIP: failed connecting to /127.0.0.1:8639: java.lang.Exception: Could not connect to /127.0.0.1:8639

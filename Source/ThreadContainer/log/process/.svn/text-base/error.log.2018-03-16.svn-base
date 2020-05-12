@@ -1,0 +1,87 @@
+16/03/2018 14:40:25 ERROR [main] Tools:mmserver: 
+16/03/2018 14:40:25 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 14:40:25 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 14:40:25 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 14:40:34 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 14:40:39 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 14:42:23 ERROR [main] Tools:mmserver: 
+16/03/2018 14:42:23 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 14:42:23 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 14:42:23 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 14:42:25 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 14:42:29 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 14:45:50 ERROR [main] Tools:mmserver: 
+16/03/2018 14:45:50 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 14:45:50 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 14:45:50 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 14:45:52 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 14:45:56 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:23:55 ERROR [main] Tools:mmserver: 
+16/03/2018 15:23:55 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:23:55 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:23:55 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:25:05 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:25:09 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:26:31 ERROR [main] Tools:mmserver: 
+16/03/2018 15:26:31 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:26:31 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:26:31 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:26:38 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:26:42 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:27:57 ERROR [main] Tools:mmserver: 
+16/03/2018 15:27:57 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:27:57 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:27:57 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:28:02 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:28:06 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:31:02 ERROR [main] Tools:mmserver: 
+16/03/2018 15:31:02 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:31:02 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:31:02 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:31:04 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:31:09 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:31:24 ERROR [PayBonusSubInfo_Node1.0] DbSubProfileProcessor: : DbSubProfileProcessor: Fri Mar 16 15:31:24 CAT 2018
+ERROR bonus_approve: INSERT INTO bonus_approve (ACTION_PROFILE_ID,ACTION_AUDIT_ID,RECEIVE_DATE,ISDN_ACCOUNT,STAFF_CODE,SHOP_CODE,SUB_ID, ISSUE_DATETIME, ACTION_ID, REASON_ID, CHECK_INFO, APPROVE_STATUS)  VALUES(?,?,?,?,?,?,?,?,?,?,?,?)
+ isdn 874239118 action_profile_id 7037 ACTION_AUDIT_ID 639453648 result 0java.lang.NullPointerException
+16/03/2018 15:34:15 ERROR [main] Tools:mmserver: 
+16/03/2018 15:34:15 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:34:15 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:34:15 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:34:18 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:34:22 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:35:45 ERROR [main] Tools:mmserver: 
+16/03/2018 15:35:45 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:35:45 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:35:45 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:35:47 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:35:51 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:39:25 ERROR [main] Tools:mmserver: 
+16/03/2018 15:39:25 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:39:25 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:39:25 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:39:27 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:39:31 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:41:26 ERROR [main] Tools:mmserver: 
+16/03/2018 15:41:26 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:41:26 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:41:26 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:41:42 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:41:46 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:49:46 ERROR [main] Tools:mmserver: 
+16/03/2018 15:49:46 ERROR [main] Tools:mmserver: java.lang.NullPointerException
+16/03/2018 15:49:46 ERROR [main] actionlog: Error in start ActionLogDbUtils
+16/03/2018 15:49:46 ERROR [main] actionlog: java.lang.NullPointerException
+16/03/2018 15:49:48 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:49:52 ERROR [main] TCPGOSSIP: failed connecting to clients2.google.com/127.0.0.1:6611: java.lang.Exception: Could not connect to clients2.google.com/127.0.0.1:6611
+16/03/2018 15:50:11 ERROR [PAYBONUS_EMOLA_Node1.0] DbEmoneyProcessor: : ERROR getFromDate defaul return empty
+16/03/2018 15:50:11 ERROR [PAYBONUS_EMOLA_Node1.0] DbEmoneyProcessor: : Error: java.lang.NullPointerException
+	at java.util.Calendar.setTime(Calendar.java:1075)
+	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:876)
+	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:869)
+	at java.text.DateFormat.format(DateFormat.java:316)
+	at com.viettel.paybonus.database.DbEmoneyProcessor.getFromDate(DbEmoneyProcessor.java:908)
+	at com.viettel.paybonus.process.PayEmoneyInActionProfile.processListRecord(PayEmoneyInActionProfile.java:385)
+	at com.viettel.threadfw.process.ProcessRecordAbstract.process(ProcessRecordAbstract.java:198)
+	at com.viettel.mmserver.base.ProcessThread.run(ProcessThread.java:125)
+	at java.lang.Thread.run(Thread.java:662)
+ Time: 12

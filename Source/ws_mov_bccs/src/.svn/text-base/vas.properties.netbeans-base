@@ -1,0 +1,50 @@
+# Cau hinh ma nuoc
+country_code=258
+wsdl_MI=http://10.229.42.52:9317/WebserviceMI
+sessionName=app_bccsgw
+wsdl_charging=http://10.229.42.36:8871/PaymentServices/PaymentServices?wsdl
+soapAction=http://services.payment.viettel.com
+returnTag=error
+ewallet_url=http://10.229.16.53:9973/api/debitEnterprise
+#View Emola
+#ewallet_url_view=http://10.229.16.37:9903/
+#View Epay
+ewallet_url_view=http://10.229.16.36:9363/api/GetBalance/5006
+#api=json/reply/Program.GwRequest
+api=api
+username=BCCS
+password=Movitel@1234
+functionName=Payment
+#Each partner will have separate key and code, so each partner must setup delicated module
+#UTTM 93482880245132077915277822953923|5009 Aki 62347356398823090704862783918191|5006 Cuong 69245930529493115108092395213959|5001
+keyEmola=93482880245132077915277822953923
+ewallet_partnerCode=5009
+#Percent to calculate money CP will been charge on your fund when topup
+rateTopupFee=0.84
+dbNameConfig=dbtopup
+#Fix user to genarate invoice is MV_FBB_HUONGPN
+invoiceStaffIdBillPay=1328573
+invoiceShopIdBillPay=1004880
+invoiceStaffCode=MV_EPAY_CUONGPH1
+invoiceGroupId=1002801
+listUCMPrice=UCM1:11300033|UCM2:11305033|UCM3:11310033|UCM4:11315033
+listUCMFee=UCM1:500|UCM2:700|UCM3:900|UCM4:1150
+listUCMPackage=UCM
+ERR_BALANCE_NOT_ENOUGH=405914555|405914012
+#20180206 add config for eMola api
+moneyMonthlyValue=100
+dataMBMonthlyValue=20971520
+dataMonthlyId=5002
+moneyId=2115
+expireDay=30
+#list_account_for_uat=870038386|ftth_test_1|01187660834|01252000837|01247560856|01269040827
+list_account_for_uat=
+#Config mapping user in ws_user table with specific command to get special bonus when topup
+emola=OCSHW_PAYMENT_EMOLA
+#Add new config, 1 pay by airtime, 2 pay by eMola applied for all Partners
+payType=2
+msgFtthNotEnoughMoney=Caro cliente, o dinheiro que pagou nao e suficiente para estender o tempo de uso do servico. Por favor, pague a quantia que falta de %MONEY% MT. Obrigado!
+msgFtthSuccess=Caro cliente, aumentou o tempo de uso do servi\u00e7o conta %ACCOUNT% para %EXPIRE%. Obrigado!
+msgFtthFail=You have been failed to extend your service for account %ACCOUNT%, please contact hotline 866123123 for more detail. Thank you!
+#tannh 20190803 add free call member in PCKG_FTTH_MOBILE
+PCKG_FTTH_MOBILE=FAMILIA_PRE02|FAMILIA_PRE04|FAMILIA_PRE06|FAMILIA_PRE08|FAMILIA_PRE12|WFAMILIA_PRE02|WFAMILIA_PRE04|WFAMILIA_PRE06|WFAMILIA_PRE08|WFAMILIA_PRE12|FAMILIA02M_PRE|FAMILIA04M_PRE|FAMILIA06M_PRE|FAMILIA08M_PRE|FAMILIA12M_PRE 
